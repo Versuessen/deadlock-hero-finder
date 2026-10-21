@@ -20,13 +20,13 @@ assert all(ord(ch)<128 for ch in out), 'non-ascii left'
 os.makedirs('artifact', exist_ok=True)
 open('artifact/index.html','w').write(out)
 # standalone site (GitHub / Vercel): a full document
-SITE_URL = 'https://ritual-reading.vercel.app/'
+SITE_URL = 'https://deadlock-soulmate.vercel.app/'
 i = out.index('<div id="boot"')
 head, body = out[:i], out[i:]
 desc = re.search(r'<meta name="description" content="([^"]*)">', head).group(1)
 meta = ('<meta charset="utf-8">\n<meta name="viewport" content="width=device-width, initial-scale=1">\n'
         '<meta name="theme-color" content="#0b1413">\n<link rel="icon" type="image/png" href="favicon.png">\n'
-        f'<meta property="og:type" content="website">\n<meta property="og:title" content="Deadlock Hero Finder">\n'
+        f'<meta property="og:type" content="website">\n<meta property="og:title" content="Deadlock Soulmate">\n'
         f'<meta property="og:description" content="{desc}">\n<meta property="og:url" content="{SITE_URL}">\n'
         f'<meta property="og:image" content="{SITE_URL}og.jpg">\n<meta name="twitter:card" content="summary_large_image">\n')
 full = '<!doctype html>\n<html lang="en">\n<head>\n' + meta + head.rstrip() + '\n</head>\n<body>\n' + body.rstrip() + '\n</body>\n</html>\n'

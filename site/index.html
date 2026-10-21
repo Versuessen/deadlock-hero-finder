@@ -6,12 +6,12 @@
 <meta name="theme-color" content="#0b1413">
 <link rel="icon" type="image/png" href="favicon.png">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Deadlock Hero Finder">
+<meta property="og:title" content="Deadlock Soulmate">
 <meta property="og:description" content="A playstyle reading that matches you to a Deadlock hero, with side-by-side hero comparisons and look-alikes from other games.">
-<meta property="og:url" content="https://ritual-reading.vercel.app/">
-<meta property="og:image" content="https://ritual-reading.vercel.app/og.jpg">
+<meta property="og:url" content="https://deadlock-soulmate.vercel.app/">
+<meta property="og:image" content="https://deadlock-soulmate.vercel.app/og.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<title>Deadlock Hero Finder</title>
+<title>Deadlock Soulmate &#xB7; Find your hero</title>
 <meta name="description" content="A playstyle reading that matches you to a Deadlock hero, with side-by-side hero comparisons and look-alikes from other games.">
 <style>
 @font-face{font-family:"DL Retail";src:url("img/font/retail-semibold.woff2") format("woff2");font-weight:600;font-display:swap}
@@ -942,7 +942,7 @@ footer p{margin:0; max-width:78em}
   <div class="wrap">
     <button class="brand" id="home" type="button" data-hov aria-label="Back to start">
       <img src="img/k/mark.webp" alt="">
-      <span><b>Hero Finder</b><small>Deadlock &#xB7; unofficial fan tool</small></span>
+      <span><b>Deadlock Soulmate</b><small>Unofficial fan tool</small></span>
     </button>
     <div class="tright">
       <button class="tape nav-cmp nav-twin" id="navTwin" type="button" data-hov aria-label="Find your Deadlock twin"><svg class="ti" viewBox="0 0 20 16" aria-hidden="true"><circle cx="7" cy="5" r="3"/><path d="M1.5 15c.4-3.4 2.6-5.3 5.5-5.3s5.1 1.9 5.5 5.3"/><circle cx="13.5" cy="5" r="3"/><path d="M12 9.9c.5-.1 1-.2 1.5-.2 2.9 0 5.1 1.9 5.5 5.3"/></svg> <span>Deadlock twin</span></button>
@@ -2678,7 +2678,7 @@ function addAlly(id, name){
 
 // ================= share =================
 // the public site; share links and codes open there for anyone
-const SHARE_URL = "https://ritual-reading.vercel.app/";
+const SHARE_URL = "https://deadlock-soulmate.vercel.app/";
 // one character per question (two for the pick-two question): x = not reached, s = skipped
 function encodeAnswers(a, name){
   const body = QUESTIONS.map(q => {
@@ -2780,7 +2780,7 @@ async function drawShare(res, name){
   // text column
   const X = 366; x.textBaseline = "alphabetic";
   x.fillStyle = "#5FE69E"; x.font = '700 19px "DL Retail", "Arial Narrow", sans-serif';
-  spaced(x, (name ? `${name}'s Deadlock hero` : "My Deadlock hero").toUpperCase(), X, 92, 4);
+  spaced(x, (name ? `${name}'s Deadlock soulmate` : "My Deadlock soulmate").toUpperCase(), X, 92, 4);
   if (nm){ let nh = 118, nw = nh*NM[h.id]; if (nw > 470){ nw = 470; nh = nw/NM[h.id]; } x.drawImage(tinted(nm, h.c2, nw, nh), X-4, 112, nw, nh); }
   else { x.fillStyle = h.c2; x.font = '700 84px "DL Reaver", Georgia, serif'; x.fillText(h.name, X, 200); }
   x.fillStyle = "#EFE7D6"; x.font = '600 58px "DL Oracle", Georgia, serif'; const pctT = `${Math.round(top.score*100)}%`; x.fillText(pctT, X, 318);
@@ -2799,8 +2799,8 @@ async function drawShare(res, name){
   });
   // footer
   if (mark) x.drawImage(mark, 58, H - 62, 34, 34);
-  x.fillStyle = "#EFE7D6"; x.font = '700 17px "DL Retail", "Arial Narrow", sans-serif'; spaced(x, "HERO FINDER", 102, H - 40, 3);
-  x.fillStyle = "#8a9a94"; x.font = '400 14px "DL Radiance", "Segoe UI", sans-serif'; x.fillText("Unofficial Deadlock fan tool \u00B7 ritual-reading.vercel.app", 102, H - 21);
+  x.fillStyle = "#EFE7D6"; x.font = '700 17px "DL Retail", "Arial Narrow", sans-serif'; spaced(x, "DEADLOCK SOULMATE", 102, H - 40, 3);
+  x.fillStyle = "#8a9a94"; x.font = '400 14px "DL Radiance", "Segoe UI", sans-serif'; x.fillText("Unofficial fan tool \u00B7 deadlock-soulmate.vercel.app", 102, H - 21);
   x.textAlign = "right"; x.fillStyle = "#9fb3ab"; x.font = '700 13px "DL Retail", "Arial Narrow", sans-serif'; spaced(x, "SHARE CODE", W - 40, H - 44, 3);
   x.fillStyle = "#EFE7D6"; x.font = '600 17px "DL Oracle", Georgia, serif'; x.fillText(encodeAnswers(answers, name), W - 40, H - 21); x.textAlign = "left";
   return c;

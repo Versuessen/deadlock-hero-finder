@@ -1,8 +1,8 @@
-# Ritual Reading: Deadlock Hero Finder
+# Deadlock Soulmate
 
 An unofficial fan site for Valve's Deadlock. You answer a short questionnaire about how you like to play, and a tarot-style reading picks the hero that suits you. The site also has a dossier for every hero, side-by-side comparisons and a "Deadlock twin" finder for players coming from Overwatch, Marvel Rivals, Valorant, League of Legends and Apex Legends.
 
-**Live site:** https://ritual-reading.vercel.app/
+**Live site:** https://deadlock-soulmate.vercel.app/
 
 The site covers all 44 playable heroes as of game build 6805 (October 2026). That includes the six heroes released in October 2026: Rat King, Baba, Solomon, Deadman Danny, Violet and Nurse Harrow.
 

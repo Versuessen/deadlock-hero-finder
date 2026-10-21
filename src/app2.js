@@ -850,7 +850,7 @@ function addAlly(id, name){
 
 // ================= share =================
 // the public site; share links and codes open there for anyone
-const SHARE_URL = "https://ritual-reading.vercel.app/";
+const SHARE_URL = "https://deadlock-soulmate.vercel.app/";
 // one character per question (two for the pick-two question): x = not reached, s = skipped
 function encodeAnswers(a, name){
   const body = QUESTIONS.map(q => {
@@ -952,7 +952,7 @@ async function drawShare(res, name){
   // text column
   const X = 366; x.textBaseline = "alphabetic";
   x.fillStyle = "#5FE69E"; x.font = '700 19px "DL Retail", "Arial Narrow", sans-serif';
-  spaced(x, (name ? `${name}'s Deadlock hero` : "My Deadlock hero").toUpperCase(), X, 92, 4);
+  spaced(x, (name ? `${name}'s Deadlock soulmate` : "My Deadlock soulmate").toUpperCase(), X, 92, 4);
   if (nm){ let nh = 118, nw = nh*NM[h.id]; if (nw > 470){ nw = 470; nh = nw/NM[h.id]; } x.drawImage(tinted(nm, h.c2, nw, nh), X-4, 112, nw, nh); }
   else { x.fillStyle = h.c2; x.font = '700 84px "DL Reaver", Georgia, serif'; x.fillText(h.name, X, 200); }
   x.fillStyle = "#EFE7D6"; x.font = '600 58px "DL Oracle", Georgia, serif'; const pctT = `${Math.round(top.score*100)}%`; x.fillText(pctT, X, 318);
@@ -971,8 +971,8 @@ async function drawShare(res, name){
   });
   // footer
   if (mark) x.drawImage(mark, 58, H - 62, 34, 34);
-  x.fillStyle = "#EFE7D6"; x.font = '700 17px "DL Retail", "Arial Narrow", sans-serif'; spaced(x, "HERO FINDER", 102, H - 40, 3);
-  x.fillStyle = "#8a9a94"; x.font = '400 14px "DL Radiance", "Segoe UI", sans-serif'; x.fillText("Unofficial Deadlock fan tool · ritual-reading.vercel.app", 102, H - 21);
+  x.fillStyle = "#EFE7D6"; x.font = '700 17px "DL Retail", "Arial Narrow", sans-serif'; spaced(x, "DEADLOCK SOULMATE", 102, H - 40, 3);
+  x.fillStyle = "#8a9a94"; x.font = '400 14px "DL Radiance", "Segoe UI", sans-serif'; x.fillText("Unofficial fan tool · deadlock-soulmate.vercel.app", 102, H - 21);
   x.textAlign = "right"; x.fillStyle = "#9fb3ab"; x.font = '700 13px "DL Retail", "Arial Narrow", sans-serif'; spaced(x, "SHARE CODE", W - 40, H - 44, 3);
   x.fillStyle = "#EFE7D6"; x.font = '600 17px "DL Oracle", Georgia, serif'; x.fillText(encodeAnswers(answers, name), W - 40, H - 21); x.textAlign = "left";
   return c;

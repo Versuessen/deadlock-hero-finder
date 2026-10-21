@@ -1,0 +1,5 @@
+{
+  "redirects": [
+    { "source": "/(.*)", "has": [{ "type": "host", "value": "ritual-reading.vercel.app" }], "destination": "https://deadlock-soulmate.vercel.app/$1", "permanent": true }
+  ]
+}
