@@ -1,0 +1,1408 @@
+{
+"abrams": {
+"id": "abrams",
+"name": "Abrams",
+"type": "Brawler",
+"cx": 1,
+"gun": null,
+"hp": 800,
+"move": 6.4,
+"sprint": 1.6,
+"stam": 3,
+"weapon": "Case Closed",
+"color": "#2092AE",
+"tags": [
+"Tank",
+"Brawler",
+"Bull-Headed"
+],
+"role": "Charges into close combat",
+"ab": [
+[
+"Siphon Life",
+"citadel_ability_bull_heal"
+],
+[
+"Shoulder Charge",
+"citadel_ability_bull_charge"
+],
+[
+"Infernal Resilience",
+"citadel_ability_passive_beefy"
+],
+[
+"Seismic Impact",
+"citadel_ability_bull_leap"
+]
+]
+},
+"apollo": {
+"id": "apollo",
+"name": "Apollo",
+"type": "Assassin",
+"cx": 2,
+"gun": "Spreadshot",
+"hp": 770,
+"move": 7.2,
+"sprint": 1.6,
+"stam": 3,
+"weapon": "Pride of Ixia",
+"color": "#FF3333",
+"tags": [
+"Finesse",
+"Mobility",
+"A Cut Above"
+],
+"role": null,
+"ab": [
+[
+"Disengaging Sigil",
+"ability_fencer_throwblade"
+],
+[
+"Riposte",
+"ability_fencer_riposte"
+],
+[
+"Flawless Advance",
+"ability_fencer_lunge"
+],
+[
+"Itani Lo Sahn",
+"ability_fencer_ultimate"
+]
+]
+},
+"bebop": {
+"id": "bebop",
+"name": "Bebop",
+"type": "Brawler",
+"cx": 2,
+"gun": "Beam Weapon",
+"hp": 880,
+"move": 6.45,
+"sprint": 4.0,
+"stam": 3,
+"weapon": "Humble Pie",
+"color": "#9F4734",
+"tags": [
+"Hook",
+"Bomb",
+"Punch"
+],
+"role": "Hooks an enemy for a knockout combo",
+"ab": [
+[
+"Exploding Uppercut",
+"citadel_ability_uppercut"
+],
+[
+"Sticky Bomb",
+"citadel_ability_sticky_bomb"
+],
+[
+"Grapple Arm",
+"citadel_ability_hook"
+],
+[
+"Hyper Beam",
+"citadel_ability_bebop_laser_beam"
+]
+]
+},
+"billy": {
+"id": "billy",
+"name": "Billy",
+"type": "Brawler",
+"cx": 3,
+"gun": "Close Range",
+"hp": 820,
+"move": 7.0,
+"sprint": 1.6,
+"stam": 3,
+"weapon": "Biquette",
+"color": "#D4AD0E",
+"tags": [
+"Punk",
+"Chaotic",
+"G.O.A.T."
+],
+"role": null,
+"ab": [
+[
+"Bashdown",
+"ability_punkgoat_ult"
+],
+[
+"Rising Ram",
+"ability_punkgoat_goatflip"
+],
+[
+"Blasted",
+"ability_punkgoat_blasted"
+],
+[
+"Chain Gang",
+"ability_punkgoat_tether"
+]
+]
+},
+"calico": {
+"id": "calico",
+"name": "Calico",
+"type": "Assassin",
+"cx": 2,
+"gun": "Spreadshot",
+"hp": 730,
+"move": 6.8,
+"sprint": 1.6,
+"stam": 3,
+"weapon": "Sweetest Lie",
+"color": "#572798",
+"tags": [
+"Tricksy",
+"Slippery",
+"Burst Damage"
+],
+"role": "Wreaks havoc from the sidelines",
+"ab": [
+[
+"Gloom Bombs",
+"ability_nano_clustergrenade"
+],
+[
+"Leaping Slash",
+"ability_nano_dash"
+],
+[
+"Ava",
+"ability_nano_catform"
+],
+[
+"Return to Shadows",
+"ability_nano_shadow_pulse"
+]
+]
+},
+"celeste": {
+"id": "celeste",
+"name": "Celeste",
+"type": "Marksman",
+"cx": 2,
+"gun": "Burst Fire",
+"hp": 690,
+"move": 6.2,
+"sprint": 1.6,
+"stam": 4,
+"weapon": "Carny Life",
+"color": "#BBA9E1",
+"tags": [
+"Performer",
+"Disruptive",
+"Dazzling"
+],
+"role": null,
+"ab": [
+[
+"Light Eater",
+"ability_unicorn_radiantblast"
+],
+[
+"Dazzling Trick",
+"ability_unicorn_prismaticguard"
+],
+[
+"Radiant Daggers",
+"ability_unicorn_luminousstrike"
+],
+[
+"Shining Wonder",
+"ability_unicorn_dazzlingorb"
+]
+]
+},
+"drifter": {
+"id": "drifter",
+"name": "Drifter",
+"type": "Assassin",
+"cx": 3,
+"gun": "Spreadshot",
+"hp": 755,
+"move": 6.9,
+"sprint": 1.6,
+"stam": 3,
+"weapon": "Crimson Grasp",
+"color": "#9D2C2B",
+"tags": [
+"Stalker",
+"Bloodthirsty",
+"Cruel"
+],
+"role": null,
+"ab": [
+[
+"Rend",
+"drifter_blood_blast"
+],
+[
+"Stalker's Mark",
+"drifter_shadow_mark"
+],
+[
+"Bloodscent",
+"ability_drifter_hunger"
+],
+[
+"Eternal Night",
+"drifter_darkness"
+]
+]
+},
+"dynamo": {
+"id": "dynamo",
+"name": "Dynamo",
+"type": "Mystic",
+"cx": 2,
+"gun": "Pistol",
+"hp": 880,
+"move": 6.7,
+"sprint": 1.6,
+"stam": 3,
+"weapon": "The Vonnegun",
+"color": "#D0B945",
+"tags": [
+"Teamplay",
+"Initiator",
+"Clutch"
+],
+"role": "Locks down the enemy team",
+"ab": [
+[
+"Kinetic Pulse",
+"citadel_ability_stomp"
+],
+[
+"Quantum Entanglement",
+"citadel_ability_void_sphere"
+],
+[
+"Rejuvenating Aurora",
+"citadel_ability_nikuman"
+],
+[
+"Singularity",
+"citadel_ability_self_vacuum"
+]
+]
+},
+"graves": {
+"id": "graves",
+"name": "Graves",
+"type": "Marksman",
+"cx": 2,
+"gun": "Pistol",
+"hp": 730,
+"move": 7.0,
+"sprint": 2.2,
+"stam": 2,
+"weapon": "The Teacher",
+"color": "#D9F334",
+"tags": [
+"Morbid",
+"Area Denial",
+"Necromancer"
+],
+"role": null,
+"ab": [
+[
+"Jar of Dead",
+"ability_necro_hauntingskull"
+],
+[
+"Grasping Hands",
+"ability_necro_zombiewall"
+],
+[
+"Essence Theft",
+"ability_necro_fear"
+],
+[
+"Borrowed Decree",
+"ability_necro_gravestone"
+]
+]
+},
+"greytalon": {
+"id": "greytalon",
+"name": "Grey Talon",
+"type": "Marksman",
+"cx": 2,
+"gun": "Bow",
+"hp": 780,
+"move": 6.3,
+"sprint": 1.6,
+"stam": 4,
+"weapon": "The Mourning Comes",
+"color": "#5EB083",
+"tags": [
+"Precision",
+"Hunter",
+"Area Denial"
+],
+"role": "Delivers long range skill-shots",
+"ab": [
+[
+"Charged Shot",
+"ability_charged_shot"
+],
+[
+"Rain of Arrows",
+"ability_power_jump"
+],
+[
+"Spirit Snare",
+"ability_immobilize_trap"
+],
+[
+"Guided Owl",
+"ability_guided_arrow"
+]
+]
+},
+"haze": {
+"id": "haze",
+"name": "Haze",
+"type": "Assassin",
+"cx": 1,
+"gun": "Rapid Fire",
+"hp": 730,
+"move": 8.2,
+"sprint": 1.6,
+"stam": 3,
+"weapon": "Censure & Penance",
+"color": "#AC6133",
+"tags": [
+"Assassin",
+"Stealthy",
+"Lethal"
+],
+"role": "Sneaks in and sprays bullets",
+"ab": [
+[
+"Sleep Dagger",
+"ability_sleep_dagger"
+],
+[
+"Smoke Bomb",
+"ability_smoke_bomb"
+],
+[
+"Fixation",
+"ability_stacking_damage"
+],
+[
+"Bullet Dance",
+"ability_bullet_flurry"
+]
+]
+},
+"holliday": {
+"id": "holliday",
+"name": "Holliday",
+"type": "Marksman",
+"cx": 3,
+"gun": "Pistol",
+"hp": 780,
+"move": 8.2,
+"sprint": 1.6,
+"stam": 2,
+"weapon": "Doc's Orders",
+"color": "#A35A1B",
+"tags": [
+"Crackshot",
+"Explosive",
+"Apprehender"
+],
+"role": "Bounces about dispensing trick shots",
+"ab": [
+[
+"Powder Keg",
+"ability_explosive_barrel"
+],
+[
+"Bounce Pad",
+"ability_bounce_pad"
+],
+[
+"Crackshot",
+"ability_crackshot"
+],
+[
+"Spirit Lasso",
+"ability_gravity_lasso"
+]
+]
+},
+"infernus": {
+"id": "infernus",
+"name": "Infernus",
+"type": "Marksman",
+"cx": 1,
+"gun": "Rapid Fire",
+"hp": 830,
+"move": 6.7,
+"sprint": 1.6,
+"stam": 3,
+"weapon": "Incendiary Remarks",
+"color": "#C93C26",
+"tags": [
+"Arsonist",
+"Explosive",
+"Burn Rubber"
+],
+"role": "Lights up enemies and watches them burn",
+"ab": [
+[
+"Napalm",
+"ability_incendiary_projectile"
+],
+[
+"Flame Dash",
+"ability_flame_dash"
+],
+[
+"Afterburn",
+"ability_afterburn"
+],
+[
+"Concussive Combustion",
+"ability_fire_bomb"
+]
+]
+},
+"ivy": {
+"id": "ivy",
+"name": "Ivy",
+"type": "Marksman",
+"cx": 3,
+"gun": "Rapid Fire",
+"hp": 755,
+"move": 7.2,
+"sprint": 1.6,
+"stam": 4,
+"weapon": "Protector's Hand",
+"color": "#9D8CA9",
+"tags": [
+"Team-up",
+"Disruptor",
+"Rock Solid"
+],
+"role": "Sets up a power duo with a lucky ally",
+"ab": [
+[
+"Entangling Thorns",
+"citadel_ability_tengu_urn"
+],
+[
+"Kudzu Connection",
+"citadel_ability_tangotether"
+],
+[
+"Stone Form",
+"citadel_ability_tengu_stone_form"
+],
+[
+"Air Drop",
+"citadel_ability_tengu_airlift"
+]
+]
+},
+"kelvin": {
+"id": "kelvin",
+"name": "Kelvin",
+"type": "Brawler",
+"cx": 2,
+"gun": "Heavy Hitter",
+"hp": 880,
+"move": 6.7,
+"sprint": 1.1,
+"stam": 3,
+"weapon": "Expedition's End",
+"color": "#74ABBC",
+"tags": [
+"Protector",
+"Explorer",
+"Ice Cold"
+],
+"role": "Freezes enemies in their tracks",
+"ab": [
+[
+"Frost Grenade",
+"ability_ice_grenade"
+],
+[
+"Ice Path",
+"ability_icepath"
+],
+[
+"Arctic Beam",
+"ability_icebeam"
+],
+[
+"Frozen Shelter",
+"ability_ice_dome"
+]
+]
+},
+"geist": {
+"id": "geist",
+"name": "Lady Geist",
+"type": "Mystic",
+"cx": 2,
+"gun": "Pistol",
+"hp": 880,
+"move": 6.3,
+"sprint": 2.4,
+"stam": 3,
+"weapon": "Johann's Gift",
+"color": "#218440",
+"tags": [
+"Lifesteal",
+"Self Damage",
+"Fatale"
+],
+"role": "Sacrifices health then drains it back",
+"ab": [
+[
+"Essence Bomb",
+"ability_blood_bomb"
+],
+[
+"Life Drain",
+"ability_life_drain"
+],
+[
+"Malice",
+"ability_blood_shards"
+],
+[
+"Soul Exchange",
+"ability_health_swap"
+]
+]
+},
+"lash": {
+"id": "lash",
+"name": "Lash",
+"type": "Assassin",
+"cx": 3,
+"gun": "Burst Fire",
+"hp": 780,
+"move": 7.2,
+"sprint": 2.1,
+"stam": 3,
+"weapon": "Tale of The Tape",
+"color": "#4174BB",
+"tags": [
+"Initiator",
+"High Flying",
+"Arrogant"
+],
+"role": "Dives down to stomp his foes",
+"ab": [
+[
+"Ground Strike",
+"citadel_ability_lash_down_strike"
+],
+[
+"Grapple",
+"citadel_ability_lash"
+],
+[
+"Flog",
+"ability_lash_flog"
+],
+[
+"Death Slam",
+"citadel_ability_lash_ultimate"
+]
+]
+},
+"mcginnis": {
+"id": "mcginnis",
+"name": "McGinnis",
+"type": "Mystic",
+"cx": 1,
+"gun": "Heavy Artillery",
+"hp": 780,
+"move": 6.7,
+"sprint": 1.6,
+"stam": 2,
+"weapon": "Services Rendered",
+"color": "#23549D",
+"tags": [
+"Inventor",
+"Support",
+"Disruption"
+],
+"role": "Controls the battle with combat turrets",
+"ab": [
+[
+"Mini Turret",
+"citadel_ability_shieldedsentry"
+],
+[
+"Medicinal Specter",
+"citadel_ability_mobile_resupply"
+],
+[
+"Spectral Wall",
+"citadel_ability_fissure_wall"
+],
+[
+"Heavy Barrage",
+"citadel_ability_rocket_barrage"
+]
+]
+},
+"mina": {
+"id": "mina",
+"name": "Mina",
+"type": "Marksman",
+"cx": 3,
+"gun": "Pistol",
+"hp": 660,
+"move": 6.5,
+"sprint": 1.6,
+"stam": 2,
+"weapon": "New Money",
+"color": "#A9171E",
+"tags": [
+"Harasser",
+"Nimble",
+"Vexing"
+],
+"role": null,
+"ab": [
+[
+"Rake",
+"ability_vampirebat_steallife"
+],
+[
+"Sanguine Retreat",
+"ability_vampirebat_batblink"
+],
+[
+"Love Bites",
+"ability_vampirebat_lovebites"
+],
+[
+"Nox Nostra",
+"ability_vampirebat_batswarm"
+]
+]
+},
+"mirage": {
+"id": "mirage",
+"name": "Mirage",
+"type": "Assassin",
+"cx": 2,
+"gun": "Pistol",
+"hp": 730,
+"move": 7.0,
+"sprint": 1.6,
+"stam": 3,
+"weapon": "Promises Kept",
+"color": "#6A2E68",
+"tags": [
+"Bodyguard",
+"Traveller",
+"Focused"
+],
+"role": "Times his shots and catches fleeing targets",
+"ab": [
+[
+"Fire Scarabs",
+"mirage_fire_beetles"
+],
+[
+"Dust Devil",
+"mirage_tornado"
+],
+[
+"Djinn's Mark",
+"mirage_sand_phantom"
+],
+[
+"Traveler",
+"mirage_teleport"
+]
+]
+},
+"mokrill": {
+"id": "mokrill",
+"name": "Mo & Krill",
+"type": "Brawler",
+"cx": 3,
+"gun": "Spreadshot",
+"hp": 930,
+"move": 8.0,
+"sprint": 1.6,
+"stam": 3,
+"weapon": "Yellow Canary",
+"color": "#C58428",
+"tags": [
+"Tag-Team",
+"Initiator",
+"Burrower"
+],
+"role": "Burrows underneath his enemies",
+"ab": [
+[
+"Scorn",
+"ability_intimidate"
+],
+[
+"Burrow",
+"ability_burrow"
+],
+[
+"Sand Blast",
+"ability_throw_sand"
+],
+[
+"Combo",
+"ability_ult_combo"
+]
+]
+},
+"paige": {
+"id": "paige",
+"name": "Paige",
+"type": "Mystic",
+"cx": 1,
+"gun": "Projectile",
+"hp": 680,
+"move": 6.9,
+"sprint": 3.5,
+"stam": 3,
+"weapon": "Chapter's End",
+"color": "#258F63",
+"tags": [
+"Helpful",
+"Protector",
+"Booksmart"
+],
+"role": null,
+"ab": [
+[
+"Bookwyrm",
+"ability_bookworm_dragonfire"
+],
+[
+"Plot Armor",
+"ability_bookworm_knightbarrier"
+],
+[
+"Captivating Read",
+"ability_bookworm_aoemagic"
+],
+[
+"Rallying Charge",
+"ability_bookworm_knightcharge"
+]
+]
+},
+"paradox": {
+"id": "paradox",
+"name": "Paradox",
+"type": "Marksman",
+"cx": 3,
+"gun": "Burst Fire",
+"hp": 730,
+"move": 6.7,
+"sprint": 1.6,
+"stam": 3,
+"weapon": "Trade Secret",
+"color": "#983952",
+"tags": [
+"Calculated",
+"Disruptor",
+"Tactician"
+],
+"role": "Manipulates Space and Time",
+"ab": [
+[
+"Pulse Grenade",
+"citadel_ability_chrono_pulse_grenade"
+],
+[
+"Time Wall",
+"citadel_ability_chrono_time_wall"
+],
+[
+"Kinetic Carbine",
+"citadel_ability_chrono_kinetic_carbine"
+],
+[
+"Paradoxical Swap",
+"citadel_ability_chrono_swap"
+]
+]
+},
+"pocket": {
+"id": "pocket",
+"name": "Pocket",
+"type": "Assassin",
+"cx": 2,
+"gun": "Spreadshot",
+"hp": 780,
+"move": 7.2,
+"sprint": 1.6,
+"stam": 3,
+"weapon": "The Black Sheep",
+"color": "#858617",
+"tags": [
+"Trickster",
+"Burst Damage",
+"Frogs"
+],
+"role": "Infiltrates and disrupts the backline",
+"ab": [
+[
+"Barrage",
+"synth_barrage"
+],
+[
+"Flying Cloak",
+"synth_plasma_flux"
+],
+[
+"Enchanter's Satchel",
+"synth_pulse"
+],
+[
+"Affliction",
+"synth_affliction"
+]
+]
+},
+"rem": {
+"id": "rem",
+"name": "Rem",
+"type": null,
+"cx": 3,
+"gun": null,
+"hp": 680,
+"move": 7.2,
+"sprint": 4.0,
+"stam": 3,
+"weapon": "Long Night",
+"color": "#5383D1",
+"tags": [
+"Helpful",
+"Tiny",
+"zZzzZ"
+],
+"role": null,
+"ab": [
+[
+"Pillow Toss",
+"ability_familiar_ability02"
+],
+[
+"Tag Along",
+"ability_familiar_attach"
+],
+[
+"Lil Helpers",
+"ability_familiar_helpinghands"
+],
+[
+"Naptime",
+"ability_familiar_ability01"
+]
+]
+},
+"seven": {
+"id": "seven",
+"name": "Seven",
+"type": "Mystic",
+"cx": 1,
+"gun": "Burst Fire",
+"hp": 730,
+"move": 6.7,
+"sprint": 1.8,
+"stam": 3,
+"weapon": "Cold Calculus",
+"color": "#CC861E",
+"tags": [
+"High Voltage",
+"Merciless",
+"Area Denial"
+],
+"role": "Electrocutes crowds of enemies",
+"ab": [
+[
+"Lightning Ball",
+"citadel_ability_lightning_ball"
+],
+[
+"Static Charge",
+"citadel_ability_static_charge"
+],
+[
+"Power Surge",
+"ability_power_surge"
+],
+[
+"Storm Cloud",
+"citadel_ability_storm_cloud"
+]
+]
+},
+"shiv": {
+"id": "shiv",
+"name": "Shiv",
+"type": "Brawler",
+"cx": 3,
+"gun": "Spreadshot",
+"hp": 830,
+"move": 6.5,
+"sprint": 1.6,
+"stam": 3,
+"weapon": "Busted Flush",
+"color": "#E52A68",
+"tags": [
+"Rage",
+"Bleed",
+"Repeat"
+],
+"role": "Bleeds out foes, then goes in for a kill",
+"ab": [
+[
+"Serrated Knives",
+"citadel_ability_shiv_dagger"
+],
+[
+"Slice and Dice",
+"citadel_ability_shiv_dash"
+],
+[
+"Bloodletting",
+"citadel_ability_shiv_defer_damage"
+],
+[
+"Killing Blow",
+"citadel_ability_shiv_killing_blow"
+]
+]
+},
+"silver": {
+"id": "silver",
+"name": "Silver",
+"type": "Marksman",
+"cx": 1,
+"gun": "Long Range",
+"hp": 830,
+"move": 6.7,
+"sprint": 2.5,
+"stam": 2,
+"weapon": "Hair of the Dog",
+"color": "#BFBC9F",
+"tags": [
+"Feral",
+"Hot Mess",
+"Transformation"
+],
+"role": null,
+"ab": [
+[
+"Slam Fire",
+"ability_werewolf_unloadgun"
+],
+[
+"Boot Kick",
+"ability_werewolf_kickflip"
+],
+[
+"Entangling Bola",
+"ability_werewolf_netshot"
+],
+[
+"Lycan Curse",
+"ability_werewolf_transformation"
+]
+]
+},
+"sinclair": {
+"id": "sinclair",
+"name": "Sinclair",
+"type": "Mystic",
+"cx": 4,
+"gun": "Burst Fire",
+"hp": 730,
+"move": 7.2,
+"sprint": 1.6,
+"stam": 3,
+"weapon": "The Prestige",
+"color": "#6B6B6B",
+"tags": [
+"Trickster",
+"Copycat",
+"Versatile"
+],
+"role": "Misdirect and hex enemies",
+"ab": [
+[
+"Vexing Bolt",
+"ability_magician_magicbolt"
+],
+[
+"Spectral Assistant",
+"ability_magician_cloneturret"
+],
+[
+"Rabbit Hex",
+"ability_magician_animalhexarea"
+],
+[
+"Audience Participation",
+"ability_magician_copyult"
+]
+]
+},
+"doorman": {
+"id": "doorman",
+"name": "The Doorman",
+"type": "Mystic",
+"cx": 1,
+"gun": "Pistol",
+"hp": 755,
+"move": 7.9,
+"sprint": 1.6,
+"stam": 3,
+"weapon": "Service With A Smile",
+"color": "#B77528",
+"tags": [
+"Disorienting",
+"Map Control",
+"Mind Games"
+],
+"role": null,
+"ab": [
+[
+"Call Bell",
+"ability_doorman_bomb"
+],
+[
+"Doorway",
+"ability_doorman_doorway"
+],
+[
+"Luggage Cart",
+"ability_doorman_luggage_cart"
+],
+[
+"Hotel Guest",
+"ability_doorman_hotel"
+]
+]
+},
+"venator": {
+"id": "venator",
+"name": "Venator",
+"type": "Marksman",
+"cx": 2,
+"gun": "Crossbow",
+"hp": 820,
+"move": 6.4,
+"sprint": 1.0,
+"stam": 3,
+"weapon": "51:20",
+"color": "#BD3599",
+"tags": [
+"Devout",
+"Arms Expert",
+"Tactical"
+],
+"role": null,
+"ab": [
+[
+"Consecrating Grenade",
+"ability_priest_flashbang"
+],
+[
+"Gutshot",
+"ability_priest_knockback"
+],
+[
+"Hex-Lined Snap Trap",
+"ability_priest_beartrap"
+],
+[
+"Ira Domini",
+"ability_priest_weaponswap"
+]
+]
+},
+"victor": {
+"id": "victor",
+"name": "Victor",
+"type": "Brawler",
+"cx": 2,
+"gun": "Pistol",
+"hp": 800,
+"move": 6.3,
+"sprint": 1.1,
+"stam": 3,
+"weapon": "Memento Mori",
+"color": "#658B6F",
+"tags": [
+"You",
+"Can't",
+"Kill Me"
+],
+"role": null,
+"ab": [
+[
+"Pain Battery",
+"ability_frank_shocktarget2"
+],
+[
+"Jumpstart",
+"ability_frank_selfzap"
+],
+[
+"Aura of Suffering",
+"ability_frank_painaura"
+],
+[
+"Shocking Reanimation",
+"ability_frank_revive"
+]
+]
+},
+"vindicta": {
+"id": "vindicta",
+"name": "Vindicta",
+"type": "Marksman",
+"cx": 1,
+"gun": "Long Range",
+"hp": 755,
+"move": 7.9,
+"sprint": 1.6,
+"stam": 2,
+"weapon": "Wallflower's Revenge",
+"color": "#A2C7E5",
+"tags": [
+"Sniper",
+"Soaring",
+"One Shot Kill"
+],
+"role": "Snipes the unsuspecting",
+"ab": [
+[
+"Stake",
+"citadel_ability_hornet_chain"
+],
+[
+"Flight",
+"citadel_ability_hornet_leap"
+],
+[
+"Crow Familiar",
+"citadel_ability_hornet_sting"
+],
+[
+"Assassinate",
+"citadel_ability_hornet_snipe"
+]
+]
+},
+"viscous": {
+"id": "viscous",
+"name": "Viscous",
+"type": "Mystic",
+"cx": 2,
+"gun": "Projectile",
+"hp": 780,
+"move": 7.2,
+"sprint": 1.6,
+"stam": 3,
+"weapon": "Deep Sea Interpreter",
+"color": "#319826",
+"tags": [
+"Evasive",
+"Disruptor",
+"Gooey"
+],
+"role": "Rolls around deflecting bullets",
+"ab": [
+[
+"Splatter",
+"viscous_goo_grenade"
+],
+[
+"The Cube",
+"viscous_restorative_goo"
+],
+[
+"Puddle Punch",
+"viscous_telepunch"
+],
+[
+"Goo Ball",
+"viscous_goo_bowling_ball"
+]
+]
+},
+"vyper": {
+"id": "vyper",
+"name": "Vyper",
+"type": "Assassin",
+"cx": 1,
+"gun": "Rapid Fire",
+"hp": 780,
+"move": 6.9,
+"sprint": 1.6,
+"stam": 4,
+"weapon": "The Rattler",
+"color": "#A7AD00",
+"tags": [
+"Gunner",
+"Slippery",
+"Rat-a-Tat"
+],
+"role": "Slither in and assassinate enemies",
+"ab": [
+[
+"Screwjab Dagger",
+"ability_viper_debuffdagger"
+],
+[
+"Lethal Venom",
+"ability_viper_venom"
+],
+[
+"Slither",
+"ability_viper_snakedash"
+],
+[
+"Petrifying Bola",
+"ability_viper_petrifybola"
+]
+]
+},
+"warden": {
+"id": "warden",
+"name": "Warden",
+"type": "Brawler",
+"cx": 2,
+"gun": "Heavy Hitter",
+"hp": 805,
+"move": 6.3,
+"sprint": 1.6,
+"stam": 3,
+"weapon": "Freedom's Cost",
+"color": "#4D68A3",
+"tags": [
+"Initiator",
+"Fearless",
+"One Man Army"
+],
+"role": "Weakens his enemies and chases them down",
+"ab": [
+[
+"Alchemical Flask",
+"ability_warden_crowd_control"
+],
+[
+"Willpower",
+"ability_warden_high_alert"
+],
+[
+"Binding Word",
+"ability_warden_lock_down"
+],
+[
+"Last Stand",
+"ability_warden_riot_protocol"
+]
+]
+},
+"wraith": {
+"id": "wraith",
+"name": "Wraith",
+"type": "Marksman",
+"cx": 1,
+"gun": "Rapid Fire",
+"hp": 730,
+"move": 7.2,
+"sprint": 1.6,
+"stam": 3,
+"weapon": "The Rake",
+"color": "#944D78",
+"tags": [
+"Duelist",
+"Isolator",
+"Telekinetic"
+],
+"role": "Melts isolated targets",
+"ab": [
+[
+"Card Trick",
+"citadel_ability_card_toss"
+],
+[
+"Project Mind",
+"citadel_ability_projectmind"
+],
+[
+"Full Auto",
+"citadel_ability_wraith_rapidfire"
+],
+[
+"Telekinesis",
+"citadel_ability_psychic_lift"
+]
+]
+},
+"yamato": {
+"id": "yamato",
+"name": "Yamato",
+"type": "Assassin",
+"cx": 3,
+"gun": "Spreadshot",
+"hp": 730,
+"move": 8.2,
+"sprint": 1.6,
+"stam": 3,
+"weapon": "Sister's Lament",
+"color": "#625789",
+"tags": [
+"Relentless",
+"Acrobatics",
+"Pursuer"
+],
+"role": "Delivers charged attacks with finesse",
+"ab": [
+[
+"Power Slash",
+"citadel_ability_power_slash"
+],
+[
+"Flying Slash",
+"citadel_ability_flying_strike"
+],
+[
+"Crimson Slash",
+"citadel_ability_healing_slash"
+],
+[
+"Shadow Transformation",
+"citadel_ability_infinity_slash"
+]
+]
+}
+}

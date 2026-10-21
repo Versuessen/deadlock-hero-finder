@@ -1,0 +1,675 @@
+{
+ "game": "mr",
+ "roles": [
+  "Vanguard",
+  "Duelist",
+  "Strategist"
+ ],
+ "sources": [
+  "https://marvelrivals.fandom.com/wiki/Heroes",
+  "https://turbosmurfs.gg/article/marvel-rivals-characters-release-order",
+  "https://rivalskins.com/heroes/",
+  "https://en.wikipedia.org/wiki/Marvel_Rivals",
+  "https://esports.gg/guides/marvel-rivals/gorr-god-butcher-ability-rundown/",
+  "https://massivelyop.com/2026/09/09/marvel-rivals-adds-gorr-the-god-butcher-to-the-roster-with-september-11s-season-10/",
+  "https://www.gosugamers.net/entertainment/news/79126-marvel-rivals-season-10-adds-duelist-gorr-as-its-only-new-hero-scarlet-witch-rework-nerfs-revealed",
+  "https://opencritic.com/news/31172/marvel-rivals-isnt-making-moon-girl-playable-and-fans-are-furious",
+  "https://marvelrivals.gg/devil-dinosaur/",
+  "https://marvelrivals.gg/the-hood/",
+  "https://marvelrivals.gg/jubilee/",
+  "https://marvelrivals.gg/cyclops/",
+  "https://marvelrivals.gg/white-fox/",
+  "https://marvelrivals.gg/black-cat/",
+  "https://marvelrivals.gg/elsa-bloodstone/",
+  "https://marvelrivals.gg/rogue/",
+  "https://marvelrivals.gg/deadpool/",
+  "https://marvelrivals.gg/angela/",
+  "https://marvelrivals.gg/gambit/",
+  "https://marvelrivals.gg/daredevil/",
+  "https://marvelrivals.gg/blade/",
+  "https://marvelrivals.gg/phoenix/",
+  "https://marvelrivals.gg/ultron/",
+  "https://marvelrivals.gg/emma-frost/"
+ ],
+ "image_sources": [
+  "https://github.com/yuqichin/rivals-player-assets (Hero Icons/*.webp, 134px official-style head icons, commit dated 2026-09-13; converted to PNG)"
+ ],
+ "notes": "Roster verified as of Season 10 'Butcher's Blasphemy' (launched 2026-09-11): 54 playable heroes (14 Vanguard, 27 Duelist, 12 Strategist + Deadpool, who is selectable in all three roles; listed here as Duelist with sub note). Gorr (marketed as 'Gorr the God Butcher') is the only Season 10 hero; Season 10.5 (Oct 9) adds no hero. Moon Girl appears only in story/trailer content and is not playable. Scarlet Witch was reworked in Season 10 (Chaos Marks, channelled ult). Forward-pick changes vs previous: drifter Blade->Daredevil (blind + single-target lock-on), lash Thor->Angela (aerial dive, binds and slams from the air), venator The Punisher->Elsa Bloodstone (monster hunter, shotgun knockback, immobilizing trap). Weak matches: geist->Adam Warlock (no MR hero spends/swaps health), wraith->Gambit (card theme; loop only partly similar), Deadpool (flex kit, loose fit).",
+ "roster": [
+  {
+   "name": "Captain America",
+   "role": "Vanguard",
+   "sub": null,
+   "twins": [
+    "abrams",
+    "warden",
+    "ratking"
+   ],
+   "why": "Shield-up brawler tank who sprints and leaps into the backline",
+   "img": "img/captain-america.png"
+  },
+  {
+   "name": "Doctor Strange",
+   "role": "Vanguard",
+   "sub": null,
+   "twins": [
+    "doorman",
+    "mirage"
+   ],
+   "why": "Shield tank who opens team portals across the map",
+   "img": "img/doctor-strange.png"
+  },
+  {
+   "name": "Emma Frost",
+   "role": "Vanguard",
+   "sub": null,
+   "twins": [
+    "abrams"
+   ],
+   "why": "Beam tank who turns to diamond and kicks foes into walls",
+   "img": "img/emma-frost.png"
+  },
+  {
+   "name": "Groot",
+   "role": "Vanguard",
+   "sub": null,
+   "twins": [
+    "graves",
+    "mcginnis"
+   ],
+   "why": "Grows walls to split fights and roots enemies with vines",
+   "img": "img/groot.png"
+  },
+  {
+   "name": "Hulk",
+   "role": "Vanguard",
+   "sub": null,
+   "twins": [
+    "silver",
+    "abrams"
+   ],
+   "why": "Transforms mid-fight into a bigger brawler that leaps on targets",
+   "img": "img/hulk.png"
+  },
+  {
+   "name": "Magneto",
+   "role": "Vanguard",
+   "sub": null,
+   "twins": [
+    "paradox",
+    "viscous"
+   ],
+   "why": "Ranged tank; curtain eats projectiles, can bubble an ally",
+   "img": "img/magneto.png"
+  },
+  {
+   "name": "Peni Parker",
+   "role": "Vanguard",
+   "sub": null,
+   "twins": [
+    "mcginnis",
+    "graves"
+   ],
+   "why": "Plants a nest and mines, then holds ground with webs",
+   "img": "img/peni-parker.png"
+  },
+  {
+   "name": "Thor",
+   "role": "Vanguard",
+   "sub": null,
+   "twins": [
+    "lash",
+    "abrams"
+   ],
+   "why": "Dives in with hammer throws and a leaping lightning slam",
+   "img": "img/thor.png"
+  },
+  {
+   "name": "Venom",
+   "role": "Vanguard",
+   "sub": null,
+   "twins": [
+    "billy",
+    "mokrill"
+   ],
+   "why": "Swings in, tethers nearby enemies and yanks them together",
+   "img": "img/venom.png"
+  },
+  {
+   "name": "The Thing",
+   "role": "Vanguard",
+   "sub": null,
+   "twins": [
+    "abrams",
+    "mokrill"
+   ],
+   "why": "Brawler tank who charges in and trades punches",
+   "img": "img/the-thing.png"
+  },
+  {
+   "name": "Angela",
+   "role": "Vanguard",
+   "sub": null,
+   "twins": [
+    "lash",
+    "danny"
+   ],
+   "why": "Flying dive tank who binds foes and crashes down from the air",
+   "img": "img/angela.png"
+  },
+  {
+   "name": "Rogue",
+   "role": "Vanguard",
+   "sub": null,
+   "twins": [
+    "sinclair",
+    "billy"
+   ],
+   "why": "Melee off-tank who pulls enemies in and steals their abilities",
+   "img": "img/rogue.png"
+  },
+  {
+   "name": "Devil Dinosaur",
+   "role": "Vanguard",
+   "sub": null,
+   "twins": [
+    "mokrill",
+    "shiv"
+   ],
+   "why": "Melee tank that bleeds targets, pounces and heals by biting",
+   "img": "img/devil-dinosaur.png"
+  },
+  {
+   "name": "The Hood",
+   "role": "Vanguard",
+   "sub": null,
+   "twins": [
+    "silver",
+    "warden"
+   ],
+   "why": "Gun tank who powers into a demon form with lifesteal rifles",
+   "img": "img/the-hood.png"
+  },
+  {
+   "name": "Black Panther",
+   "role": "Duelist",
+   "sub": null,
+   "twins": [
+    "calico",
+    "yamato"
+   ],
+   "why": "Marks a target, then chains dashes that reset on marked hits",
+   "img": "img/black-panther.png"
+  },
+  {
+   "name": "Black Widow",
+   "role": "Duelist",
+   "sub": null,
+   "twins": [
+    "vindicta",
+    "greytalon"
+   ],
+   "why": "Sniper who scopes from range and kicks away divers",
+   "img": "img/black-widow.png"
+  },
+  {
+   "name": "Hawkeye",
+   "role": "Duelist",
+   "sub": null,
+   "twins": [
+    "greytalon"
+   ],
+   "why": "Charged-bow marksman who wins long-range duels",
+   "img": "img/hawkeye.png"
+  },
+  {
+   "name": "Hela",
+   "role": "Duelist",
+   "sub": null,
+   "twins": [
+    "vindicta",
+    "mina"
+   ],
+   "why": "Headshot gunner who takes flight in her ult with crow blasts",
+   "img": "img/hela.png"
+  },
+  {
+   "name": "Iron Fist",
+   "role": "Duelist",
+   "sub": null,
+   "twins": [
+    "apollo",
+    "yamato"
+   ],
+   "why": "Martial artist who blocks, dash-kicks in and chains combos",
+   "img": "img/iron-fist.png"
+  },
+  {
+   "name": "Iron Man",
+   "role": "Duelist",
+   "sub": null,
+   "twins": [
+    "pocket",
+    "vindicta",
+    "danny"
+   ],
+   "why": "Hovers above the fight raining rockets and beam blasts",
+   "img": "img/iron-man.png"
+  },
+  {
+   "name": "Magik",
+   "role": "Duelist",
+   "sub": null,
+   "twins": [
+    "yamato",
+    "calico"
+   ],
+   "why": "Sword diver who blinks through portals and transforms to finish",
+   "img": "img/magik.png"
+  },
+  {
+   "name": "Moon Knight",
+   "role": "Duelist",
+   "sub": null,
+   "twins": [
+    "seven",
+    "celeste"
+   ],
+   "why": "Ricochet poke that bounces between clumped foes; area ult",
+   "img": "img/moon-knight.png"
+  },
+  {
+   "name": "Namor",
+   "role": "Duelist",
+   "sub": null,
+   "twins": [
+    "mcginnis",
+    "solomon"
+   ],
+   "why": "Summons squid turrets and pokes with tridents",
+   "img": "img/namor.png"
+  },
+  {
+   "name": "Psylocke",
+   "role": "Duelist",
+   "sub": null,
+   "twins": [
+    "haze"
+   ],
+   "why": "Goes invisible, dashes in, then spins slashing everyone nearby",
+   "img": "img/psylocke.png"
+  },
+  {
+   "name": "Scarlet Witch",
+   "role": "Duelist",
+   "sub": null,
+   "twins": [
+    "celeste",
+    "seven",
+    "baba"
+   ],
+   "why": "Lock-on caster who marks foes and channels a huge blast",
+   "img": "img/scarlet-witch.png"
+  },
+  {
+   "name": "Spider-Man",
+   "role": "Duelist",
+   "sub": null,
+   "twins": [
+    "bebop",
+    "lash"
+   ],
+   "why": "Swings in, tags a target, yanks it close and uppercuts it",
+   "img": "img/spider-man.png"
+  },
+  {
+   "name": "Squirrel Girl",
+   "role": "Duelist",
+   "sub": null,
+   "twins": [
+    "holliday",
+    "graves"
+   ],
+   "why": "Lobs bouncing explosive acorns and traps foes in place",
+   "img": "img/squirrel-girl.png"
+  },
+  {
+   "name": "Star-Lord",
+   "role": "Duelist",
+   "sub": null,
+   "twins": [
+    "haze",
+    "vyper"
+   ],
+   "why": "Twin-blaster flanker who jets around and auto-aims his ult",
+   "img": "img/star-lord.png"
+  },
+  {
+   "name": "Storm",
+   "role": "Duelist",
+   "sub": null,
+   "twins": [
+    "seven"
+   ],
+   "why": "Hovering storm caster whose ult drags and shocks clumped foes",
+   "img": "img/storm.png"
+  },
+  {
+   "name": "The Punisher",
+   "role": "Duelist",
+   "sub": null,
+   "twins": [
+    "venator",
+    "vyper"
+   ],
+   "why": "Rifle and shotgun gunner with smoke grenade and a turret",
+   "img": "img/the-punisher.png"
+  },
+  {
+   "name": "Winter Soldier",
+   "role": "Duelist",
+   "sub": null,
+   "twins": [
+    "shiv",
+    "bebop"
+   ],
+   "why": "Hooks a target in and chains execute ults on low-health foes",
+   "img": "img/winter-soldier.png"
+  },
+  {
+   "name": "Wolverine",
+   "role": "Duelist",
+   "sub": null,
+   "twins": [
+    "mokrill",
+    "shiv"
+   ],
+   "why": "Leaps on a target, pins it and shreds tanks up close",
+   "img": "img/wolverine.png"
+  },
+  {
+   "name": "Mister Fantastic",
+   "role": "Duelist",
+   "sub": null,
+   "twins": [
+    "viscous",
+    "bebop"
+   ],
+   "why": "Rubbery brawler who bounces in, grabs foes and soaks damage",
+   "img": "img/mister-fantastic.png"
+  },
+  {
+   "name": "Human Torch",
+   "role": "Duelist",
+   "sub": null,
+   "twins": [
+    "infernus"
+   ],
+   "why": "Flies over the fight laying fire trails and burning zones",
+   "img": "img/human-torch.png"
+  },
+  {
+   "name": "Phoenix",
+   "role": "Duelist",
+   "sub": null,
+   "twins": [
+    "pocket"
+   ],
+   "why": "Flying fire caster who blinks away and bombards an area",
+   "img": "img/phoenix.png"
+  },
+  {
+   "name": "Blade",
+   "role": "Duelist",
+   "sub": null,
+   "twins": [
+    "yamato",
+    "apollo"
+   ],
+   "why": "Sword/shotgun hunter with a parry, dashes and lifesteal frenzy",
+   "img": "img/blade.png"
+  },
+  {
+   "name": "Daredevil",
+   "role": "Duelist",
+   "sub": null,
+   "twins": [
+    "drifter",
+    "billy"
+   ],
+   "why": "Melee hunter who locks onto one target, blinds and reels it in",
+   "img": "img/daredevil.png"
+  },
+  {
+   "name": "Black Cat",
+   "role": "Duelist",
+   "sub": null,
+   "twins": [
+    "calico",
+    "yamato"
+   ],
+   "why": "Melee thief who grapples in, strikes, then zips back untargetable",
+   "img": "img/black-cat.png"
+  },
+  {
+   "name": "Elsa Bloodstone",
+   "role": "Duelist",
+   "sub": null,
+   "twins": [
+    "venator",
+    "holliday"
+   ],
+   "why": "Monster hunter with shotgun, knockback dash and a snare trap",
+   "img": "img/elsa-bloodstone.png"
+  },
+  {
+   "name": "Cyclops",
+   "role": "Duelist",
+   "sub": null,
+   "twins": [
+    "wraith"
+   ],
+   "why": "Mid-range beam gunner with propulsion bursts to peel or engage",
+   "img": "img/cyclops.png"
+  },
+  {
+   "name": "Gorr",
+   "role": "Duelist",
+   "sub": null,
+   "twins": [
+    "graves",
+    "yamato"
+   ],
+   "why": "Melee duelist who raises minions from kills and teleports to them",
+   "img": "img/gorr.png"
+  },
+  {
+   "name": "Deadpool",
+   "role": "Duelist",
+   "sub": "Flex hero: can be picked as Vanguard, Duelist or Strategist",
+   "twins": [
+    "victor",
+    "billy"
+   ],
+   "why": "Taunts enemies into bad trades; plays tank, damage or healer",
+   "img": "img/deadpool.png"
+  },
+  {
+   "name": "Adam Warlock",
+   "role": "Strategist",
+   "sub": null,
+   "twins": [
+    "ivy",
+    "victor"
+   ],
+   "why": "Links allies to share damage and revives himself after death",
+   "img": "img/adam-warlock.png"
+  },
+  {
+   "name": "Cloak & Dagger",
+   "role": "Strategist",
+   "sub": null,
+   "twins": [
+    "dynamo",
+    "harrow"
+   ],
+   "why": "Swaps between healing light daggers and blinding dark teleports",
+   "img": "img/cloak-dagger.png"
+  },
+  {
+   "name": "Invisible Woman",
+   "role": "Strategist",
+   "sub": null,
+   "twins": [
+    "paige",
+    "viscous",
+    "violet"
+   ],
+   "why": "Protective healer who shields allies and pulls or knocks foes",
+   "img": "img/invisible-woman.png"
+  },
+  {
+   "name": "Jeff the Land Shark",
+   "role": "Strategist",
+   "sub": null,
+   "twins": [
+    "rem",
+    "ivy"
+   ],
+   "why": "Tiny healer who dives under, swallows foes and carries them off",
+   "img": "img/jeff-the-land-shark.png"
+  },
+  {
+   "name": "Loki",
+   "role": "Strategist",
+   "sub": null,
+   "twins": [
+    "sinclair"
+   ],
+   "why": "Plants decoys that copy his shots and copies an enemy's kit",
+   "img": "img/loki.png"
+  },
+  {
+   "name": "Luna Snow",
+   "role": "Strategist",
+   "sub": null,
+   "twins": [
+    "kelvin",
+    "dynamo"
+   ],
+   "why": "Ice healer who freezes a target and channels a big team heal",
+   "img": "img/luna-snow.png"
+  },
+  {
+   "name": "Mantis",
+   "role": "Strategist",
+   "sub": null,
+   "twins": [
+    "rem",
+    "harrow"
+   ],
+   "why": "Healer who boosts allies and puts enemies to sleep",
+   "img": "img/mantis.png"
+  },
+  {
+   "name": "Rocket Raccoon",
+   "role": "Strategist",
+   "sub": null,
+   "twins": [
+    "mcginnis"
+   ],
+   "why": "Engineer healer who drops a revive beacon and damage tower",
+   "img": "img/rocket-raccoon.png"
+  },
+  {
+   "name": "Ultron",
+   "role": "Strategist",
+   "sub": null,
+   "twins": [
+    "rem",
+    "paige"
+   ],
+   "why": "Flying support who attaches healing drones to allies",
+   "img": "img/ultron.png"
+  },
+  {
+   "name": "Gambit",
+   "role": "Strategist",
+   "sub": null,
+   "twins": [
+    "wraith",
+    "kelvin"
+   ],
+   "why": "Throws charged cards that heal allies or blow up enemies",
+   "img": "img/gambit.png"
+  },
+  {
+   "name": "White Fox",
+   "role": "Strategist",
+   "sub": null,
+   "twins": [
+    "paige",
+    "rem"
+   ],
+   "why": "Healer who teleports to allies to shield them; charms foes in",
+   "img": "img/white-fox.png"
+  },
+  {
+   "name": "Jubilee",
+   "role": "Strategist",
+   "sub": null,
+   "twins": [
+    "kelvin",
+    "dynamo"
+   ],
+   "why": "Fireworks that heal allies and damage foes; ult launches them",
+   "img": "img/jubilee.png"
+  }
+ ],
+ "fwd": {
+  "abrams": "The Thing",
+  "apollo": "Iron Fist",
+  "bebop": "Spider-Man",
+  "billy": "Venom",
+  "calico": "Black Panther",
+  "celeste": "Scarlet Witch",
+  "drifter": "Daredevil",
+  "dynamo": "Cloak & Dagger",
+  "graves": "Groot",
+  "greytalon": "Hawkeye",
+  "haze": "Psylocke",
+  "holliday": "Squirrel Girl",
+  "infernus": "Human Torch",
+  "ivy": "Jeff the Land Shark",
+  "kelvin": "Luna Snow",
+  "geist": "Adam Warlock",
+  "lash": "Angela",
+  "mcginnis": "Rocket Raccoon",
+  "mina": "Hela",
+  "mirage": "Doctor Strange",
+  "mokrill": "Wolverine",
+  "paige": "Invisible Woman",
+  "paradox": "Magneto",
+  "pocket": "Phoenix",
+  "rem": "Mantis",
+  "seven": "Storm",
+  "shiv": "Winter Soldier",
+  "silver": "Hulk",
+  "sinclair": "Loki",
+  "doorman": "Doctor Strange",
+  "venator": "Elsa Bloodstone",
+  "victor": "Deadpool",
+  "vindicta": "Hela",
+  "viscous": "Mister Fantastic",
+  "vyper": "The Punisher",
+  "warden": "Captain America",
+  "wraith": "Gambit",
+  "yamato": "Magik",
+  "ratking": "Captain America",
+  "baba": "Scarlet Witch",
+  "solomon": "Namor",
+  "danny": "Iron Man",
+  "violet": "Invisible Woman",
+  "harrow": "Mantis"
+ }
+}

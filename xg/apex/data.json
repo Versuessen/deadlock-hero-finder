@@ -1,0 +1,382 @@
+{
+ "game": "apex",
+ "roles": [
+  "Assault",
+  "Skirmisher",
+  "Recon",
+  "Support",
+  "Controller"
+ ],
+ "sources": [
+  "https://www.ea.com/games/apex-legends/apex-legends/news/marked-patch-notes",
+  "https://www.ea.com/games/apex-legends/apex-legends/news/marked-midseason-patch-notes",
+  "https://www.ea.com/en/games/apex-legends/apex-legends/news/2026-roadmap",
+  "https://www.ea.com/news/apex-legends-s29-meet-axle",
+  "https://insider-gaming.com/apex-legends-season-30-release-date-launch-times/",
+  "https://gamedropdaily.com/updates/apex-legends/",
+  "https://apexlegends.wiki.gg/wiki/Legend",
+  "https://help.ea.com/en/articles/apex-legends/abilities/",
+  "https://esportsinsider.com/2025/07/apex-legends-patch-highlights-ash-nerf-class-changes-to-impact-meta",
+  "https://en.wikipedia.org/wiki/List_of_Apex_Legends_characters",
+  "https://github.com/lfcarry-open/apex-legends-pick-rates",
+  "https://epiccarry.com/blogs/apex-legends-season-30-bloodhound-rework-abilities-perks-counters/",
+  "https://insider-gaming.com/apex-legends-sparrow-guide-ultimate-tactical-passive-abilities-explained/",
+  "https://esports.gg/guides/apex-legends/apex-legends-axle-abilities-and-upgrades/"
+ ],
+ "image_sources": [
+  "https://github.com/HyIsNoob/GameTeamer (public/icons/Portrait_<Name>_square.png)"
+ ],
+ "notes": "Roster verified against Season 30 'Marked' (launched 2026-08-04; Split 2 / midseason patch 2026-09-14); no legend added since Axle (Season 29, May 2026). 28 playable legends; the next new legend is slated for Season 32 per EA's 2026 roadmap, along with a class-system overhaul. Classes follow the current wiki.gg Legend page: Ash moved to Skirmisher and Revenant to Assault in the Season 25 patch (July 2025), so help.ea.com's class list is outdated. Bloodhound kit reflects the S30 rework (Allfather's Cloak ult). Images: wiki-style square legend portraits from the HyIsNoob/GameTeamer repo. Sparrow's file there is a 1236x1040 in-game close-up, cropped to a square on the face (a different style from the rest). Alter's source is only 74x87 and was upscaled to 222px, so it is soft. Axle: no public GitHub repo or npm package with an Axle image was found, so img is null. Forward-pick changes: pocket Alter->Loba (Flying Cloak = throw-and-teleport like Loba's bracelet); wraith(Deadlock) Wraith->Ash (Project Mind = Phase Breach teleport; Telekinesis ~ Arc Snare lockdown).",
+ "roster": [
+  {
+   "name": "Alter",
+   "role": "Skirmisher",
+   "sub": null,
+   "twins": [
+    "doorman"
+   ],
+   "why": "Opens portals through walls for the team to slip through",
+   "img": "img/alter.png"
+  },
+  {
+   "name": "Ash",
+   "role": "Skirmisher",
+   "sub": null,
+   "twins": [
+    "wraith",
+    "apollo"
+   ],
+   "why": "Teleports to a chosen spot, dashes in and snares escapees",
+   "img": "img/ash.png"
+  },
+  {
+   "name": "Axle",
+   "role": "Skirmisher",
+   "sub": null,
+   "twins": [
+    "vyper",
+    "kelvin"
+   ],
+   "why": "Boosted slides for her team; seeker drone knocks foes up",
+   "img": null
+  },
+  {
+   "name": "Ballistic",
+   "role": "Assault",
+   "sub": null,
+   "twins": [
+    "silver"
+   ],
+   "why": "Gunslinger who buffs reload and fire rate to win gunfights",
+   "img": "img/ballistic.png"
+  },
+  {
+   "name": "Bangalore",
+   "role": "Assault",
+   "sub": null,
+   "twins": [
+    "venator",
+    "mcginnis"
+   ],
+   "why": "Ordnance expert: grenades, smoke and an area artillery barrage",
+   "img": "img/bangalore.png"
+  },
+  {
+   "name": "Bloodhound",
+   "role": "Recon",
+   "sub": null,
+   "twins": [
+    "drifter",
+    "haze"
+   ],
+   "why": "Hunts via enemy trails and reveals; cloak for stealth pushes",
+   "img": "img/bloodhound.png"
+  },
+  {
+   "name": "Catalyst",
+   "role": "Controller",
+   "sub": null,
+   "twins": [
+    "paradox",
+    "violet"
+   ],
+   "why": "Raises a wall that blocks sight and slows anyone crossing",
+   "img": "img/catalyst.png"
+  },
+  {
+   "name": "Caustic",
+   "role": "Controller",
+   "sub": null,
+   "twins": [
+    "graves",
+    "baba"
+   ],
+   "why": "Area denial with traps that punish enemies who push in",
+   "img": "img/caustic.png"
+  },
+  {
+   "name": "Conduit",
+   "role": "Support",
+   "sub": null,
+   "twins": [
+    "paige"
+   ],
+   "why": "Shields allies from range and lays slowing damage zones",
+   "img": "img/conduit.png"
+  },
+  {
+   "name": "Crypto",
+   "role": "Recon",
+   "sub": null,
+   "twins": [
+    "greytalon"
+   ],
+   "why": "Pilots a remote scout that detonates to disrupt enemies",
+   "img": "img/crypto.png"
+  },
+  {
+   "name": "Fuse",
+   "role": "Assault",
+   "sub": null,
+   "twins": [
+    "infernus"
+   ],
+   "why": "Explosives and a ring of fire that burn and trap enemies",
+   "img": "img/fuse.png"
+  },
+  {
+   "name": "Gibraltar",
+   "role": "Support",
+   "sub": null,
+   "twins": [
+    "kelvin",
+    "dynamo"
+   ],
+   "why": "Drops a protective dome to shelter the team mid-fight",
+   "img": "img/gibraltar.png"
+  },
+  {
+   "name": "Horizon",
+   "role": "Skirmisher",
+   "sub": null,
+   "twins": [
+    "dynamo",
+    "lash"
+   ],
+   "why": "Black hole pulls enemies together; lifts the team skyward",
+   "img": "img/horizon.png"
+  },
+  {
+   "name": "Lifeline",
+   "role": "Support",
+   "sub": null,
+   "twins": [
+    "rem",
+    "dynamo",
+    "harrow"
+   ],
+   "why": "Dedicated healer who keeps the whole squad topped up",
+   "img": "img/lifeline.png"
+  },
+  {
+   "name": "Loba",
+   "role": "Support",
+   "sub": null,
+   "twins": [
+    "pocket",
+    "mina"
+   ],
+   "why": "Throws a device and teleports to where it lands",
+   "img": "img/loba.png"
+  },
+  {
+   "name": "Mad Maggie",
+   "role": "Assault",
+   "sub": null,
+   "twins": [
+    "billy",
+    "ratking"
+   ],
+   "why": "Aggressive shotgun brawler who flushes enemies out of cover",
+   "img": "img/mad-maggie.png"
+  },
+  {
+   "name": "Mirage",
+   "role": "Support",
+   "sub": null,
+   "twins": [
+    "sinclair"
+   ],
+   "why": "Sends decoys of himself to bait shots and confuse enemies",
+   "img": "img/mirage.png"
+  },
+  {
+   "name": "Newcastle",
+   "role": "Support",
+   "sub": null,
+   "twins": [
+    "abrams",
+    "viscous"
+   ],
+   "why": "Leaps into fights and slams down cover to protect allies",
+   "img": "img/newcastle.png"
+  },
+  {
+   "name": "Octane",
+   "role": "Skirmisher",
+   "sub": null,
+   "twins": [
+    "victor",
+    "geist"
+   ],
+   "why": "Spends his own health for speed, then regenerates it",
+   "img": "img/octane.png"
+  },
+  {
+   "name": "Pathfinder",
+   "role": "Skirmisher",
+   "sub": null,
+   "twins": [
+    "lash",
+    "bebop"
+   ],
+   "why": "Grapples around the map and can yank himself into enemies",
+   "img": "img/pathfinder.png"
+  },
+  {
+   "name": "Rampart",
+   "role": "Controller",
+   "sub": null,
+   "twins": [
+    "mcginnis"
+   ],
+   "why": "Builds cover and deploys a stationary minigun position",
+   "img": "img/rampart.png"
+  },
+  {
+   "name": "Revenant",
+   "role": "Assault",
+   "sub": null,
+   "twins": [
+    "shiv",
+    "yamato"
+   ],
+   "why": "Pounces onto targets and shrugs off damage in shadow form",
+   "img": "img/revenant.png"
+  },
+  {
+   "name": "Seer",
+   "role": "Recon",
+   "sub": null,
+   "twins": [
+    "celeste",
+    "rem"
+   ],
+   "why": "Blasts through walls to reveal and interrupt enemies",
+   "img": "img/seer.png"
+  },
+  {
+   "name": "Sparrow",
+   "role": "Recon",
+   "sub": null,
+   "twins": [
+    "greytalon",
+    "holliday"
+   ],
+   "why": "Bow marksman who plants reveal darts and double-jumps",
+   "img": "img/sparrow.png"
+  },
+  {
+   "name": "Valkyrie",
+   "role": "Recon",
+   "sub": null,
+   "twins": [
+    "ivy",
+    "vindicta",
+    "danny"
+   ],
+   "why": "Jetpack flight; carries the whole squad into the fight",
+   "img": "img/valkyrie.png"
+  },
+  {
+   "name": "Vantage",
+   "role": "Recon",
+   "sub": null,
+   "twins": [
+    "vindicta",
+    "greytalon"
+   ],
+   "why": "Long-range sniper who marks targets for bonus damage",
+   "img": "img/vantage.png"
+  },
+  {
+   "name": "Wattson",
+   "role": "Controller",
+   "sub": null,
+   "twins": [
+    "seven",
+    "paradox",
+    "solomon"
+   ],
+   "why": "Electric fences zone space; pylon shoots down projectiles",
+   "img": "img/wattson.png"
+  },
+  {
+   "name": "Wraith",
+   "role": "Skirmisher",
+   "sub": null,
+   "twins": [
+    "calico",
+    "mirage"
+   ],
+   "why": "Phases untargetable and portals the team across the map",
+   "img": "img/wraith.png"
+  }
+ ],
+ "fwd": {
+  "abrams": "Newcastle",
+  "apollo": "Ash",
+  "bebop": "Pathfinder",
+  "billy": "Mad Maggie",
+  "calico": "Wraith",
+  "celeste": "Seer",
+  "drifter": "Bloodhound",
+  "dynamo": "Gibraltar",
+  "graves": "Caustic",
+  "greytalon": "Vantage",
+  "haze": "Revenant",
+  "holliday": "Sparrow",
+  "infernus": "Fuse",
+  "ivy": "Valkyrie",
+  "kelvin": "Gibraltar",
+  "geist": "Octane",
+  "lash": "Pathfinder",
+  "mcginnis": "Rampart",
+  "mina": "Loba",
+  "mirage": "Wraith",
+  "mokrill": "Revenant",
+  "paige": "Conduit",
+  "paradox": "Catalyst",
+  "pocket": "Loba",
+  "rem": "Lifeline",
+  "seven": "Wattson",
+  "shiv": "Revenant",
+  "silver": "Ballistic",
+  "sinclair": "Mirage",
+  "doorman": "Alter",
+  "venator": "Bangalore",
+  "victor": "Octane",
+  "vindicta": "Vantage",
+  "viscous": "Newcastle",
+  "vyper": "Axle",
+  "warden": "Gibraltar",
+  "wraith": "Ash",
+  "yamato": "Revenant",
+  "ratking": "Mad Maggie",
+  "baba": "Caustic",
+  "solomon": "Wattson",
+  "danny": "Valkyrie",
+  "violet": "Catalyst",
+  "harrow": "Lifeline"
+ }
+}

@@ -1,0 +1,1234 @@
+{
+ "citadel_ability_bull_heal": {
+  "hero": "Abrams",
+  "name": "Siphon Life",
+  "quip": "Drain health from nearby enemies",
+  "first": "Drain health from nearby enemies, dealing spirit DPS and healing for a portion of the damage dealt.",
+  "full": "Drain health from nearby enemies, dealing spirit DPS and healing for a portion of the damage dealt."
+ },
+ "citadel_ability_bull_charge": {
+  "hero": "Abrams",
+  "name": "Shoulder Charge",
+  "quip": "Charge into the fray, dragging enemies along",
+  "first": "Charge forward, pulling enemies you hit.",
+  "full": "Charge forward, pulling enemies you hit. Pushing a hero into a wall applies stun. If you collide with a hero you move faster during your charge."
+ },
+ "citadel_ability_passive_beefy": {
+  "hero": "Abrams",
+  "name": "Infernal Resilience",
+  "quip": "Regenerate some of the damage you receive",
+  "first": "Gain bonus defensive attributes.",
+  "full": "Gain bonus defensive attributes. Taking damage grants temporary regen for a portion of the damage taken."
+ },
+ "citadel_ability_bull_leap": {
+  "hero": "Abrams",
+  "name": "Seismic Impact",
+  "quip": "Smash into enemies from above, stunning them",
+  "first": "Leap high into the air before crashing into the ground, dealing spirit damage and applying stun.",
+  "full": "Leap high into the air before crashing into the ground, dealing spirit damage and applying stun."
+ },
+ "ability_fencer_throwblade": {
+  "hero": "Apollo",
+  "name": "Disengaging Sigil",
+  "quip": "",
+  "first": "Draw a sigil sphere in front of you and then leap backwards as it explodes, damaging and slowing enemies caught in it.",
+  "full": "Draw a sigil sphere in front of you and then leap backwards as it explodes, damaging and slowing enemies caught in it."
+ },
+ "ability_fencer_riposte": {
+  "hero": "Apollo",
+  "name": "Riposte",
+  "quip": "",
+  "first": "Prepare to deflect the next incoming attack.",
+  "full": "Prepare to deflect the next incoming attack. On a successful deflection, briefly become invulnerable and target an enemy hero to dash towards them, stunning them and reducing their Melee Resist. Press 2 to select a target. Does not trigger against trooper or neutral damage."
+ },
+ "ability_fencer_lunge": {
+  "hero": "Apollo",
+  "name": "Flawless Advance",
+  "quip": "",
+  "first": "Perform a series of lunges in any direction, delivering piercing stabs ahead of you.",
+  "full": "Perform a series of lunges in any direction, delivering piercing stabs ahead of you. Hold your ability key to time your attacks, dealing more damage the longer it's held. Releasing your attack during the perfect window deals maximum damage. Press 3 to re-cast."
+ },
+ "ability_fencer_ultimate": {
+  "hero": "Apollo",
+  "name": "Itani Lo Sahn",
+  "quip": "",
+  "first": "Charge up and perform a long range slash.",
+  "full": "Charge up and perform a long range slash. Struck enemies cannot take action or heal and are stuck in slow motion. When this effect expires, they suffer devastating damage, dealing bonus damage against half-health enemies. While in slow motion, Apollo is invulnerable and enemies take reduced damage. Hold 4 or M1 to delay the cast."
+ },
+ "ability_baba_bubbling_brew": {
+  "hero": "Baba",
+  "name": "Threadsap",
+  "quip": "",
+  "first": "Weave a scraggly thread that follows your crosshair before bursting along its path, dealing spirit damage and stealing enemy spirit, increased in effectiveness for Baba.",
+  "full": "Weave a scraggly thread that follows your crosshair before bursting along its path, dealing spirit damage and stealing enemy spirit, increased in effectiveness for Baba. While holding stolen spirit, Baba deals bonus spirit damage with every bullet."
+ },
+ "ability_baba_bench_run": {
+  "hero": "Baba",
+  "name": "Granny Long Legs",
+  "quip": "Granny Long Legs: jump high and kick anyone nearby with spirit-charged legs.",
+  "first": "Your bench's legs extend, granting bonus move speed, higher jumps, Debuff Resistance and Melee Resistance.",
+  "full": "Your bench's legs extend, granting bonus move speed, higher jumps, Debuff Resistance and Melee Resistance. Light Melee: Perform a kick that knocks enemies back. Heavy Melee: Perform a ground pound that applies knock up, slow, and deals spirit damage. Hold Crouch to charge a high jump, release to jump."
+ },
+ "ability_baba_hexing_brew": {
+  "hero": "Baba",
+  "name": "Baba's Brew",
+  "quip": "Brew Baba's special pot of tea, then throw it to ignite or silence enemies, or shield allies",
+  "first": "Brew a pot of tea that applies a magical effect in an area when thrown, cycling over time between a soothing combat barrier, silence, or scalding burn that deals spirit DPS and reduces spirit resist.",
+  "full": "Brew a pot of tea that applies a magical effect in an area when thrown, cycling over time between a soothing combat barrier, silence, or scalding burn that deals spirit DPS and reduces spirit resist. Press M2 to pause or resume brewing."
+ },
+ "ability_baba_ultimate_2": {
+  "hero": "Baba",
+  "name": "Feed The Birds",
+  "quip": "",
+  "first": "Cover targets in front of you with bread, adding a stacking slow.",
+  "full": "Cover targets in front of you with bread, adding a stacking slow. When the channel ends a flock of pigeons bombard the targets, dealing spirit damage and hexing each target into a pigeon, increasing in both damage and duration based on bread count."
+ },
+ "citadel_ability_uppercut": {
+  "hero": "Bebop",
+  "name": "Exploding Uppercut",
+  "quip": "Punch someone away from you",
+  "first": "Deal melee damage to nearby enemies and apply knock back.",
+  "full": "Deal melee damage to nearby enemies and apply knock back. When they land, they deal spirit damage and apply reduced fire rate to other nearby enemies. Exploding Uppercut can be used on allies."
+ },
+ "citadel_ability_sticky_bomb": {
+  "hero": "Bebop",
+  "name": "Sticky Bomb",
+  "quip": "Plant a bomb on an enemy",
+  "first": "Attach a bomb that explodes after a delay, dealing spirit damage to nearby enemies.",
+  "full": "Attach a bomb that explodes after a delay, dealing spirit damage to nearby enemies. If the bomb hits or kills a hero, you gain permanent bonus damage on Sticky Bomb. Stacks diminish by half after 60 hits and 7 kills"
+ },
+ "citadel_ability_hook": {
+  "hero": "Bebop",
+  "name": "Grapple Arm",
+  "quip": "Pull in a target to you",
+  "first": "Launch out a mechanical hand that pulls the first character it hits, reeling them in.",
+  "full": "Launch out a mechanical hand that pulls the first character it hits, reeling them in. Grapple Arm can be used on allies."
+ },
+ "citadel_ability_bebop_laser_beam": {
+  "hero": "Bebop",
+  "name": "Hyper Beam",
+  "quip": "Unleash a massive damaging beam",
+  "first": "Channel a powerful torrent of energy that deals spirit damage and applies slow.",
+  "full": "Channel a powerful torrent of energy that deals spirit damage and applies slow."
+ },
+ "ability_punkgoat_ult": {
+  "hero": "Billy",
+  "name": "Bashdown",
+  "quip": "",
+  "first": "Slam your bat into the ground, pulling enemies down and dealing melee damage.",
+  "full": "Slam your bat into the ground, pulling enemies down and dealing melee damage. The slam creates a shockwave that deals spirit damage and applies knock up."
+ },
+ "ability_punkgoat_goatflip": {
+  "hero": "Billy",
+  "name": "Rising Ram",
+  "quip": "",
+  "first": "Charge head-first into an enemy and send them into the air along with Billy.",
+  "full": "Charge head-first into an enemy and send them into the air along with Billy. Cooldown reduced by 50% on impact."
+ },
+ "ability_punkgoat_blasted": {
+  "hero": "Billy",
+  "name": "Blasted",
+  "quip": "",
+  "first": "Passive: Melee hits restore ammo and inflict wrecked on the victim for 7s.",
+  "full": "Passive: Melee hits restore ammo and inflict wrecked on the victim for 7s."
+ },
+ "ability_punkgoat_tether": {
+  "hero": "Billy",
+  "name": "Chain Gang",
+  "quip": "",
+  "first": "Chain nearby enemies to you.",
+  "full": "Chain nearby enemies to you. Chained enemies cannot use movement abilities and receive a heavy slow when they pull on the chain. After a delay, yank everyone towards Billy and deal spirit damage. The chain breaks if you lose line of sight for a short while."
+ },
+ "ability_nano_clustergrenade": {
+  "hero": "Calico",
+  "name": "Gloom Bombs",
+  "quip": "Throw out cluster bombs",
+  "first": "Throw a cluster of bombs that detonate after a delay, dealing spirit damage.",
+  "full": "Throw a cluster of bombs that detonate after a delay, dealing spirit damage. Enemies hit by multiple bombs take 65% damage."
+ },
+ "ability_nano_dash": {
+  "hero": "Calico",
+  "name": "Leaping Slash",
+  "quip": "Dash forward and slash enemies",
+  "first": "Dash forward before slashing all enemies in a circle, dealing melee damage.",
+  "full": "Dash forward before slashing all enemies in a circle, dealing melee damage. If the ability hits at least one hero, heal a small amount of health."
+ },
+ "ability_nano_catform": {
+  "hero": "Calico",
+  "name": "Ava",
+  "quip": "Take control of Ava",
+  "first": "Turn to shadows and possess Ava.",
+  "full": "Turn to shadows and possess Ava. You gain bonus move speed that increases over time, and become hidden on the minimap. Taking damage from an enemy hero resets your bonus move speed and puts Ava on a brief cooldown."
+ },
+ "ability_nano_shadow_pulse": {
+  "hero": "Calico",
+  "name": "Return to Shadows",
+  "quip": "Turn to Shadows, gaining movespeed and dealing delayed damage",
+  "first": "Instantly turn to shadows, becoming untargetable, gaining bonus move speed, and dealing spirit damage.",
+  "full": "Instantly turn to shadows, becoming untargetable, gaining bonus move speed, and dealing spirit damage. After a delay, return from the shadows, dealing spirit damage again."
+ },
+ "ability_unicorn_radiantblast": {
+  "hero": "Celeste",
+  "name": "Light Eater",
+  "quip": "",
+  "first": "Blast enemies in a cone in front of you with a flare of light.",
+  "full": "Blast enemies in a cone in front of you with a flare of light. Blasted enemies take spirit damage when attacked by Celeste and provides her spirit lifesteal."
+ },
+ "ability_unicorn_prismaticguard": {
+  "hero": "Celeste",
+  "name": "Dazzling Trick",
+  "quip": "",
+  "first": "Surround yourself in a protective prism.",
+  "full": "Surround yourself in a protective prism. If the barrier is destroyed, it silences nearby enemies and deals a portion of the barrier as damage."
+ },
+ "ability_unicorn_luminousstrike": {
+  "hero": "Celeste",
+  "name": "Radiant Daggers",
+  "quip": "",
+  "first": "Call down a beam of light from the sky.",
+  "full": "Call down a beam of light from the sky. After a short duration, the beam will fully form, causing an explosion that deals spirit damage to all targets in the area. Celeste will receive a stacking buff that increases her spirit damage anytime this hits an enemy hero."
+ },
+ "ability_unicorn_dazzlingorb": {
+  "hero": "Celeste",
+  "name": "Shining Wonder",
+  "quip": "",
+  "first": "Launch a deadly orb of light that deals spirit damage and applies slow and reduces Dash Distance on impact.",
+  "full": "Launch a deadly orb of light that deals spirit damage and applies slow and reduces Dash Distance on impact. The orb then bounces to the enemies within range. If no target is found, the orb will linger for a short duration while continuing to look for targets. Prioritizes enemy heroes when picking targets."
+ },
+ "ability_deadpack_chargeblast": {
+  "hero": "Deadman Danny",
+  "name": "Strix Salvo",
+  "quip": "",
+  "first": "Launch a salvo of spirit missiles that lodge into the ground along a line.",
+  "full": "Launch a salvo of spirit missiles that lodge into the ground along a line. The missiles explode after a delay or upon detecting an enemy, dealing spirit damage and marking the target. Shooting a marked enemy with a charged shot consumes a mark to deal bonus spirit damage and apply a fading slow. Hold and drag to select the angle."
+ },
+ "ability_deadpack_rocketeer": {
+  "hero": "Deadman Danny",
+  "name": "Chimera Mk1",
+  "quip": "",
+  "first": "Hold Jump to fly, building up heat.",
+  "full": "Hold Jump to fly, building up heat. When max heat is reached, your jetpack will begin to overheat. Overheating: After a short delay, dive to the ground. Upon impact, create an explosion that deals damage and launches you and nearby enemies. If no hero is hit, you stun yourself. Press 2 to dive early. Cooling Down: After overheating, the jetpack cannot be used until it fully cools down. Slows affect you while airborne. You always explode on death."
+ },
+ "ability_deadpack_flamethrower": {
+  "hero": "Deadman Danny",
+  "name": "Jettison Fuel",
+  "quip": "",
+  "first": "Spray fuel dealing weapon DPS and shredding bullet resist, building up to a huge backblast that deals spirit damage and knocks you backwards.",
+  "full": "Spray fuel dealing weapon DPS and shredding bullet resist, building up to a huge backblast that deals spirit damage and knocks you backwards. Vents the jetpack when dealing damage."
+ },
+ "ability_deadpack_ultimate": {
+  "hero": "Deadman Danny",
+  "name": "Close The Deal",
+  "quip": "",
+  "first": "Grab an enemy and give them a hands-on demonstration, flying high into the air before crashing back to the ground.",
+  "full": "Grab an enemy and give them a hands-on demonstration, flying high into the air before crashing back to the ground. You and the participant take spirit DPS while falling and spirit damage upon impact. Damage is increased to enemies under 50% health."
+ },
+ "drifter_blood_blast": {
+  "hero": "Drifter",
+  "name": "Rend",
+  "quip": "",
+  "first": "Swipe at enemies in a cone ahead of you, dealing spirit damage.",
+  "full": "Swipe at enemies in a cone ahead of you, dealing spirit damage. If the enemy is in close range, deal bonus melee damage."
+ },
+ "drifter_shadow_mark": {
+  "hero": "Drifter",
+  "name": "Stalker's Mark",
+  "quip": "",
+  "first": "Send out a mark that bleeds the first target it hits, dealing spirit DPS.",
+  "full": "Send out a mark that bleeds the first target it hits, dealing spirit DPS. While the enemy is bleeding you can re-activate Stalker's Mark to instantly appear behind their back."
+ },
+ "ability_drifter_hunger": {
+  "hero": "Drifter",
+  "name": "Bloodscent",
+  "quip": "",
+  "first": "Accentuate your senses, revealing a trail that leads to nearby heroes.",
+  "full": "Accentuate your senses, revealing a trail that leads to nearby heroes. Isolated heroes leave a trail as they move, and emit their heartbeat from afar. You deal amplified damage against isolated heroes, and when isolated heroes die nearby you gain permanent weapon damage."
+ },
+ "drifter_darkness": {
+  "hero": "Drifter",
+  "name": "Eternal Night",
+  "quip": "",
+  "first": "Surround nearby enemy heroes in darkness, severely limiting their vision of other units.",
+  "full": "Surround nearby enemy heroes in darkness, severely limiting their vision of other units. Affected enemies are briefly revealed to you and are considered isolated for the duration. You gain bonus sprint speed."
+ },
+ "citadel_ability_stomp": {
+  "hero": "Dynamo",
+  "name": "Kinetic Pulse",
+  "quip": "Release a ground pulse that knocks enemies into the air",
+  "first": "Release an energy pulse that travels along the ground, dealing spirit damage and applying knock up.",
+  "full": "Release an energy pulse that travels along the ground, dealing spirit damage and applying knock up."
+ },
+ "citadel_ability_void_sphere": {
+  "hero": "Dynamo",
+  "name": "Quantum Entanglement",
+  "quip": "Blink in and out of existence",
+  "first": "Briefly become untargetable while teleporting to the target location.",
+  "full": "Briefly become untargetable while teleporting to the target location. Restores stamina upon use. Alt-Cast: Bring nearby allies with you."
+ },
+ "citadel_ability_nikuman": {
+  "hero": "Dynamo",
+  "name": "Rejuvenating Aurora",
+  "quip": "Heal yourself and those around you",
+  "first": "While channeling, restore health over time to you and any allies nearby.",
+  "full": "While channeling, restore health over time to you and any allies nearby. You can dash and melee without breaking the channel."
+ },
+ "citadel_ability_self_vacuum": {
+  "hero": "Dynamo",
+  "name": "Singularity",
+  "quip": "Pull in and stun the enemy team",
+  "first": "Create a singularity in your hands, dealing spirit DPS, applying stun, and pulling in nearby enemies.",
+  "full": "Create a singularity in your hands, dealing spirit DPS, applying stun, and pulling in nearby enemies."
+ },
+ "ability_necro_hauntingskull": {
+  "hero": "Graves",
+  "name": "Jar of Dead",
+  "quip": "",
+  "first": "Passive: Collect death when anything dies nearby and store it in your Jar of Dead.",
+  "full": "Passive: Collect death when anything dies nearby and store it in your Jar of Dead. Active: Throw a jar to summon Deadheads that repeatedly deal spirit damage to enemies. Deadheads follow you instead if there's no nearby enemies, and prioritize the target of your weapon."
+ },
+ "ability_necro_zombiewall": {
+  "hero": "Graves",
+  "name": "Grasping Hands",
+  "quip": "",
+  "first": "Unearth a line of grasping hands, summoning a Ghoul and leaving behind a rift.",
+  "full": "Unearth a line of grasping hands, summoning a Ghoul and leaving behind a rift. Enemies who pass through take spirit damage and receive immobilize. Alt-Cast rotates the orientation of the wall."
+ },
+ "ability_necro_fear": {
+  "hero": "Graves",
+  "name": "Essence Theft",
+  "quip": "",
+  "first": "Your weapon steals weapon damage and spirit resist over time, up to a maximum amount per target.",
+  "full": "Your weapon steals weapon damage and spirit resist over time, up to a maximum amount per target."
+ },
+ "ability_necro_gravestone": {
+  "hero": "Graves",
+  "name": "Borrowed Decree",
+  "quip": "",
+  "first": "Innate: Abilities can summon Ghouls that shamble toward the enemy base, dealing melee damage.",
+  "full": "Innate: Abilities can summon Ghouls that shamble toward the enemy base, dealing melee damage. They explode when they approach a hero or objective, dealing spirit damage in an area and applying a brief slow Active: Create a gravestone at a target location that summons Ghouls over time. Enemies can destroy the gravestone with two heavy melees."
+ },
+ "ability_charged_shot": {
+  "hero": "Grey Talon",
+  "name": "Charged Shot",
+  "quip": "Charge up a long range shot",
+  "first": "Charge up a powerful shot that pierces through enemies.",
+  "full": "Charge up a powerful shot that pierces through enemies. Hold 1 or M1 to hold the shot."
+ },
+ "ability_power_jump": {
+  "hero": "Grey Talon",
+  "name": "Rain of Arrows",
+  "quip": "Jump high up in the air and unleash multishots",
+  "first": "Launches you high in the air, allowing you to glide slowly.",
+  "full": "Launches you high in the air, allowing you to glide slowly. While airborne, you gain Weapon Damage and multishot on your weapon. Alt-Cast for reduced jump height. Press Jump to cancel the glide."
+ },
+ "ability_immobilize_trap": {
+  "hero": "Grey Talon",
+  "name": "Spirit Snare",
+  "quip": "Place a trap that restricts enemy movement",
+  "first": "Throw out a trap that begins to arm itself.",
+  "full": "Throw out a trap that begins to arm itself. Once armed, the trap will trigger when an enemy enters its radius, applying Curse and Movement Slow that interrupts, Silences, Disarms, and prevents item usage. Hit the trap with a Charged Shot to detonate early with increased radius."
+ },
+ "ability_guided_arrow": {
+  "hero": "Grey Talon",
+  "name": "Guided Owl",
+  "quip": "Fly your owl to damage enemies from afar",
+  "first": "After 1.5s cast time, launch a spirit owl that you control and which explodes on impact, damaging and stunning enemies.",
+  "full": "After 1.5s cast time, launch a spirit owl that you control and which explodes on impact, damaging and stunning enemies. Hold Forward to accelerate the owl. Press Jump to release control. Gain permanent Spirit Power for each enemy hero killed with Guided Owl."
+ },
+ "ability_sleep_dagger": {
+  "hero": "Haze",
+  "name": "Sleep Dagger",
+  "quip": "Put an enemy to sleep",
+  "first": "Throw a dagger that damages and sleeps the target.",
+  "full": "Throw a dagger that damages and sleeps the target. Sleeping targets wake up shortly after being damaged. Throwing a Dagger does not break your invisibility. Sleep Dagger does not interrupt enemies' channeling abilities."
+ },
+ "ability_smoke_bomb": {
+  "hero": "Haze",
+  "name": "Smoke Bomb",
+  "quip": "Fade out of sight",
+  "first": "Fade out of sight, becoming invisible and gaining sprint speed.",
+  "full": "Fade out of sight, becoming invisible and gaining sprint speed. Attacking removes invisibility, but using items does not. Close enemies can see through your invisibility."
+ },
+ "ability_stacking_damage": {
+  "hero": "Haze",
+  "name": "Fixation",
+  "quip": "Deal increasing bullet damage to a target",
+  "first": "Shooting a target increases your bullet damage on that target.",
+  "full": "Shooting a target increases your bullet damage on that target. Gain one stack per bullet hit, three if the hit is a headshot."
+ },
+ "ability_bullet_flurry": {
+  "hero": "Haze",
+  "name": "Bullet Dance",
+  "quip": "Unleash a flurry of bullets around you",
+  "first": "Enter a flurry, firing your weapon at nearby enemies with perfect accuracy and added Bullet Damage.",
+  "full": "Enter a flurry, firing your weapon at nearby enemies with perfect accuracy and added Bullet Damage."
+ },
+ "ability_explosive_barrel": {
+  "hero": "Holliday",
+  "name": "Powder Keg",
+  "quip": "Throw a barrel that explodes when shot",
+  "first": "Throw a barrel that explodes after a delay, dealing spirit damage, setting enemies on fire and applying knock up.",
+  "full": "Throw a barrel that explodes after a delay, dealing spirit damage, setting enemies on fire and applying knock up. The barrel can be detonated early by being shot, melee'd, or detonated by another barrel. The burn stacks, so overlapping barrels burn for their combined damage. Can be Alt-Cast to place the barrel in front of Holliday."
+ },
+ "ability_bounce_pad": {
+  "hero": "Holliday",
+  "name": "Bounce Pad",
+  "quip": "Send yourself and others flying",
+  "first": "Drop a bounce pad in the world that launches any hero.",
+  "full": "Drop a bounce pad in the world that launches any hero. You explode on landing, dealing Damage to any nearby enemies. The explosion can only occur once per person per Bounce Pad."
+ },
+ "ability_crackshot": {
+  "hero": "Holliday",
+  "name": "Crackshot",
+  "quip": "Deal bonus damage with headshots",
+  "first": "Headshots deal bonus Damage and applies a Fading Move Speed penalty.",
+  "full": "Headshots deal bonus Damage and applies a Fading Move Speed penalty. This effect can only occur when off cooldown. Cooldown is reduced by 50% on NPC hits. Crackshot ignores range damage fall-off and does not apply to objectives."
+ },
+ "ability_gravity_lasso": {
+  "hero": "Holliday",
+  "name": "Spirit Lasso",
+  "quip": "Grab an enemy and drag them behind you",
+  "first": "Throw out your lasso, dealing spirit damage, pulling, and applying stun.",
+  "full": "Throw out your lasso, dealing spirit damage, pulling, and applying stun. Using a Bounce Pad extends the duration of Spirit Lasso."
+ },
+ "ability_incendiary_projectile": {
+  "hero": "Infernus",
+  "name": "Napalm",
+  "quip": "Spew napalm that amplifies your damage",
+  "first": "Spew an incendiary mixture, dealing spirit damage, applying slow, and coating targets in napalm.",
+  "full": "Spew an incendiary mixture, dealing spirit damage, applying slow, and coating targets in napalm."
+ },
+ "ability_flame_dash": {
+  "hero": "Infernus",
+  "name": "Flame Dash",
+  "quip": "Blaze forward, leaving a flame trail in your wake",
+  "first": "Dash forward, gaining slow resistance while leaving a flaming trail that deals spirit DPS.",
+  "full": "Dash forward, gaining slow resistance while leaving a flaming trail that deals spirit DPS. Hold Forward while active to dash farther."
+ },
+ "ability_afterburn": {
+  "hero": "Infernus",
+  "name": "Afterburn",
+  "quip": "Shoot enemies to set them on fire",
+  "first": "Weapon hits build up a burning effect, dealing spirit DPS.",
+  "full": "Weapon hits build up a burning effect, dealing spirit DPS. Abilities refresh to the base burn duration and weapon hits extend it."
+ },
+ "ability_fire_bomb": {
+  "hero": "Infernus",
+  "name": "Concussive Combustion",
+  "quip": "Stun all nearby enemies after a short delay",
+  "first": "Become a living bomb, dealing spirit damage and applying stun to all nearby enemies after a delay.",
+  "full": "Become a living bomb, dealing spirit damage and applying stun to all nearby enemies after a delay. Once cast, Concussive Combustion cannot be interrupted."
+ },
+ "citadel_ability_tengu_urn": {
+  "hero": "Ivy",
+  "name": "Entangling Thorns",
+  "quip": "Damage and slow enemies in the area",
+  "first": "Summon a patch of choking thorns that damages and slows enemies in its radius.",
+  "full": "Summon a patch of choking thorns that damages and slows enemies in its radius."
+ },
+ "citadel_ability_tangotether": {
+  "hero": "Ivy",
+  "name": "Kudzu Connection",
+  "quip": "Empower yourself and a nearby ally",
+  "first": "Connect with a nearby ally to gain bonuses, replicated healing, and ignore the move speed penalty while shooting.",
+  "full": "Connect with a nearby ally to gain bonuses, replicated healing, and ignore the move speed penalty while shooting. Receive 50% of Bonuses with no connection Connection requires line of sight."
+ },
+ "citadel_ability_tengu_stone_form": {
+  "hero": "Ivy",
+  "name": "Stone Form",
+  "quip": "Turn into impervious stone and stun enemies nearby",
+  "first": "Turn yourself into impervious stone and smash into the ground, stunning and damaging enemies nearby.",
+  "full": "Turn yourself into impervious stone and smash into the ground, stunning and damaging enemies nearby. Heals you for a percentage of your max health."
+ },
+ "citadel_ability_tengu_airlift": {
+  "hero": "Ivy",
+  "name": "Air Drop",
+  "quip": "Death from Above! Fly and drop an ally on enemies",
+  "first": "Grab an ally and take flight with them.",
+  "full": "Grab an ally and take flight with them. Drop your ally to cause an explosion, dealing spirit damage. You and your ally gain increased Outgoing Damage when flying ends. Cooldown reduced by 30% when used on allies. Taking damage briefly disables using the ability. While lifted, your ally cannot attack and deals -20% damage."
+ },
+ "ability_ice_grenade": {
+  "hero": "Kelvin",
+  "name": "Frost Grenade",
+  "quip": "Damage and slow enemies",
+  "first": "Throw a grenade that explodes in a cloud of freezing ice that heals allies and applies spirit damage and move speed reduction to enemies.",
+  "full": "Throw a grenade that explodes in a cloud of freezing ice that heals allies and applies spirit damage and move speed reduction to enemies."
+ },
+ "ability_icepath": {
+  "hero": "Kelvin",
+  "name": "Ice Path",
+  "quip": "Speed around on a floating path of ice",
+  "first": "Kelvin creates a floating trail of ice and snow that gives movement bonuses to him and his allies.",
+  "full": "Kelvin creates a floating trail of ice and snow that gives movement bonuses to him and his allies. Kelvin gains 60% slow resistance for the duration. Enemies can also walk on the floating trail. Press Dash / Crouch to travel up or down while in Ice Path."
+ },
+ "ability_icebeam": {
+  "hero": "Kelvin",
+  "name": "Arctic Beam",
+  "quip": "Apply an escalating slow",
+  "first": "Shoot freezing cold energy out in front of you, damaging targets and progressively reducing their movement and fire rate the longer you sustain the beam on them.",
+  "full": "Shoot freezing cold energy out in front of you, damaging targets and progressively reducing their movement and fire rate the longer you sustain the beam on them. You have reduced move speed while using Arctic Beam. The beam may also claim Souls."
+ },
+ "ability_ice_dome": {
+  "hero": "Kelvin",
+  "name": "Frozen Shelter",
+  "quip": "Create an impenetrable healing dome",
+  "first": "Target yourself or a Hero to freeze the air and create an impenetrable dome around them.",
+  "full": "Target yourself or a Hero to freeze the air and create an impenetrable dome around them. While in the dome, allies gain rapid regen and enemies are slowed. Objectives become Invulnerable and Frozen under Frozen Shelter"
+ },
+ "ability_blood_bomb": {
+  "hero": "Lady Geist",
+  "name": "Essence Bomb",
+  "quip": "Sacrifice some health to launch a damaging bomb",
+  "first": "Sacrifice some of your health to launch a bomb that deals damage after a brief arm time.",
+  "full": "Sacrifice some of your health to launch a bomb that deals damage after a brief arm time. Self damage type is Spirit and can be mitigated."
+ },
+ "ability_life_drain": {
+  "hero": "Lady Geist",
+  "name": "Life Drain",
+  "quip": "Steal health from an enemy over time",
+  "first": "Create a tether that drains enemy health over time and heals you.",
+  "full": "Create a tether that drains enemy health over time and heals you. Target must be in line of sight and within max range to drain. You can shoot and use other abilities during the drain, but your move speed is reduced. Alt-Cast to give health to friendly Heroes."
+ },
+ "ability_blood_shards": {
+  "hero": "Lady Geist",
+  "name": "Malice",
+  "quip": "Stack damage amplification on an enemy",
+  "first": "Sacrifice some of your health to launch blood shards that apply a stack of Malice.",
+  "full": "Sacrifice some of your health to launch blood shards that apply a stack of Malice. Each stack slows the victim and increases the damage they take from you. The slow effect decreases over time."
+ },
+ "ability_health_swap": {
+  "hero": "Lady Geist",
+  "name": "Soul Exchange",
+  "quip": "Swap your current health with an enemy hero's",
+  "first": "Swaps health levels with an enemy target.",
+  "full": "Swaps health levels with an enemy target. There is a minimum health percentage that enemies can be brought down to and a minimum amount of health received based on victims current health."
+ },
+ "citadel_ability_lash_down_strike": {
+  "hero": "Lash",
+  "name": "Ground Strike",
+  "quip": "Slam down to the ground, damaging enemies",
+  "first": "Stomp the ground beneath you, damaging enemies in front of you.",
+  "full": "Stomp the ground beneath you, damaging enemies in front of you. If you perform Ground Strike while airborne, you quickly dive towards the ground. Damage grows slower after 25m."
+ },
+ "citadel_ability_lash": {
+  "hero": "Lash",
+  "name": "Grapple",
+  "quip": "Use your whip to pull yourself to an enemy",
+  "first": "Pull yourself through the air toward a target.",
+  "full": "Pull yourself through the air toward a target. Using Grapple also resets your limit of air jumps and dashes."
+ },
+ "ability_lash_flog": {
+  "hero": "Lash",
+  "name": "Flog",
+  "quip": "Heals from targets ahead of you",
+  "first": "Strike enemies in front of you with your whip, healing for a portion of the damage dealt.",
+  "full": "Strike enemies in front of you with your whip, healing for a portion of the damage dealt."
+ },
+ "citadel_ability_lash_ultimate": {
+  "hero": "Lash",
+  "name": "Death Slam",
+  "quip": "Lift enemies and smash them into the ground",
+  "first": "Focus on enemies to connect whips to them.",
+  "full": "Focus on enemies to connect whips to them. After channeling, connected enemies are lifted and stunned then slammed into the ground. Your victims and any enemies in the landing zone will be damaged and slowed. Press M1 to throw connected enemies early. Enemies that are not in line of sight or go out of range during the latch time will not be grabbed."
+ },
+ "citadel_ability_shieldedsentry": {
+  "hero": "McGinnis",
+  "name": "Mini Turret",
+  "quip": "Deploy an automated turret",
+  "first": "Deploy a turret that shoots enemies, dealing spirit DPS.",
+  "full": "Deploy a turret that shoots enemies, dealing spirit DPS. The turret expires after a limited lifetime. Turrets deal reduced damage to troopers and objectives."
+ },
+ "citadel_ability_mobile_resupply": {
+  "hero": "McGinnis",
+  "name": "Medicinal Specter",
+  "quip": "Deploy a healing spirit",
+  "first": "Deploy a spirit that provides healing to nearby allies.",
+  "full": "Deploy a spirit that provides healing to nearby allies."
+ },
+ "citadel_ability_fissure_wall": {
+  "hero": "McGinnis",
+  "name": "Spectral Wall",
+  "quip": "Conjure a wall to block your foes",
+  "first": "Cast a wall that applies slow on enemies it passes through.",
+  "full": "Cast a wall that applies slow on enemies it passes through. Erupt the wall to divide the terrain in half and damage nearby enemies. After casting, press M1 or 3 to erupt the wall early. Can be Destroyed with Melee Attacks"
+ },
+ "citadel_ability_rocket_barrage": {
+  "hero": "McGinnis",
+  "name": "Heavy Barrage",
+  "quip": "Bombard an area with rockets",
+  "first": "Unleashes a volley of rockets that home in on a targeted location.",
+  "full": "Unleashes a volley of rockets that home in on a targeted location. McGinnis is slowed and is still able to use stamina."
+ },
+ "ability_vampirebat_steallife": {
+  "hero": "Mina",
+  "name": "Rake",
+  "quip": "",
+  "first": "Slash with your umbrella, dealing spirit damage, increasing with their missing health.",
+  "full": "Slash with your umbrella, dealing spirit damage, increasing with their missing health. Receive a heal for every target killed. Passive: Holding M2 causes you to briefly float. Rake executes non-heroes below 60 health."
+ },
+ "ability_vampirebat_batblink": {
+  "hero": "Mina",
+  "name": "Sanguine Retreat",
+  "quip": "",
+  "first": "Briefly disperse, becoming untargetable and flying to a target location.",
+  "full": "Briefly disperse, becoming untargetable and flying to a target location. Can be recast within a brief window."
+ },
+ "ability_vampirebat_lovebites": {
+  "hero": "Mina",
+  "name": "Love Bites",
+  "quip": "",
+  "first": "Your bullets apply additional spirit damage.",
+  "full": "Your bullets apply additional spirit damage. Dealing damage with your abilities builds up to a vicious bite, dealing a burst of bonus spirit damage. Love Bites has a unique cooldown per target."
+ },
+ "ability_vampirebat_batswarm": {
+  "hero": "Mina",
+  "name": "Nox Nostra",
+  "quip": "",
+  "first": "Unleash a cloud of bats that seek out targets, each dealing spirit damage and applying silence.",
+  "full": "Unleash a cloud of bats that seek out targets, each dealing spirit damage and applying silence. Passive: Triggering Love Bites against heroes permanently increases the number of bats released."
+ },
+ "mirage_fire_beetles": {
+  "hero": "Mirage",
+  "name": "Fire Scarabs",
+  "quip": "Send out scarabs that steal life from enemies",
+  "first": "Infest an enemy with fire scarabs, stealing life from them and causing them to deal reduced damage.",
+  "full": "Infest an enemy with fire scarabs, stealing life from them and causing them to deal reduced damage."
+ },
+ "mirage_tornado": {
+  "hero": "Mirage",
+  "name": "Dust Devil",
+  "quip": "Transform yourself into a whirlwind that lifts enemies",
+  "first": "Transform yourself into a whirlwind that travels forward, damaging enemies, slowing their move speed and lifting them up in the air.",
+  "full": "Transform yourself into a whirlwind that travels forward, damaging enemies, slowing their move speed and lifting them up in the air. After emerging from the tornado you gain bullet evasion."
+ },
+ "mirage_sand_phantom": {
+  "hero": "Mirage",
+  "name": "Djinn's Mark",
+  "quip": "Apply marks of escalating damage",
+  "first": "Consume all Djinn Marks to deal their damage now.",
+  "full": "Consume all Djinn Marks to deal their damage now."
+ },
+ "mirage_teleport": {
+  "hero": "Mirage",
+  "name": "Traveler",
+  "quip": "Teleport to an ally or enemy hero",
+  "first": "Target a location on the minimap.",
+  "full": "Target a location on the minimap. After a brief wait, teleport to that location. Taking damage during the wait period causes the teleport to be interrupted."
+ },
+ "ability_intimidate": {
+  "hero": "Mo & Krill",
+  "name": "Scorn",
+  "quip": "Damage enemies nearby, healing from each hit",
+  "first": "Deal damage to nearby enemies and heal yourself based on the damage done.",
+  "full": "Deal damage to nearby enemies and heal yourself based on the damage done. Heal is stronger against enemy heroes."
+ },
+ "ability_burrow": {
+  "hero": "Mo & Krill",
+  "name": "Burrow",
+  "quip": "Travel underground, emerging with spin damage",
+  "first": "Burrow underground, moving faster, and gaining spirit and bullet armor.",
+  "full": "Burrow underground, moving faster, and gaining spirit and bullet armor. Damage from enemy heroes will reduce the speed bonus. When you jump out, deal spirit damage, slow, and knock up."
+ },
+ "ability_throw_sand": {
+  "hero": "Mo & Krill",
+  "name": "Sand Blast",
+  "quip": "Disarm enemies in front of you",
+  "first": "Spray sand that disarms enemies in front of you and deals damage.",
+  "full": "Spray sand that disarms enemies in front of you and deals damage."
+ },
+ "ability_ult_combo": {
+  "hero": "Mo & Krill",
+  "name": "Combo",
+  "quip": "Hold the enemy hero in place and pummel them",
+  "first": "Hold the target in place, stunning them and dealing damage during the channel.",
+  "full": "Hold the target in place, stunning them and dealing damage during the channel. If they die during, or within 3 seconds of Combo ending, you permanently gain max health."
+ },
+ "ability_nurse_leech_therapy": {
+  "hero": "Nurse Harrow",
+  "name": "Leech Therapy",
+  "quip": "",
+  "first": "Throw a jar of leeches that attach to enemies, dealing spirit DPS and eating away at the duration of enemy buffs.",
+  "full": "Throw a jar of leeches that attach to enemies, dealing spirit DPS and eating away at the duration of enemy buffs."
+ },
+ "ability_nurse_adrenaline_rush": {
+  "hero": "Nurse Harrow",
+  "name": "Wretched Vapors",
+  "quip": "",
+  "first": "Crack open a vial to release an ethereal vapor onto yourself or an ally that causes a rush, then a crash.",
+  "full": "Crack open a vial to release an ethereal vapor onto yourself or an ally that causes a rush, then a crash. Specter Rush: While it lasts, increases the speed of all actions and temporarily numbs all incoming damage creating looming specters. Specter Crash: When the vapors wear off, all actions are slower and any remaining specters deal their delayed damage plus extra damage. Incoming healing will prioritize removing specters first, preventing them from dealing damage."
+ },
+ "ability_nurse_healing_needles": {
+  "hero": "Nurse Harrow",
+  "name": "Healing Needles",
+  "quip": "",
+  "first": "Load your weapon with a full clip of syringes that heal allies.",
+  "full": "Load your weapon with a full clip of syringes that heal allies. Dealing damage recovers charges, and each leech you have collected slowly restores them. Reloading spends a charge for a fresh clip. Unused syringes are refunded as a partial charge. Recast to put them away."
+ },
+ "ability_nurse_fear": {
+  "hero": "Nurse Harrow",
+  "name": "Lurking Terrors",
+  "quip": "",
+  "first": "Open your bag and reveal the horrors you carry inside, dealing spirit DPS to enemies in front of you.",
+  "full": "Open your bag and reveal the horrors you carry inside, dealing spirit DPS to enemies in front of you. Enemies looking at you build up terror and cannot use stamina or movement abilities. At max terror, they flee in fear away from you. Each leech you have collected adds fear duration. Enemies facing away from you take 50% damage unless feared."
+ },
+ "ability_bookworm_dragonfire": {
+  "hero": "Paige",
+  "name": "Bookwyrm",
+  "quip": "",
+  "first": "Conjure a dragon that appears at the target location before flying forward, dealing spirit damage and leaving a burning path in its trail.",
+  "full": "Conjure a dragon that appears at the target location before flying forward, dealing spirit damage and leaving a burning path in its trail."
+ },
+ "ability_bookworm_knightbarrier": {
+  "hero": "Paige",
+  "name": "Plot Armor",
+  "quip": "",
+  "first": "Grant an ally a combat barrier.",
+  "full": "Grant an ally a combat barrier. While the barrier holds, they gain bonus weapon damage."
+ },
+ "ability_bookworm_aoemagic": {
+  "hero": "Paige",
+  "name": "Captivating Read",
+  "quip": "",
+  "first": "Target an area with latent magic, applying slow.",
+  "full": "Target an area with latent magic, applying slow. The magic detonates after a delay, dealing spirit damage and applying immobilize."
+ },
+ "ability_bookworm_knightcharge": {
+  "hero": "Paige",
+  "name": "Rallying Charge",
+  "quip": "",
+  "first": "Release a wave of spectral knights and steeds that charge across the entire city, healing allies and dealing spirit damage to enemies.",
+  "full": "Release a wave of spectral knights and steeds that charge across the entire city, healing allies and dealing spirit damage to enemies. The strength of the heal and spirit damage is amplified as the knights travel further."
+ },
+ "citadel_ability_chrono_pulse_grenade": {
+  "hero": "Paradox",
+  "name": "Pulse Grenade",
+  "quip": "Throw a grenade that pulses, dealing damage and time slowing",
+  "first": "Throw a grenade that begins pulsing when it lands.",
+  "full": "Throw a grenade that begins pulsing when it lands. Each pulse expands the radius and applies spirit damage, time slow, and stacking damage amp for Paradox against the victim."
+ },
+ "citadel_ability_chrono_time_wall": {
+  "hero": "Paradox",
+  "name": "Time Wall",
+  "quip": "Create a wall that greatly slows projectiles",
+  "first": "Create a time warping wall that stops time for all enemy projectiles and bullets that touch it and increases the speed and damage of friendly bullets.",
+  "full": "Create a time warping wall that stops time for all enemy projectiles and bullets that touch it and increases the speed and damage of friendly bullets. Enemies that touch the wall will be briefly slowed."
+ },
+ "citadel_ability_chrono_kinetic_carbine": {
+  "hero": "Paradox",
+  "name": "Kinetic Carbine",
+  "quip": "Charge up your weapon to deal high damage and timestop",
+  "first": "Charge up a powerful shot of time energy, dealing spirit damage and applying a Time-Stop to enemies hit.",
+  "full": "Charge up a powerful shot of time energy, dealing spirit damage and applying a Time-Stop to enemies hit. The damage dealt increases with weapon damage. Move speed is increased while charging. While in the air and charging, M2 to timeslow your movement."
+ },
+ "citadel_ability_chrono_swap": {
+  "hero": "Paradox",
+  "name": "Paradoxical Swap",
+  "quip": "Swap positions with an enemy hero.",
+  "first": "Fire a projectile that swaps your position with the target enemy hero.",
+  "full": "Fire a projectile that swaps your position with the target enemy hero."
+ },
+ "synth_barrage": {
+  "hero": "Pocket",
+  "name": "Barrage",
+  "quip": "Air glide while firing multiple projectiles",
+  "first": "Channel to start launching projectiles that deal spirit damage and apply slow around their impact point.",
+  "full": "Channel to start launching projectiles that deal spirit damage and apply slow around their impact point. Projectiles that hit a hero grant Pocket damage amp that stacks. Casting while airborne will cause Pocket to float. Casting AirDash or Flying Cloak will not cancel Barrage."
+ },
+ "synth_plasma_flux": {
+  "hero": "Pocket",
+  "name": "Flying Cloak",
+  "quip": "Launch a damaging cloak that you can teleport to",
+  "first": "Launch a sentient cloak that travels forward and damages enemies.",
+  "full": "Launch a sentient cloak that travels forward and damages enemies. You can press 2 to teleport to its location."
+ },
+ "synth_pulse": {
+  "hero": "Pocket",
+  "name": "Enchanter's Satchel",
+  "quip": "Briefly escape into your suitcase, then deal damage",
+  "first": "Escape into your suitcase.",
+  "full": "Escape into your suitcase. When the duration ends, deal spirit damage to nearby enemies. Duration can be ended early by performing any action."
+ },
+ "synth_affliction": {
+  "hero": "Pocket",
+  "name": "Affliction",
+  "quip": "Apply damage over time to enemies nearby",
+  "first": "Applies spirit icondamage over time to enemies nearby.",
+  "full": "Applies spirit icondamage over time to enemies nearby. Affliction's damage is non-lethal and does not apply item procs."
+ },
+ "ability_ratking_scrap_grenade": {
+  "hero": "Rat King",
+  "name": "Scrap Grenade",
+  "quip": "",
+  "first": "Throw a grenade of scrap that detonates multiple times, dealing bullet damage and applying slow.",
+  "full": "Throw a grenade of scrap that detonates multiple times, dealing bullet damage and applying slow. The grenade can be meleed to knock it away."
+ },
+ "ability_ratking_ratnibble": {
+  "hero": "Rat King",
+  "name": "Rat Swarm",
+  "quip": "",
+  "first": "Call forth a swarm of rats that leap onto enemies, dealing spirit DPS and reducing their bullet resist with every bite.",
+  "full": "Call forth a swarm of rats that leap onto enemies, dealing spirit DPS and reducing their bullet resist with every bite. The more rats are attached, the faster they will bite the target. Enemies can have multiple rats attached, but can shake off a rat early by performing a ground or air dash."
+ },
+ "ability_ratking_ratarmor": {
+  "hero": "Rat King",
+  "name": "Royal Pestments",
+  "quip": "",
+  "first": "Adorn scrappy armor, gaining combat barrier based on your max health.",
+  "full": "Adorn scrappy armor, gaining combat barrier based on your max health. As long as the armor holds, bullets have a chance to be deflected back towards the attacker. The barrier does not benefit from resists."
+ },
+ "ability_ratking_standard_bearer": {
+  "hero": "Rat King",
+  "name": "Rule, Ratannia!",
+  "quip": "",
+  "first": "Charge up and summon the banner of Ratannia, granting all nearby allies increased move speed, immunity from slows, and reduced incoming damage while near the banner.",
+  "full": "Charge up and summon the banner of Ratannia, granting all nearby allies increased move speed, immunity from slows, and reduced incoming damage while near the banner."
+ },
+ "ability_familiar_ability02": {
+  "hero": "Rem",
+  "name": "Pillow Toss",
+  "quip": "",
+  "first": "Throw your trusty pillow inflicting spirit damage and heavy knock back.",
+  "full": "Throw your trusty pillow inflicting spirit damage and heavy knock back. Landing hits reduces the cooldown of your other abilities."
+ },
+ "ability_familiar_attach": {
+  "hero": "Rem",
+  "name": "Tag Along",
+  "quip": "",
+  "first": "Jump to an ally and nap alongside them.",
+  "full": "Jump to an ally and nap alongside them. Both you and the ally receive a burst heal based on missing health followed by lingering regen. Hop between allies with 2 to apply the heal, once per ally. You are knocked off if stunned by an ultimate ability. You can use items and all self-casts target your ally instead."
+ },
+ "ability_familiar_helpinghands": {
+  "hero": "Rem",
+  "name": "Lil Helpers",
+  "quip": "",
+  "first": "Signal a Helper to lend a hand.",
+  "full": "Signal a Helper to lend a hand. They can collect boxes, do Sinner's Sacrifices, or be sent to support allies and troopers. Follow a hero: Provides a short burst of spirit resist and fading move speed. Follow a trooper: Provides healing, damage, resists, and allows tagging along. When no hero is around, souls from trooper kills are split amongst the team. Can be cast during Tag Along. Helpers will take a nap for 15.1s after following someone."
+ },
+ "ability_familiar_ability01": {
+  "hero": "Rem",
+  "name": "Naptime",
+  "quip": "",
+  "first": "Cast your gaze forward, piercing walls and floors.",
+  "full": "Cast your gaze forward, piercing walls and floors. Enemies in the gaze are slowed, have reduced dash distance, and cannot use movement abilities. When the channel ends they fall asleep before waking up to a splitting headache that deals heavy spirit damage."
+ },
+ "citadel_ability_lightning_ball": {
+  "hero": "Seven",
+  "name": "Lightning Ball",
+  "quip": "Launch a damaging ball of lightning",
+  "first": "Shoot a ball of lightning that travels in a straight line.",
+  "full": "Shoot a ball of lightning that travels in a straight line. Does damage to all targets in its radius. Slows down when damaging enemies and stops if it hits the world."
+ },
+ "citadel_ability_static_charge": {
+  "hero": "Seven",
+  "name": "Static Charge",
+  "quip": "Apply a delayed area stun to an enemy hero",
+  "first": "Apply a charge to a target enemy hero.",
+  "full": "Apply a charge to a target enemy hero. After a short duration, the static charge stuns and damages enemies within the radius."
+ },
+ "ability_power_surge": {
+  "hero": "Seven",
+  "name": "Power Surge",
+  "quip": "Create electric arcs with your shots",
+  "first": "Power up your weapon with a shock effect, making your bullets proc shock damage on your target.",
+  "full": "Power up your weapon with a shock effect, making your bullets proc shock damage on your target. This shock damage bounces to enemies near your target. Occurs once per burst shot."
+ },
+ "citadel_ability_storm_cloud": {
+  "hero": "Seven",
+  "name": "Storm Cloud",
+  "quip": "Fry all enemies in a large area",
+  "first": "Channel an expanding storm cloud around you that damages all enemies within its radius.",
+  "full": "Channel an expanding storm cloud around you that damages all enemies within its radius. Enemies do not take damage when they are out of line-of-sight."
+ },
+ "citadel_ability_shiv_dagger": {
+  "hero": "Shiv",
+  "name": "Serrated Knives",
+  "quip": "Apply stacking bleed to the target",
+  "first": "Throw a knife that bleeds an enemy.",
+  "full": "Throw a knife that bleeds an enemy. Each additional hit adds a stack and refreshes the bleed duration, causing the bleed to increase per stack."
+ },
+ "citadel_ability_shiv_dash": {
+  "hero": "Shiv",
+  "name": "Slice and Dice",
+  "quip": "Dash ahead, damaging all enemies along the path",
+  "first": "Perform a dash forward, damaging enemies along the path.",
+  "full": "Perform a dash forward, damaging enemies along the path. Hit Enemies have their spirit resist reduced. This debuff can stack."
+ },
+ "citadel_ability_shiv_defer_damage": {
+  "hero": "Shiv",
+  "name": "Bloodletting",
+  "quip": "Defer a portion of damage taken",
+  "first": "Take only a portion of incoming damage immediately and defer the rest to be taken over time.",
+  "full": "Take only a portion of incoming damage immediately and defer the rest to be taken over time. Activate to clear a portion of the deferred damage."
+ },
+ "citadel_ability_shiv_killing_blow": {
+  "hero": "Shiv",
+  "name": "Killing Blow",
+  "quip": "Travel to a low health hero and instantly kill it",
+  "first": "Leap forward, dealing spirit damage to the first enemy hero.",
+  "full": "Leap forward, dealing spirit damage to the first enemy hero. If they are below the kill threshold, execute them instead. Finishing an enemy with Killing Blow lets you recast for 16s Passive: Damaging enemies fills you with rage. While at full rage, Shiv gains increased damage and unlocks special properties on his other abilities."
+ },
+ "ability_werewolf_unloadgun": {
+  "hero": "Silver",
+  "name": "Slam Fire",
+  "quip": "",
+  "first": "Instantly reload your gun.",
+  "full": "Instantly reload your gun. You gain bonus fire rate and deal bonus weapon damage based on the target's health for a limited number of shots, but suffer from reduced accuracy. Deals bonus Weapon Damage against troopers and neutrals."
+ },
+ "ability_werewolf_kickflip": {
+  "hero": "Silver",
+  "name": "Boot Kick",
+  "quip": "",
+  "first": "Dash forward and kick the first enemy hit, dealing melee damage while pushing yourself off and marking them.",
+  "full": "Dash forward and kick the first enemy hit, dealing melee damage while pushing yourself off and marking them. Shooting the marked target deals spirit damage and removes the mark."
+ },
+ "ability_werewolf_netshot": {
+  "hero": "Silver",
+  "name": "Entangling Bola",
+  "quip": "",
+  "first": "Throw a bola, dealing spirit damage, applying slow and preventing movement abilities or stamina.",
+  "full": "Throw a bola, dealing spirit damage, applying slow and preventing movement abilities or stamina."
+ },
+ "ability_werewolf_transformation": {
+  "hero": "Silver",
+  "name": "Lycan Curse",
+  "quip": "",
+  "first": "Passive: Dealing damage generates bloodlust, increased at low health.",
+  "full": "Passive: Dealing damage generates bloodlust, increased at low health. At max bloodlust, you automatically cast Lycan Curse. Active: Instantly transform, gaining increased max health, and stacking fire rate on enemy heroes, and replacing your abilities and weapon with their ferocious versions."
+ },
+ "ability_magician_magicbolt": {
+  "hero": "Sinclair",
+  "name": "Vexing Bolt",
+  "quip": "Launch a guided bolt of magic",
+  "first": "Fire a bolt of magic that deals Damage, increasing as it travels.",
+  "full": "Fire a bolt of magic that deals Damage, increasing as it travels. If you have an Assistant, they also cast Vexing Bolt at reduced damage. Press 1 to redirect the bolt towards your crosshairs."
+ },
+ "ability_magician_cloneturret": {
+  "hero": "Sinclair",
+  "name": "Spectral Assistant",
+  "quip": "Summon your faithful assistant",
+  "first": "Summon an Assistant at the targeted location.",
+  "full": "Summon an Assistant at the targeted location. The Assistant attacks whenever you fire your weapon, dealing Damage. While the Assistant is out, you can press 2 to swap positions with your Assistant. Casting Spectral Assistant also reloads your weapon."
+ },
+ "ability_magician_animalhexarea": {
+  "hero": "Sinclair",
+  "name": "Rabbit Hex",
+  "quip": "",
+  "first": "Hex a target area and transform all enemies into a Rabbit for a limited duration.",
+  "full": "Hex a target area and transform all enemies into a Rabbit for a limited duration. Rabbits are small and move faster, but take increased Damage and are unable to perform most actions. Hex does not interrupt abilities."
+ },
+ "ability_magician_copyult": {
+  "hero": "Sinclair",
+  "name": "Audience Participation",
+  "quip": "Copy an enemy's Ultimate for a limited time",
+  "first": "Copy the Ultimate of an enemy hero for a limited time.",
+  "full": "Copy the Ultimate of an enemy hero for a limited time. Reactivating the ability will use the Copied Ultimate instead. Copies will inherit this ability's upgrade points. Audience Participation will also copy the cooldown."
+ },
+ "ability_chessmaster_throwbishop": {
+  "hero": "Solomon",
+  "name": "Setup Bishop",
+  "quip": "",
+  "first": "Create a bishop that remains in place indefinitely.",
+  "full": "Create a bishop that remains in place indefinitely. Move: Moves the bishop, applying a fading slow and dealing spirit damage to enemies it passes through. After a delay, activates diagonal squares that deal additional spirit damage when stepped on. Re-activate to recall all bishops, ending the ability."
+ },
+ "ability_chessmaster_knightbuff": {
+  "hero": "Solomon",
+  "name": "Kingside Knight",
+  "quip": "",
+  "first": "Promote an ally to be a knight, granting bonus stamina and combat barrier for a duration.",
+  "full": "Promote an ally to be a knight, granting bonus stamina and combat barrier for a duration. If self-cast you develop yourself as king instead, granting double the combat barrier but no stamina. Move: Moves the piece, making it invulnerable during the duration before landing. If self-cast, re-activate the ability to move instead."
+ },
+ "ability_chessmaster_forkpiece": {
+  "hero": "Solomon",
+  "name": "Rook Battery",
+  "quip": "",
+  "first": "Release a pair of rooks that travel forward, dealing spirit damage and applying immobilize.",
+  "full": "Release a pair of rooks that travel forward, dealing spirit damage and applying immobilize. If the rooks hit a wall, they reflect back in the opposite direction. Re-Activate: Split the rooks perpendicularly."
+ },
+ "ability_chessmaster_queen": {
+  "hero": "Solomon",
+  "name": "Develop Queen",
+  "quip": "",
+  "first": "Summon a queen that crashes down, dealing spirit damage in an area.",
+  "full": "Summon a queen that crashes down, dealing spirit damage in an area. After a delay, the queen releases squares in straight lines that deal spirit damage again and apply stun. Move: The queen leaps to the target location, dealing the same effects again. Re-activate to recall the queen early, ending the ability."
+ },
+ "ability_doorman_bomb": {
+  "hero": "The Doorman",
+  "name": "Call Bell",
+  "quip": "",
+  "first": "Throw out a call bell that deals spirit damage on impact.",
+  "full": "Throw out a call bell that deals spirit damage on impact. After a short delay it explodes, dealing additional spirit damage and causing affected enemies to suffer reduced weapon accuracy and movement slow. Can be shot to detonate early."
+ },
+ "ability_doorman_doorway": {
+  "hero": "The Doorman",
+  "name": "Doorway",
+  "quip": "",
+  "first": "Place two connected doors in the world.",
+  "full": "Place two connected doors in the world. Players and most projectiles entering one door will exit out through the other. The doors will close at the end of the duration. The two doors must be placed within the doorway distance of each other."
+ },
+ "ability_doorman_luggage_cart": {
+  "hero": "The Doorman",
+  "name": "Luggage Cart",
+  "quip": "",
+  "first": "Send out a Luggage Cart that deals spirit damage and pulls enemy heroes along its path.",
+  "full": "Send out a Luggage Cart that deals spirit damage and pulls enemy heroes along its path. Can be Alt-Cast to target friendly heroes instead."
+ },
+ "ability_doorman_hotel": {
+  "hero": "The Doorman",
+  "name": "Hotel Guest",
+  "quip": "",
+  "first": "Send the target's physical body to be a guest at the Baroness Hotel.",
+  "full": "Send the target's physical body to be a guest at the Baroness Hotel. The guest is to promptly make their way to the exit elevator, where they'll be sent back to their original position. A stay at the Baroness Hotel is paid for in spirit damage. Failure to check-out on time costs additional spirit damage."
+ },
+ "ability_priest_flashbang": {
+  "hero": "Venator",
+  "name": "Consecrating Grenade",
+  "quip": "",
+  "first": "Fire a grenade that bounces before exploding, dealing weapon damage and setting enemies on fire.",
+  "full": "Fire a grenade that bounces before exploding, dealing weapon damage and setting enemies on fire. Burning targets deal pure damage to enemies in the area and suffer from reduced healing."
+ },
+ "ability_priest_knockback": {
+  "hero": "Venator",
+  "name": "Gutshot",
+  "quip": "",
+  "first": "Fire a blast with your shotgun, dealing weapon damage and pushing enemies back.",
+  "full": "Fire a blast with your shotgun, dealing weapon damage and pushing enemies back. Enemies near a wall receive stun and take bonus weapon damage."
+ },
+ "ability_priest_beartrap": {
+  "hero": "Venator",
+  "name": "Hex-Lined Snap Trap",
+  "quip": "",
+  "first": "Kick a trap that arms after a brief delay.",
+  "full": "Kick a trap that arms after a brief delay. The trap springs on the first enemy it touches, dealing spirit damage, applying immobilize, and revealing enemies for a duration afterwards."
+ },
+ "ability_priest_weaponswap": {
+  "hero": "Venator",
+  "name": "Ira Domini",
+  "quip": "",
+  "first": "Load your crossbow with 3 stakes, dealing massively increased weapon damage.",
+  "full": "Load your crossbow with 3 stakes, dealing massively increased weapon damage. The final stake is blessed, dealing bonus pure damage and executing low-health enemies."
+ },
+ "ability_frank_shocktarget2": {
+  "hero": "Victor",
+  "name": "Pain Battery",
+  "quip": "",
+  "first": "Taking any damage passively charges up your Pain Battery.",
+  "full": "Taking any damage passively charges up your Pain Battery. Once full, activating the ability fires multiple shocking bolts, dealing spirit damage once per target."
+ },
+ "ability_frank_selfzap": {
+  "hero": "Victor",
+  "name": "Jumpstart",
+  "quip": "",
+  "first": "Deal spirit damage to yourself.",
+  "full": "Deal spirit damage to yourself. Then, gain bonus regen and bonus move speed, decaying over time."
+ },
+ "ability_frank_painaura": {
+  "hero": "Victor",
+  "name": "Aura of Suffering",
+  "quip": "",
+  "first": "Unleash pain, dealing spirit DPS to both enemies and yourself.",
+  "full": "Unleash pain, dealing spirit DPS to both enemies and yourself. The damage continues to increase the longer the ability is channeled, up to a maximum amount."
+ },
+ "ability_frank_revive": {
+  "hero": "Victor",
+  "name": "Shocking Reanimation",
+  "quip": "",
+  "first": "Release a wave after taking lethal damage, applying a diminishing slow.",
+  "full": "Release a wave after taking lethal damage, applying a diminishing slow. After a brief channel you reanimate, dealing spirit damage and applying stun to nearby enemies."
+ },
+ "citadel_ability_hornet_chain": {
+  "hero": "Vindicta",
+  "name": "Stake",
+  "quip": "Tether your enemies to the ground",
+  "first": "Throw a stake that tethers enemies to the location where the stake lands.",
+  "full": "Throw a stake that tethers enemies to the location where the stake lands. Enemy movement is restricted to the length of the tether."
+ },
+ "citadel_ability_hornet_leap": {
+  "hero": "Vindicta",
+  "name": "Flight",
+  "quip": "Take flight and empower your weapon",
+  "first": "Leap into the air and fly.",
+  "full": "Leap into the air and fly. While in flight your weapon deals bonus spirit damage and your items have increased range."
+ },
+ "citadel_ability_hornet_sting": {
+  "hero": "Vindicta",
+  "name": "Crow Familiar",
+  "quip": "Make a target bleed over time",
+  "first": "Your crow familiar deals impact damage, reduces their bullet resist and applies a bleed that deals damage based on the target's current health.",
+  "full": "Your crow familiar deals impact damage, reduces their bullet resist and applies a bleed that deals damage based on the target's current health."
+ },
+ "citadel_ability_hornet_snipe": {
+  "hero": "Vindicta",
+  "name": "Assassinate",
+  "quip": "Snipe injured targets for massive damage",
+  "first": "Use your scoped rifle to fire a powerful shot over long distances.",
+  "full": "Use your scoped rifle to fire a powerful shot over long distances. Deal only partial damage until fully charged after 1s of being scoped. Does bonus damage to enemies with less than 50% health remaining. Landing a killing blow on a player with Assassinate grants you bonus weapon damage."
+ },
+ "ability_artist_homingbrush": {
+  "hero": "Violet",
+  "name": "Living Ink",
+  "quip": "",
+  "first": "Empower: Your next 3 bullets come to life, allowing you to steer them as they travel.",
+  "full": "Empower: Your next 3 bullets come to life, allowing you to steer them as they travel. The bullets deal increased bullet damage and splash spirit damage in a small area. Each successful hit against a hero reduces all ability cooldowns, and half for all item cooldowns. Draw: Paint a solid stroke of ink instead that blocks projectiles and characters from passing through. The stroke can be destroyed with a heavy melee, but deals spirit damage to the attacker. Passive: Casting any other ability refreshes the cooldown of Flow State."
+ },
+ "ability_artist_rollingprojectile": {
+  "hero": "Violet",
+  "name": "Flow State",
+  "quip": "",
+  "first": "Drag a brush that continues to travel forward, leaving a trail that grants bonus slide distance for allies and a fading slow and spirit damage to enemies it passes through, increased the further it travels.",
+  "full": "Drag a brush that continues to travel forward, leaving a trail that grants bonus slide distance for allies and a fading slow and spirit damage to enemies it passes through, increased the further it travels. Re-activate the ability to flick the brush forward, ending the ability early but dealing spirit damage in a larger area."
+ },
+ "ability_artist_tether": {
+  "hero": "Violet",
+  "name": "Still Life",
+  "quip": "",
+  "first": "Choose a hero to be your subject, dealing spirit DPS as long as you are looking at them.",
+  "full": "Choose a hero to be your subject, dealing spirit DPS as long as you are looking at them. If the sketch is completed they take additional spirit damage, suffer from stun, and drop a sketch that can be picked up. For each collected sketch, you permanently gain stats based on the hero."
+ },
+ "ability_artist_bamboogrove": {
+  "hero": "Violet",
+  "name": "Abstract Landscape",
+  "quip": "",
+  "first": "Create a circular display of ink that blocks vision and grants allies spirit.",
+  "full": "Create a circular display of ink that blocks vision and grants allies spirit. Enemies inside are revealed, and leaving causes them to take spirit damage and suffer from silence and slow, destroying the ink in the process."
+ },
+ "viscous_goo_grenade": {
+  "hero": "Viscous",
+  "name": "Splatter",
+  "quip": "Damage enemies and make a mess",
+  "first": "Throw a ball of goo that deals damage and leaves puddles of goo behind that apply movement slow to enemies in the radius.",
+  "full": "Throw a ball of goo that deals damage and leaves puddles of goo behind that apply movement slow to enemies in the radius."
+ },
+ "viscous_restorative_goo": {
+  "hero": "Viscous",
+  "name": "The Cube",
+  "quip": "The Cube is a safe place to be",
+  "first": "Encase the target in a cube of restorative goo that protects from damage, and increases health regen.",
+  "full": "Encase the target in a cube of restorative goo that protects from damage, and increases health regen. Target is unable to take any new actions while cubed. Can be used on self. Press Jump to escape early."
+ },
+ "viscous_telepunch": {
+  "hero": "Viscous",
+  "name": "Puddle Punch",
+  "quip": "Punch enemies with a giant fist",
+  "first": "Materialize a fist in the world that punches everyone in the area, applying knock up.",
+  "full": "Materialize a fist in the world that punches everyone in the area, applying knock up. Punching an enemy deals melee damage and applies slow. Enemies can Parry this attack. You and your allies have increased Air Control."
+ },
+ "viscous_goo_bowling_ball": {
+  "hero": "Viscous",
+  "name": "Goo Ball",
+  "quip": "Roll around and cause chaos",
+  "first": "Morph into a large goo ball that deals damage and stuns enemies on impact.",
+  "full": "Morph into a large goo ball that deals damage and stuns enemies on impact. The ball grants large amounts of Bullet and Spirit resist, bounces off walls and can double jump."
+ },
+ "ability_viper_debuffdagger": {
+  "hero": "Vyper",
+  "name": "Screwjab Dagger",
+  "quip": "Throw a slowing dagger",
+  "first": "Throw a dagger, dealing spirit damage and applying slow.",
+  "full": "Throw a dagger, dealing spirit damage and applying slow. Every subsequent dagger against the same target stacks in spirit damage and slow."
+ },
+ "ability_viper_venom": {
+  "hero": "Vyper",
+  "name": "Lethal Venom",
+  "quip": "Inject your enemies with a deadly venom",
+  "first": "Inject a target with lethal venom.",
+  "full": "Inject a target with lethal venom. After a delay the venom triggers, dealing Spirit Damage. The damage is increased by the target's missing health. Lethal Venom will ignore Petrify's damage block."
+ },
+ "ability_viper_snakedash": {
+  "hero": "Vyper",
+  "name": "Slither",
+  "quip": "Increase the agility of your Slide",
+  "first": "You have increased Slide Distance, can Slide up hills, and can turn faster while Sliding.",
+  "full": "You have increased Slide Distance, can Slide up hills, and can turn faster while Sliding."
+ },
+ "ability_viper_petrifybola": {
+  "hero": "Vyper",
+  "name": "Petrifying Bola",
+  "quip": "Toss a petrifying bola",
+  "first": "Throw an explosive bola.",
+  "full": "Throw an explosive bola. On exploding, the bola Slows and Damages all enemies in the area. Direct hits deal Additional Damage and Petrify instead. Petrified units block all damage, but cannot take actions."
+ },
+ "ability_warden_crowd_control": {
+  "hero": "Warden",
+  "name": "Alchemical Flask",
+  "quip": "Damage and debuff enemies nearby",
+  "first": "Throw a flask that damages and reduces the weapon damage and move speed of enemies it hits.",
+  "full": "Throw a flask that damages and reduces the weapon damage and move speed of enemies it hits."
+ },
+ "ability_warden_high_alert": {
+  "hero": "Warden",
+  "name": "Willpower",
+  "quip": "Gain a Barrier and move speed",
+  "first": "Gain a Barrier and bonus move speed.",
+  "full": "Gain a Barrier and bonus move speed."
+ },
+ "ability_warden_lock_down": {
+  "hero": "Warden",
+  "name": "Binding Word",
+  "quip": "Curse your target, rooting them if they don't escape",
+  "first": "Curse an enemy hero.",
+  "full": "Curse an enemy hero. If they don't move away from their initial position within the escape time, they will be damaged and immobilized."
+ },
+ "ability_warden_riot_protocol": {
+  "hero": "Warden",
+  "name": "Last Stand",
+  "quip": "Emit pulses that steal health from enemies",
+  "first": "After charging for 2s, release pulses that damage enemies and heal you based on the damage done.",
+  "full": "After charging for 2s, release pulses that damage enemies and heal you based on the damage done. While channeling Last Stand you have greatly increased bullet and spirit resist."
+ },
+ "citadel_ability_card_toss": {
+  "hero": "Wraith",
+  "name": "Card Trick",
+  "quip": "Throw homing cards",
+  "first": "Deal weapon damage to summon cards of a random suit.",
+  "full": "Deal weapon damage to summon cards of a random suit. Each card can be thrown, dealing damage and applying a different effect depending on its suit. Cards thrown fly towards the enemy or point under your crosshair. Alt-cast to throw first card"
+ },
+ "citadel_ability_projectmind": {
+  "hero": "Wraith",
+  "name": "Project Mind",
+  "quip": "Teleport to the targeted location",
+  "first": "Teleport to the targeted location.",
+  "full": "Teleport to the targeted location."
+ },
+ "citadel_ability_wraith_rapidfire": {
+  "hero": "Wraith",
+  "name": "Full Auto",
+  "quip": "Boost your fire rate",
+  "first": "Temporarily boost your fire rate and deal bonus spirit damage",
+  "full": "Temporarily boost your fire rate and deal bonus spirit damage"
+ },
+ "citadel_ability_psychic_lift": {
+  "hero": "Wraith",
+  "name": "Telekinesis",
+  "quip": "Lift an enemy, interrupting and silencing them",
+  "first": "Lift an enemy hero into the air and then slam them towards the target location.",
+  "full": "Lift an enemy hero into the air and then slam them towards the target location."
+ },
+ "citadel_ability_power_slash": {
+  "hero": "Yamato",
+  "name": "Power Slash",
+  "quip": "Charge up an attack, dealing high damage on a full charge",
+  "first": "Channel to increase damage over 1.4 seconds, then release a fully-charged sword strike.",
+  "full": "Channel to increase damage over 1.4 seconds, then release a fully-charged sword strike. Press 1 or M1 to trigger the strike early, dealing partial damage."
+ },
+ "citadel_ability_flying_strike": {
+  "hero": "Yamato",
+  "name": "Flying Slash",
+  "quip": "Fly towards an enemy target",
+  "first": "Throw a grappling hook to reel yourself towards an enemy, dealingmelee damage and slowing the target when you arrive.",
+  "full": "Throw a grappling hook to reel yourself towards an enemy, dealingmelee damage and slowing the target when you arrive."
+ },
+ "citadel_ability_healing_slash": {
+  "hero": "Yamato",
+  "name": "Crimson Slash",
+  "quip": "Damage enemies nearby, healing on hit",
+  "first": "Slash enemies in front of you, damaging them and slowing their fire rate.",
+  "full": "Slash enemies in front of you, damaging them and slowing their fire rate. If any enemy heroes are hit, you heal."
+ },
+ "citadel_ability_infinity_slash": {
+  "hero": "Yamato",
+  "name": "Shadow Transformation",
+  "quip": "Become invincible and more powerful",
+  "first": "Become infused with Yamato's shadow soul.",
+  "full": "Become infused with Yamato's shadow soul. After an initial invincible transformation your abilities are refreshed and are 60% faster. You gain immunity to negative status effects and have greatly increased bullet and spirit resist. When you get a hero kill, you heal and the duration is extended."
+ }
+}

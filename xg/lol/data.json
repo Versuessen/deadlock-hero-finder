@@ -1,0 +1,1888 @@
+{
+ "game": "lol",
+ "roles": [
+  "Fighter",
+  "Tank",
+  "Mage",
+  "Assassin",
+  "Marksman",
+  "Support"
+ ],
+ "sources": [
+  "https://raw.githubusercontent.com/InFinity54/LoL_DDragon/master/latest/data/en_US/champion.json",
+  "https://github.com/InFinity54/LoL_DDragon (commit 2026-09-24 'Added patch 16.19.1 / 26.19')",
+  "https://www.leagueoflegends.com/en-us/news/game-updates/league-of-legends-patch-26-19-notes/",
+  "https://www.techtimes.com/articles/319018/20260624/league-legends-patch-2613-live-locke-arrives-msi-2026-meta-locks.htm",
+  "https://www.pcgamesn.com/league-of-legends/new-champion",
+  "https://www.sheepesports.com/en/articles/riot-games-unveils-locke-league-s-only-champion-for-2026/en"
+ ],
+ "image_sources": [
+  "https://github.com/InFinity54/LoL_DDragon (latest/img/champion/<Key>.png, Data Dragon 16.19.1, 128x128 PNG)"
+ ],
+ "notes": "173 champions from Data Dragon 16.19.1 (= patch 26.19). role = Data Dragon tags[0]. sub = usual main lane (editorial, not from Data Dragon). Newest: Locke (26.13, Jun 2026), Zaahen (late 2025), Yunara (2025), Mel (2025), Ambessa (2024). Forward pick for holliday changed Caitlyn -> Gangplank (shoot-to-detonate barrels = Powder Keg); Caitlyn stays vindicta's pick.",
+ "roster": [
+  {
+   "name": "Aatrox",
+   "role": "Fighter",
+   "sub": "Top",
+   "twins": [
+    "abrams",
+    "victor"
+   ],
+   "why": "Drain-healing bruiser; ult boosts healing and revives on kills",
+   "img": "img/aatrox.png"
+  },
+  {
+   "name": "Ahri",
+   "role": "Mage",
+   "sub": "Mid",
+   "twins": [
+    "pocket"
+   ],
+   "why": "Slippery mage with triple dash and a returning orb",
+   "img": "img/ahri.png"
+  },
+  {
+   "name": "Akali",
+   "role": "Assassin",
+   "sub": "Mid",
+   "twins": [
+    "calico",
+    "pocket"
+   ],
+   "why": "Shroud stealth, dash in, burst, vanish again",
+   "img": "img/akali.png"
+  },
+  {
+   "name": "Akshan",
+   "role": "Marksman",
+   "sub": "Mid",
+   "twins": [
+    "haze"
+   ],
+   "why": "Camouflaged gunner who swings in and executes with a volley",
+   "img": "img/akshan.png"
+  },
+  {
+   "name": "Alistar",
+   "role": "Tank",
+   "sub": "Support",
+   "twins": [
+    "abrams",
+    "dynamo"
+   ],
+   "why": "Charge-and-knock-up tank engage with a damage-cut ult",
+   "img": "img/alistar.png"
+  },
+  {
+   "name": "Ambessa",
+   "role": "Fighter",
+   "sub": "Top",
+   "twins": [
+    "lash",
+    "billy"
+   ],
+   "why": "Dash-weaving bruiser whose ult grabs and slams a target",
+   "img": "img/ambessa.png"
+  },
+  {
+   "name": "Amumu",
+   "role": "Tank",
+   "sub": "Jungle",
+   "twins": [
+    "dynamo"
+   ],
+   "why": "Tank initiator with a team-wide stun ult",
+   "img": "img/amumu.png"
+  },
+  {
+   "name": "Anivia",
+   "role": "Mage",
+   "sub": "Mid",
+   "twins": [
+    "paradox",
+    "kelvin"
+   ],
+   "why": "Wall to split fights, slowing ice storm, egg revive",
+   "img": "img/anivia.png"
+  },
+  {
+   "name": "Annie",
+   "role": "Mage",
+   "sub": "Mid",
+   "twins": [
+    "infernus",
+    "graves"
+   ],
+   "why": "Burning burst mage with an AoE stun and a Tibbers summon",
+   "img": "img/annie.png"
+  },
+  {
+   "name": "Aphelios",
+   "role": "Marksman",
+   "sub": "Bot",
+   "twins": [
+    "wraith",
+    "greytalon"
+   ],
+   "why": "Gunner cycling weapon effects; ult marks a group",
+   "img": "img/aphelios.png"
+  },
+  {
+   "name": "Ashe",
+   "role": "Marksman",
+   "sub": "Bot",
+   "twins": [
+    "greytalon"
+   ],
+   "why": "Slowing arrows, scout hawk, map-wide stun arrow",
+   "img": "img/ashe.png"
+  },
+  {
+   "name": "Aurelion Sol",
+   "role": "Mage",
+   "sub": "Mid",
+   "twins": [
+    "seven"
+   ],
+   "why": "Scaling star mage with channeled breath and area impacts",
+   "img": "img/aurelion-sol.png"
+  },
+  {
+   "name": "Aurora",
+   "role": "Mage",
+   "sub": "Mid",
+   "twins": [
+    "pocket"
+   ],
+   "why": "Hops invisible, curses foes, zone that lets her teleport",
+   "img": "img/aurora.png"
+  },
+  {
+   "name": "Azir",
+   "role": "Mage",
+   "sub": "Mid",
+   "twins": [
+    "mcginnis",
+    "solomon"
+   ],
+   "why": "Commands soldier turrets and walls off enemies with his ult",
+   "img": "img/azir.png"
+  },
+  {
+   "name": "Bard",
+   "role": "Support",
+   "sub": "Support",
+   "twins": [
+    "doorman"
+   ],
+   "why": "Magical portals, map roaming and a stasis zone ult",
+   "img": "img/bard.png"
+  },
+  {
+   "name": "Bel'Veth",
+   "role": "Fighter",
+   "sub": "Jungle",
+   "twins": [
+    "yamato"
+   ],
+   "why": "Dash-resetting skirmisher who transforms into a true form",
+   "img": "img/bel-veth.png"
+  },
+  {
+   "name": "Blitzcrank",
+   "role": "Tank",
+   "sub": "Support",
+   "twins": [
+    "bebop"
+   ],
+   "why": "Robot hook plus a knock-up punch",
+   "img": "img/blitzcrank.png"
+  },
+  {
+   "name": "Brand",
+   "role": "Mage",
+   "sub": "Support",
+   "twins": [
+    "infernus"
+   ],
+   "why": "Burn-stacking caster with an AoE stun and bouncing fire",
+   "img": "img/brand.png"
+  },
+  {
+   "name": "Braum",
+   "role": "Tank",
+   "sub": "Support",
+   "twins": [
+    "kelvin"
+   ],
+   "why": "Frost protector who shields allies and slows with a fissure",
+   "img": "img/braum.png"
+  },
+  {
+   "name": "Briar",
+   "role": "Fighter",
+   "sub": "Jungle",
+   "twins": [
+    "shiv"
+   ],
+   "why": "Bleeding frenzy diver who charges across the map at a target",
+   "img": "img/briar.png"
+  },
+  {
+   "name": "Caitlyn",
+   "role": "Marksman",
+   "sub": "Bot",
+   "twins": [
+    "holliday",
+    "vindicta"
+   ],
+   "why": "Long-range headshots, traps and a scoped execute shot",
+   "img": "img/caitlyn.png"
+  },
+  {
+   "name": "Camille",
+   "role": "Fighter",
+   "sub": "Top",
+   "twins": [
+    "lash",
+    "apollo"
+   ],
+   "why": "Hookshot off walls, dive in, lock a target in her ult",
+   "img": "img/camille.png"
+  },
+  {
+   "name": "Cassiopeia",
+   "role": "Mage",
+   "sub": "Mid",
+   "twins": [
+    "vyper"
+   ],
+   "why": "Poison-stacking DPS whose gaze petrifies facing enemies",
+   "img": "img/cassiopeia.png"
+  },
+  {
+   "name": "Cho'Gath",
+   "role": "Tank",
+   "sub": "Top",
+   "twins": [
+    "mokrill"
+   ],
+   "why": "Knock-up rupture, silence, permanent HP from Feast kills",
+   "img": "img/cho-gath.png"
+  },
+  {
+   "name": "Corki",
+   "role": "Marksman",
+   "sub": "Mid",
+   "twins": [
+    "mcginnis",
+    "greytalon",
+    "danny"
+   ],
+   "why": "Missile-barrage poke plus a package-fueled flight",
+   "img": "img/corki.png"
+  },
+  {
+   "name": "Darius",
+   "role": "Fighter",
+   "sub": "Top",
+   "twins": [
+    "shiv",
+    "abrams"
+   ],
+   "why": "Bleed stacks and a leaping execute that resets on kills",
+   "img": "img/darius.png"
+  },
+  {
+   "name": "Diana",
+   "role": "Fighter",
+   "sub": "Jungle",
+   "twins": [
+    "lash"
+   ],
+   "why": "Dives onto targets, then pulls in a group with her ult",
+   "img": "img/diana.png"
+  },
+  {
+   "name": "Dr. Mundo",
+   "role": "Tank",
+   "sub": "Top",
+   "twins": [
+    "victor",
+    "geist"
+   ],
+   "why": "Health-costing tank who regenerates huge chunks mid-fight",
+   "img": "img/dr-mundo.png"
+  },
+  {
+   "name": "Draven",
+   "role": "Marksman",
+   "sub": "Bot",
+   "twins": [
+    "silver"
+   ],
+   "why": "Aggressive gunfighter with bonus shots and chase speed",
+   "img": "img/draven.png"
+  },
+  {
+   "name": "Ekko",
+   "role": "Assassin",
+   "sub": "Jungle",
+   "twins": [
+    "paradox"
+   ],
+   "why": "Time-bender: slowing field, stun zone, rewinds in time",
+   "img": "img/ekko.png"
+  },
+  {
+   "name": "Elise",
+   "role": "Assassin",
+   "sub": "Jungle",
+   "twins": [
+    "silver",
+    "graves"
+   ],
+   "why": "Form-swapping jungler with spiderling summons",
+   "img": "img/elise.png"
+  },
+  {
+   "name": "Evelynn",
+   "role": "Assassin",
+   "sub": "Jungle",
+   "twins": [
+    "calico",
+    "drifter"
+   ],
+   "why": "Stealthed stalker who bursts and blinks away untargetable",
+   "img": "img/evelynn.png"
+  },
+  {
+   "name": "Ezreal",
+   "role": "Marksman",
+   "sub": "Bot",
+   "twins": [
+    "greytalon",
+    "mina"
+   ],
+   "why": "Poking skillshots, blink repositioning, map-wide arrow",
+   "img": "img/ezreal.png"
+  },
+  {
+   "name": "Fiddlesticks",
+   "role": "Mage",
+   "sub": "Jungle",
+   "twins": [
+    "seven",
+    "geist",
+    "baba"
+   ],
+   "why": "Drains life, fears, and channels a crowstorm into teams",
+   "img": "img/fiddlesticks.png"
+  },
+  {
+   "name": "Fiora",
+   "role": "Fighter",
+   "sub": "Top",
+   "twins": [
+    "apollo"
+   ],
+   "why": "Parry-riposte duelist who lunges at weak points",
+   "img": "img/fiora.png"
+  },
+  {
+   "name": "Fizz",
+   "role": "Assassin",
+   "sub": "Mid",
+   "twins": [
+    "pocket"
+   ],
+   "why": "Hides on his trident untargetable, then bursts out",
+   "img": "img/fizz.png"
+  },
+  {
+   "name": "Galio",
+   "role": "Tank",
+   "sub": "Mid",
+   "twins": [
+    "mirage",
+    "dynamo"
+   ],
+   "why": "Tornado lift, taunt, and a long-range flight to allies",
+   "img": "img/galio.png"
+  },
+  {
+   "name": "Gangplank",
+   "role": "Fighter",
+   "sub": "Top",
+   "twins": [
+    "holliday"
+   ],
+   "why": "Explosive barrels you shoot to detonate, map-wide barrage",
+   "img": "img/gangplank.png"
+  },
+  {
+   "name": "Garen",
+   "role": "Fighter",
+   "sub": "Top",
+   "twins": [
+    "warden",
+    "shiv"
+   ],
+   "why": "Speed-and-shield bruiser who spins and executes low HP",
+   "img": "img/garen.png"
+  },
+  {
+   "name": "Gnar",
+   "role": "Fighter",
+   "sub": "Top",
+   "twins": [
+    "silver"
+   ],
+   "why": "Ranged harasser that transforms into a tanky brute",
+   "img": "img/gnar.png"
+  },
+  {
+   "name": "Gragas",
+   "role": "Fighter",
+   "sub": "Jungle",
+   "twins": [
+    "viscous"
+   ],
+   "why": "Belly-flop body slam, barrel knock-back, damage reduction",
+   "img": "img/gragas.png"
+  },
+  {
+   "name": "Graves",
+   "role": "Marksman",
+   "sub": "Jungle",
+   "twins": [
+    "silver",
+    "venator"
+   ],
+   "why": "Shotgun gunfighter with dash-reload and a blast knockback",
+   "img": "img/graves.png"
+  },
+  {
+   "name": "Gwen",
+   "role": "Fighter",
+   "sub": "Top",
+   "twins": [
+    "yamato"
+   ],
+   "why": "Snipping melee duelist with a mist that blocks outsiders",
+   "img": "img/gwen.png"
+  },
+  {
+   "name": "Hecarim",
+   "role": "Fighter",
+   "sub": "Jungle",
+   "twins": [
+    "abrams",
+    "mokrill"
+   ],
+   "why": "Speed-building charge that knocks back, then a fear charge",
+   "img": "img/hecarim.png"
+  },
+  {
+   "name": "Heimerdinger",
+   "role": "Mage",
+   "sub": "Mid",
+   "twins": [
+    "mcginnis"
+   ],
+   "why": "Turret-builder engineer with rocket barrages and stun grenade",
+   "img": "img/heimerdinger.png"
+  },
+  {
+   "name": "Hwei",
+   "role": "Mage",
+   "sub": "Mid",
+   "twins": [
+    "sinclair",
+    "violet"
+   ],
+   "why": "Versatile painter with ten spells and a fear ult",
+   "img": "img/hwei.png"
+  },
+  {
+   "name": "Illaoi",
+   "role": "Fighter",
+   "sub": "Top",
+   "twins": [
+    "graves"
+   ],
+   "why": "Summons tentacles that slam; ult spawns more around her",
+   "img": "img/illaoi.png"
+  },
+  {
+   "name": "Irelia",
+   "role": "Fighter",
+   "sub": "Top",
+   "twins": [
+    "apollo"
+   ],
+   "why": "Dash-resetting blade duelist who stuns with her tether",
+   "img": "img/irelia.png"
+  },
+  {
+   "name": "Ivern",
+   "role": "Support",
+   "sub": "Jungle",
+   "twins": [
+    "paige",
+    "graves"
+   ],
+   "why": "Root, shield an ally, summon Daisy to brawl",
+   "img": "img/ivern.png"
+  },
+  {
+   "name": "Janna",
+   "role": "Support",
+   "sub": "Support",
+   "twins": [
+    "kelvin"
+   ],
+   "why": "Speeds and shields allies, knocks back, channels a team heal",
+   "img": "img/janna.png"
+  },
+  {
+   "name": "Jarvan IV",
+   "role": "Fighter",
+   "sub": "Jungle",
+   "twins": [
+    "lash",
+    "mcginnis",
+    "ratking"
+   ],
+   "why": "Knock-up dash engage that traps a group in his arena",
+   "img": "img/jarvan-iv.png"
+  },
+  {
+   "name": "Jax",
+   "role": "Fighter",
+   "sub": "Top",
+   "twins": [
+    "apollo"
+   ],
+   "why": "Counter-strike dodges attacks, then stuns; leaps to targets",
+   "img": "img/jax.png"
+  },
+  {
+   "name": "Jayce",
+   "role": "Fighter",
+   "sub": "Top",
+   "twins": [
+    "silver"
+   ],
+   "why": "Swaps between ranged cannon and melee hammer",
+   "img": "img/jayce.png"
+  },
+  {
+   "name": "Jhin",
+   "role": "Marksman",
+   "sub": "Bot",
+   "twins": [
+    "venator"
+   ],
+   "why": "Four-shot gun, traps, and a long-range execute ult",
+   "img": "img/jhin.png"
+  },
+  {
+   "name": "Jinx",
+   "role": "Marksman",
+   "sub": "Bot",
+   "twins": [
+    "holliday"
+   ],
+   "why": "Trap-laying gunner with rockets and a map-wide execute",
+   "img": "img/jinx.png"
+  },
+  {
+   "name": "K'Sante",
+   "role": "Tank",
+   "sub": "Top",
+   "twins": [
+    "abrams"
+   ],
+   "why": "Tank that charges, drags targets through walls, then all-ins",
+   "img": "img/k-sante.png"
+  },
+  {
+   "name": "Kai'Sa",
+   "role": "Marksman",
+   "sub": "Bot",
+   "twins": [
+    "vyper",
+    "haze"
+   ],
+   "why": "Stacking plasma, invisibility, and a dash onto marked foes",
+   "img": "img/kai-sa.png"
+  },
+  {
+   "name": "Kalista",
+   "role": "Marksman",
+   "sub": "Bot",
+   "twins": [
+    "ivy"
+   ],
+   "why": "Bonded to an ally, she yanks and throws them into fights",
+   "img": "img/kalista.png"
+  },
+  {
+   "name": "Karma",
+   "role": "Mage",
+   "sub": "Support",
+   "twins": [
+    "paige"
+   ],
+   "why": "Shields an ally, tethers to root, empowered spells",
+   "img": "img/karma.png"
+  },
+  {
+   "name": "Karthus",
+   "role": "Mage",
+   "sub": "Jungle",
+   "twins": [
+    "seven"
+   ],
+   "why": "Area poke; channels a damage ult that hits everyone",
+   "img": "img/karthus.png"
+  },
+  {
+   "name": "Kassadin",
+   "role": "Assassin",
+   "sub": "Mid",
+   "twins": [
+    "pocket"
+   ],
+   "why": "Blink-spamming spirit diver who scales late",
+   "img": "img/kassadin.png"
+  },
+  {
+   "name": "Katarina",
+   "role": "Assassin",
+   "sub": "Mid",
+   "twins": [
+    "haze",
+    "pocket"
+   ],
+   "why": "Blink-in assassin who spins blades at everyone nearby",
+   "img": "img/katarina.png"
+  },
+  {
+   "name": "Kayle",
+   "role": "Marksman",
+   "sub": "Top",
+   "twins": [
+    "celeste",
+    "ivy"
+   ],
+   "why": "Attacks gain magic damage; ult makes an ally invulnerable",
+   "img": "img/kayle.png"
+  },
+  {
+   "name": "Kayn",
+   "role": "Fighter",
+   "sub": "Jungle",
+   "twins": [
+    "yamato"
+   ],
+   "why": "Scythe pursuer who transforms and hides inside a target",
+   "img": "img/kayn.png"
+  },
+  {
+   "name": "Kennen",
+   "role": "Mage",
+   "sub": "Top",
+   "twins": [
+    "seven"
+   ],
+   "why": "Electric stun-stacker whose storm ult shocks a crowd",
+   "img": "img/kennen.png"
+  },
+  {
+   "name": "Kha'Zix",
+   "role": "Assassin",
+   "sub": "Jungle",
+   "twins": [
+    "drifter",
+    "calico"
+   ],
+   "why": "Isolated targets take extra damage; leaps and stealth",
+   "img": "img/kha-zix.png"
+  },
+  {
+   "name": "Kindred",
+   "role": "Marksman",
+   "sub": "Jungle",
+   "twins": [
+    "vindicta"
+   ],
+   "why": "Ranged hunter with a wolf familiar, marks and a no-death zone",
+   "img": "img/kindred.png"
+  },
+  {
+   "name": "Kled",
+   "role": "Fighter",
+   "sub": "Top",
+   "twins": [
+    "billy"
+   ],
+   "why": "Chaotic brawler who tethers and yanks, charges on his mount",
+   "img": "img/kled.png"
+  },
+  {
+   "name": "Kog'Maw",
+   "role": "Marksman",
+   "sub": "Bot",
+   "twins": [
+    "mina"
+   ],
+   "why": "Fragile hypercarry whose attacks add bonus magic damage",
+   "img": "img/kog-maw.png"
+  },
+  {
+   "name": "LeBlanc",
+   "role": "Assassin",
+   "sub": "Mid",
+   "twins": [
+    "pocket",
+    "sinclair"
+   ],
+   "why": "Teleports and returns, clones, mimics her last spell",
+   "img": "img/leblanc.png"
+  },
+  {
+   "name": "Lee Sin",
+   "role": "Fighter",
+   "sub": "Jungle",
+   "twins": [
+    "lash"
+   ],
+   "why": "Sonic-wave dash onto targets and a kick into crowds",
+   "img": "img/lee-sin.png"
+  },
+  {
+   "name": "Leona",
+   "role": "Tank",
+   "sub": "Support",
+   "twins": [
+    "dynamo",
+    "abrams"
+   ],
+   "why": "Dive-in tank support with an area stun ult",
+   "img": "img/leona.png"
+  },
+  {
+   "name": "Lillia",
+   "role": "Fighter",
+   "sub": "Jungle",
+   "twins": [
+    "rem"
+   ],
+   "why": "Speedy jungler whose ult puts marked enemies to sleep",
+   "img": "img/lillia.png"
+  },
+  {
+   "name": "Lissandra",
+   "role": "Mage",
+   "sub": "Mid",
+   "twins": [
+    "kelvin"
+   ],
+   "why": "Ice mage: slows, roots, encases herself or freezes a target",
+   "img": "img/lissandra.png"
+  },
+  {
+   "name": "Locke",
+   "role": "Assassin",
+   "sub": "Mid",
+   "twins": [
+    "venator"
+   ],
+   "why": "Demon hunter: marking nails, on-hit burst, execute ult",
+   "img": "img/locke.png"
+  },
+  {
+   "name": "Lucian",
+   "role": "Marksman",
+   "sub": "Bot",
+   "twins": [
+    "silver"
+   ],
+   "why": "Dash-reload gunner with double shots and a bullet barrage",
+   "img": "img/lucian.png"
+  },
+  {
+   "name": "Lulu",
+   "role": "Support",
+   "sub": "Support",
+   "twins": [
+    "sinclair",
+    "paige",
+    "baba"
+   ],
+   "why": "Polymorphs enemies into critters, shields and buffs allies",
+   "img": "img/lulu.png"
+  },
+  {
+   "name": "Lux",
+   "role": "Mage",
+   "sub": "Mid",
+   "twins": [
+    "celeste"
+   ],
+   "why": "Light-binding mage with a shield and a long laser",
+   "img": "img/lux.png"
+  },
+  {
+   "name": "Malphite",
+   "role": "Tank",
+   "sub": "Top",
+   "twins": [
+    "dynamo"
+   ],
+   "why": "Tank with an unstoppable AoE knock-up engage",
+   "img": "img/malphite.png"
+  },
+  {
+   "name": "Malzahar",
+   "role": "Mage",
+   "sub": "Mid",
+   "twins": [
+    "graves"
+   ],
+   "why": "Summons voidlings that push, DoT and suppression",
+   "img": "img/malzahar.png"
+  },
+  {
+   "name": "Maokai",
+   "role": "Tank",
+   "sub": "Support",
+   "twins": [
+    "graves",
+    "ivy"
+   ],
+   "why": "Sapling summons, root dash, and a wall of roots ult",
+   "img": "img/maokai.png"
+  },
+  {
+   "name": "Master Yi",
+   "role": "Fighter",
+   "sub": "Jungle",
+   "twins": [
+    "yamato"
+   ],
+   "why": "Untargetable strikes, then an unstoppable pursuit mode",
+   "img": "img/master-yi.png"
+  },
+  {
+   "name": "Mel",
+   "role": "Mage",
+   "sub": "Mid",
+   "twins": [
+    "celeste"
+   ],
+   "why": "Reflecting shield, root orb, and a stacks-based execute",
+   "img": "img/mel.png"
+  },
+  {
+   "name": "Milio",
+   "role": "Support",
+   "sub": "Support",
+   "twins": [
+    "rem",
+    "paige"
+   ],
+   "why": "Tiny healer who shields, extends ally range, cleanses",
+   "img": "img/milio.png"
+  },
+  {
+   "name": "Miss Fortune",
+   "role": "Marksman",
+   "sub": "Bot",
+   "twins": [
+    "haze",
+    "holliday"
+   ],
+   "why": "Ricochet shots, slow zone, channeled bullet-storm ult",
+   "img": "img/miss-fortune.png"
+  },
+  {
+   "name": "Mordekaiser",
+   "role": "Fighter",
+   "sub": "Top",
+   "twins": [
+    "doorman",
+    "warden"
+   ],
+   "why": "Drags a victim into his realm for a forced 1v1",
+   "img": "img/mordekaiser.png"
+  },
+  {
+   "name": "Morgana",
+   "role": "Support",
+   "sub": "Support",
+   "twins": [
+    "warden",
+    "paige"
+   ],
+   "why": "Root, spell shield an ally, tether that stuns if not escaped",
+   "img": "img/morgana.png"
+  },
+  {
+   "name": "Naafiri",
+   "role": "Assassin",
+   "sub": "Mid",
+   "twins": [
+    "drifter"
+   ],
+   "why": "Pack assassin who marks, leaps in and hunts one target",
+   "img": "img/naafiri.png"
+  },
+  {
+   "name": "Nami",
+   "role": "Support",
+   "sub": "Support",
+   "twins": [
+    "paige",
+    "kelvin"
+   ],
+   "why": "Bouncing heal, bubble stun, and a tidal wave",
+   "img": "img/nami.png"
+  },
+  {
+   "name": "Nasus",
+   "role": "Fighter",
+   "sub": "Top",
+   "twins": [
+    "mokrill"
+   ],
+   "why": "Farms permanent stacks, slows, then turns huge",
+   "img": "img/nasus.png"
+  },
+  {
+   "name": "Nautilus",
+   "role": "Tank",
+   "sub": "Support",
+   "twins": [
+    "bebop"
+   ],
+   "why": "Anchor hook onto terrain or foes, point-click knock-up",
+   "img": "img/nautilus.png"
+  },
+  {
+   "name": "Neeko",
+   "role": "Mage",
+   "sub": "Mid",
+   "twins": [
+    "sinclair"
+   ],
+   "why": "Disguises as allies, sends a clone, big AoE root",
+   "img": "img/neeko.png"
+  },
+  {
+   "name": "Nidalee",
+   "role": "Assassin",
+   "sub": "Jungle",
+   "twins": [
+    "silver"
+   ],
+   "why": "Spear poke in human form, pounces as a cougar",
+   "img": "img/nidalee.png"
+  },
+  {
+   "name": "Nilah",
+   "role": "Fighter",
+   "sub": "Bot",
+   "twins": [
+    "apollo",
+    "vyper"
+   ],
+   "why": "Slippery melee carry who dodges, dashes through and pulls",
+   "img": "img/nilah.png"
+  },
+  {
+   "name": "Nocturne",
+   "role": "Fighter",
+   "sub": "Jungle",
+   "twins": [
+    "drifter"
+   ],
+   "why": "Darkens the map and flies onto an isolated target",
+   "img": "img/nocturne.png"
+  },
+  {
+   "name": "Nunu & Willump",
+   "role": "Tank",
+   "sub": "Jungle",
+   "twins": [
+    "viscous",
+    "kelvin"
+   ],
+   "why": "Rolls a growing snowball into stuns; freezing ult",
+   "img": "img/nunu-willump.png"
+  },
+  {
+   "name": "Olaf",
+   "role": "Fighter",
+   "sub": "Top",
+   "twins": [
+    "victor",
+    "shiv"
+   ],
+   "why": "Health-costing berserker who gets stronger at low HP",
+   "img": "img/olaf.png"
+  },
+  {
+   "name": "Orianna",
+   "role": "Mage",
+   "sub": "Mid",
+   "twins": [
+    "dynamo",
+    "solomon"
+   ],
+   "why": "Ball control mage; Shockwave pulls the whole team in",
+   "img": "img/orianna.png"
+  },
+  {
+   "name": "Ornn",
+   "role": "Tank",
+   "sub": "Top",
+   "twins": [
+    "abrams"
+   ],
+   "why": "Charges into walls for knock-ups, calls a ram that tosses foes",
+   "img": "img/ornn.png"
+  },
+  {
+   "name": "Pantheon",
+   "role": "Fighter",
+   "sub": "Top",
+   "twins": [
+    "lash"
+   ],
+   "why": "Leaps from the sky onto a zone, stun and spear strikes",
+   "img": "img/pantheon.png"
+  },
+  {
+   "name": "Poppy",
+   "role": "Tank",
+   "sub": "Top",
+   "twins": [
+    "abrams",
+    "warden"
+   ],
+   "why": "Charges foes into walls to stun, stops dashes near her",
+   "img": "img/poppy.png"
+  },
+  {
+   "name": "Pyke",
+   "role": "Support",
+   "sub": "Support",
+   "twins": [
+    "shiv"
+   ],
+   "why": "Grey-health recovery, dash-through stun, resetting execute",
+   "img": "img/pyke.png"
+  },
+  {
+   "name": "Qiyana",
+   "role": "Assassin",
+   "sub": "Mid",
+   "twins": [
+    "calico"
+   ],
+   "why": "Element-swap burst assassin; brush stealth; wall-stun ult",
+   "img": "img/qiyana.png"
+  },
+  {
+   "name": "Quinn",
+   "role": "Marksman",
+   "sub": "Top",
+   "twins": [
+    "vindicta"
+   ],
+   "why": "Ranged harasser with a bird partner and a flying roam form",
+   "img": "img/quinn.png"
+  },
+  {
+   "name": "Rakan",
+   "role": "Support",
+   "sub": "Support",
+   "twins": [
+    "lash",
+    "ivy"
+   ],
+   "why": "Flies to allies, knocks up and charms a group",
+   "img": "img/rakan.png"
+  },
+  {
+   "name": "Rammus",
+   "role": "Tank",
+   "sub": "Jungle",
+   "twins": [
+    "viscous"
+   ],
+   "why": "Rolls in as an armored ball, taunts and knocks up",
+   "img": "img/rammus.png"
+  },
+  {
+   "name": "Rek'Sai",
+   "role": "Fighter",
+   "sub": "Jungle",
+   "twins": [
+    "mokrill"
+   ],
+   "why": "Burrows and pops up with a knock-up, tunnels around",
+   "img": "img/rek-sai.png"
+  },
+  {
+   "name": "Rell",
+   "role": "Tank",
+   "sub": "Support",
+   "twins": [
+    "dynamo",
+    "billy"
+   ],
+   "why": "Crashes in, magnet-pulls the whole team together",
+   "img": "img/rell.png"
+  },
+  {
+   "name": "Renata Glasc",
+   "role": "Support",
+   "sub": "Support",
+   "twins": [
+    "paige"
+   ],
+   "why": "Delays ally death, shields, ult turns enemies on each other",
+   "img": "img/renata-glasc.png"
+  },
+  {
+   "name": "Renekton",
+   "role": "Fighter",
+   "sub": "Top",
+   "twins": [
+    "shiv"
+   ],
+   "why": "Fury-fueled brawler who dashes through, stuns, dashes back",
+   "img": "img/renekton.png"
+  },
+  {
+   "name": "Rengar",
+   "role": "Assassin",
+   "sub": "Jungle",
+   "twins": [
+    "calico",
+    "drifter"
+   ],
+   "why": "Brush-stealth leaper who camouflages and hunts one target",
+   "img": "img/rengar.png"
+  },
+  {
+   "name": "Riven",
+   "role": "Fighter",
+   "sub": "Top",
+   "twins": [
+    "yamato",
+    "apollo"
+   ],
+   "why": "Combo blade chaser with dashes, stun, and empowered ult",
+   "img": "img/riven.png"
+  },
+  {
+   "name": "Rumble",
+   "role": "Fighter",
+   "sub": "Top",
+   "twins": [
+    "infernus"
+   ],
+   "why": "Flamethrower mech with overheat and a burning trail ult",
+   "img": "img/rumble.png"
+  },
+  {
+   "name": "Ryze",
+   "role": "Mage",
+   "sub": "Mid",
+   "twins": [
+    "mirage"
+   ],
+   "why": "Spell-stacking mage who teleports his team with Realm Warp",
+   "img": "img/ryze.png"
+  },
+  {
+   "name": "Samira",
+   "role": "Marksman",
+   "sub": "Bot",
+   "twins": [
+    "haze",
+    "vyper"
+   ],
+   "why": "Dashy gunner who spins firing at everyone in her ult",
+   "img": "img/samira.png"
+  },
+  {
+   "name": "Sejuani",
+   "role": "Tank",
+   "sub": "Jungle",
+   "twins": [
+    "kelvin",
+    "dynamo"
+   ],
+   "why": "Frost tank; permafrost stuns and an ice storm AoE",
+   "img": "img/sejuani.png"
+  },
+  {
+   "name": "Senna",
+   "role": "Support",
+   "sub": "Support",
+   "twins": [
+    "vindicta",
+    "greytalon",
+    "harrow"
+   ],
+   "why": "Long-range healer-gunner with a global beam and root",
+   "img": "img/senna.png"
+  },
+  {
+   "name": "Seraphine",
+   "role": "Support",
+   "sub": "Support",
+   "twins": [
+    "celeste",
+    "paige"
+   ],
+   "why": "Singer-mage with team shields/heals and a charm wave",
+   "img": "img/seraphine.png"
+  },
+  {
+   "name": "Sett",
+   "role": "Fighter",
+   "sub": "Top",
+   "twins": [
+    "billy"
+   ],
+   "why": "Punching brawler who grabs a hero and slams them into others",
+   "img": "img/sett.png"
+  },
+  {
+   "name": "Shaco",
+   "role": "Assassin",
+   "sub": "Jungle",
+   "twins": [
+    "sinclair",
+    "drifter"
+   ],
+   "why": "Trickster who blinks behind targets, sets boxes, makes a clone",
+   "img": "img/shaco.png"
+  },
+  {
+   "name": "Shen",
+   "role": "Tank",
+   "sub": "Top",
+   "twins": [
+    "mirage"
+   ],
+   "why": "Map-wide ult shields an ally, taunt dash",
+   "img": "img/shen.png"
+  },
+  {
+   "name": "Shyvana",
+   "role": "Fighter",
+   "sub": "Jungle",
+   "twins": [
+    "silver",
+    "infernus"
+   ],
+   "why": "Burning bruiser who builds up to a dragon transformation",
+   "img": "img/shyvana.png"
+  },
+  {
+   "name": "Singed",
+   "role": "Tank",
+   "sub": "Top",
+   "twins": [
+    "infernus"
+   ],
+   "why": "Runs leaving a poison trail, flings foes, sticky slow",
+   "img": "img/singed.png"
+  },
+  {
+   "name": "Sion",
+   "role": "Tank",
+   "sub": "Top",
+   "twins": [
+    "victor",
+    "abrams"
+   ],
+   "why": "Tank who reanimates after death, charges in unstoppably",
+   "img": "img/sion.png"
+  },
+  {
+   "name": "Sivir",
+   "role": "Marksman",
+   "sub": "Bot",
+   "twins": [
+    "seven",
+    "kelvin"
+   ],
+   "why": "Ricochet waveclear, spell shield and a team speed ult",
+   "img": "img/sivir.png"
+  },
+  {
+   "name": "Skarner",
+   "role": "Tank",
+   "sub": "Jungle",
+   "twins": [
+    "mokrill",
+    "abrams"
+   ],
+   "why": "Charges foes into walls; suppress-and-drag ult",
+   "img": "img/skarner.png"
+  },
+  {
+   "name": "Smolder",
+   "role": "Marksman",
+   "sub": "Bot",
+   "twins": [
+    "infernus"
+   ],
+   "why": "Stack-scaling fire carry with burning dragon breath",
+   "img": "img/smolder.png"
+  },
+  {
+   "name": "Sona",
+   "role": "Support",
+   "sub": "Support",
+   "twins": [
+    "dynamo",
+    "kelvin"
+   ],
+   "why": "Aura healer with speed boosts and a line-stun ult",
+   "img": "img/sona.png"
+  },
+  {
+   "name": "Soraka",
+   "role": "Support",
+   "sub": "Support",
+   "twins": [
+    "paige"
+   ],
+   "why": "Heals allies anywhere with a map-wide ult, silence zone",
+   "img": "img/soraka.png"
+  },
+  {
+   "name": "Swain",
+   "role": "Mage",
+   "sub": "Mid",
+   "twins": [
+    "geist",
+    "warden"
+   ],
+   "why": "Drains a whole team in his ult, root pull, crow poke",
+   "img": "img/swain.png"
+  },
+  {
+   "name": "Sylas",
+   "role": "Mage",
+   "sub": "Mid",
+   "twins": [
+    "sinclair"
+   ],
+   "why": "Steals enemy ultimates, chain-dashes, heals",
+   "img": "img/sylas.png"
+  },
+  {
+   "name": "Syndra",
+   "role": "Mage",
+   "sub": "Mid",
+   "twins": [
+    "wraith"
+   ],
+   "why": "Telekinetic orb mage who lifts and hurls enemies",
+   "img": "img/syndra.png"
+  },
+  {
+   "name": "Tahm Kench",
+   "role": "Tank",
+   "sub": "Top",
+   "twins": [
+    "viscous",
+    "ivy"
+   ],
+   "why": "Devours allies to carry them to safety, grey health",
+   "img": "img/tahm-kench.png"
+  },
+  {
+   "name": "Taliyah",
+   "role": "Mage",
+   "sub": "Mid",
+   "twins": [
+    "mcginnis",
+    "paradox"
+   ],
+   "why": "Rock-wall ult splits the map; stone barrages, knock-backs",
+   "img": "img/taliyah.png"
+  },
+  {
+   "name": "Talon",
+   "role": "Assassin",
+   "sub": "Mid",
+   "twins": [
+    "drifter",
+    "shiv"
+   ],
+   "why": "Bleed-stacking roamer who vaults walls, goes invisible",
+   "img": "img/talon.png"
+  },
+  {
+   "name": "Taric",
+   "role": "Support",
+   "sub": "Support",
+   "twins": [
+    "ivy"
+   ],
+   "why": "Links to an ally, stuns, delayed team invulnerability",
+   "img": "img/taric.png"
+  },
+  {
+   "name": "Teemo",
+   "role": "Marksman",
+   "sub": "Top",
+   "twins": [
+    "vyper",
+    "haze"
+   ],
+   "why": "Poison darts, blind, stealth and trap mushrooms",
+   "img": "img/teemo.png"
+  },
+  {
+   "name": "Thresh",
+   "role": "Support",
+   "sub": "Support",
+   "twins": [
+    "bebop",
+    "doorman"
+   ],
+   "why": "Hook reel, lantern pulls allies to him, flay",
+   "img": "img/thresh.png"
+  },
+  {
+   "name": "Tristana",
+   "role": "Marksman",
+   "sub": "Bot",
+   "twins": [
+    "holliday",
+    "danny"
+   ],
+   "why": "Rocket-jumps in, explosive charge and a knock-back shot",
+   "img": "img/tristana.png"
+  },
+  {
+   "name": "Trundle",
+   "role": "Fighter",
+   "sub": "Jungle",
+   "twins": [
+    "warden"
+   ],
+   "why": "Troll bruiser who steals a target's stats, walls with a pillar",
+   "img": "img/trundle.png"
+  },
+  {
+   "name": "Tryndamere",
+   "role": "Fighter",
+   "sub": "Top",
+   "twins": [
+    "yamato",
+    "victor"
+   ],
+   "why": "Rage-fueled spinner whose ult makes him unkillable",
+   "img": "img/tryndamere.png"
+  },
+  {
+   "name": "Twisted Fate",
+   "role": "Mage",
+   "sub": "Mid",
+   "twins": [
+    "wraith"
+   ],
+   "why": "Card-throwing gunner who teleports anywhere on the map",
+   "img": "img/twisted-fate.png"
+  },
+  {
+   "name": "Twitch",
+   "role": "Marksman",
+   "sub": "Bot",
+   "twins": [
+    "haze"
+   ],
+   "why": "Stealth, poison stacks, and a piercing spray-fire ult",
+   "img": "img/twitch.png"
+  },
+  {
+   "name": "Udyr",
+   "role": "Fighter",
+   "sub": "Jungle",
+   "twins": [
+    "warden",
+    "abrams"
+   ],
+   "why": "Stance-swapping brawler with shields, speed and stuns",
+   "img": "img/udyr.png"
+  },
+  {
+   "name": "Urgot",
+   "role": "Fighter",
+   "sub": "Top",
+   "twins": [
+    "venator",
+    "mokrill"
+   ],
+   "why": "Shotgun-leg bruiser; flips foes and executes with a drag",
+   "img": "img/urgot.png"
+  },
+  {
+   "name": "Varus",
+   "role": "Marksman",
+   "sub": "Bot",
+   "twins": [
+    "greytalon"
+   ],
+   "why": "Charged piercing arrow, blight stacks, root chain ult",
+   "img": "img/varus.png"
+  },
+  {
+   "name": "Vayne",
+   "role": "Marksman",
+   "sub": "Bot",
+   "twins": [
+    "mina",
+    "venator"
+   ],
+   "why": "Tumbling night hunter; % damage bolts and wall-pin stun",
+   "img": "img/vayne.png"
+  },
+  {
+   "name": "Veigar",
+   "role": "Mage",
+   "sub": "Mid",
+   "twins": [
+    "seven",
+    "doorman"
+   ],
+   "why": "Burst mage who stacks power forever and cages foes",
+   "img": "img/veigar.png"
+  },
+  {
+   "name": "Vel'Koz",
+   "role": "Mage",
+   "sub": "Mid",
+   "twins": [
+    "seven",
+    "bebop"
+   ],
+   "why": "Geometry poke; channels a giant tracking beam ult",
+   "img": "img/vel-koz.png"
+  },
+  {
+   "name": "Vex",
+   "role": "Mage",
+   "sub": "Mid",
+   "twins": [
+    "pocket",
+    "drifter"
+   ],
+   "why": "Gloom mage: fear bursts and a dash-to-mark ult",
+   "img": "img/vex.png"
+  },
+  {
+   "name": "Vi",
+   "role": "Fighter",
+   "sub": "Jungle",
+   "twins": [
+    "billy",
+    "lash"
+   ],
+   "why": "Charge punch knock-up; ult locks on and slams one target",
+   "img": "img/vi.png"
+  },
+  {
+   "name": "Viego",
+   "role": "Fighter",
+   "sub": "Jungle",
+   "twins": [
+    "sinclair",
+    "yamato"
+   ],
+   "why": "Possesses slain foes to use their kits",
+   "img": "img/viego.png"
+  },
+  {
+   "name": "Viktor",
+   "role": "Mage",
+   "sub": "Mid",
+   "twins": [
+    "seven",
+    "paradox"
+   ],
+   "why": "Laser mage with a gravity-field stun and a chaos storm",
+   "img": "img/viktor.png"
+  },
+  {
+   "name": "Vladimir",
+   "role": "Mage",
+   "sub": "Mid",
+   "twins": [
+    "geist"
+   ],
+   "why": "Spends health to cast, drains it back, pool untargetable",
+   "img": "img/vladimir.png"
+  },
+  {
+   "name": "Volibear",
+   "role": "Fighter",
+   "sub": "Top",
+   "twins": [
+    "abrams"
+   ],
+   "why": "Relentless bruiser; lightning stuns, a leap and healing",
+   "img": "img/volibear.png"
+  },
+  {
+   "name": "Warwick",
+   "role": "Fighter",
+   "sub": "Jungle",
+   "twins": [
+    "warden",
+    "mokrill"
+   ],
+   "why": "Chases fleeing low-HP foes, fears, suppresses in ult",
+   "img": "img/warwick.png"
+  },
+  {
+   "name": "Wukong",
+   "role": "Fighter",
+   "sub": "Top",
+   "twins": [
+    "sinclair",
+    "dynamo"
+   ],
+   "why": "Decoy clone, dash strike and a spinning knock-up ult",
+   "img": "img/wukong.png"
+  },
+  {
+   "name": "Xayah",
+   "role": "Marksman",
+   "sub": "Bot",
+   "twins": [
+    "greytalon"
+   ],
+   "why": "Feather marksman who roots and leaps skyward untargetable",
+   "img": "img/xayah.png"
+  },
+  {
+   "name": "Xerath",
+   "role": "Mage",
+   "sub": "Mid",
+   "twins": [
+    "greytalon",
+    "seven"
+   ],
+   "why": "Artillery mage with long-range ult barrages",
+   "img": "img/xerath.png"
+  },
+  {
+   "name": "Xin Zhao",
+   "role": "Fighter",
+   "sub": "Jungle",
+   "twins": [
+    "yamato",
+    "lash"
+   ],
+   "why": "Dash-in slow, knock-up combo; ult repels outer foes",
+   "img": "img/xin-zhao.png"
+  },
+  {
+   "name": "Yasuo",
+   "role": "Fighter",
+   "sub": "Mid",
+   "twins": [
+    "apollo",
+    "lash"
+   ],
+   "why": "Wind wall blocks shots; dashes through; ult on airborne foes",
+   "img": "img/yasuo.png"
+  },
+  {
+   "name": "Yone",
+   "role": "Fighter",
+   "sub": "Mid",
+   "twins": [
+    "yamato"
+   ],
+   "why": "Spirit-form dashes then snaps back; charged Q knock-ups",
+   "img": "img/yone.png"
+  },
+  {
+   "name": "Yorick",
+   "role": "Fighter",
+   "sub": "Top",
+   "twins": [
+    "graves"
+   ],
+   "why": "Raises ghouls and a Maiden that pushes lanes alone",
+   "img": "img/yorick.png"
+  },
+  {
+   "name": "Yunara",
+   "role": "Marksman",
+   "sub": "Bot",
+   "twins": [
+    "wraith"
+   ],
+   "why": "On-hit carry: attack-speed burst, ghosted run, empowered form",
+   "img": "img/yunara.png"
+  },
+  {
+   "name": "Yuumi",
+   "role": "Support",
+   "sub": "Support",
+   "twins": [
+    "rem"
+   ],
+   "why": "Attaches to an ally and heals while riding along",
+   "img": "img/yuumi.png"
+  },
+  {
+   "name": "Zaahen",
+   "role": "Fighter",
+   "sub": "Top",
+   "twins": [
+    "victor",
+    "billy"
+   ],
+   "why": "Stack-building darkin bruiser with a revive and a pull",
+   "img": "img/zaahen.png"
+  },
+  {
+   "name": "Zac",
+   "role": "Tank",
+   "sub": "Jungle",
+   "twins": [
+    "viscous"
+   ],
+   "why": "Goo bruiser: slingshot knock-up and bouncing blob ult",
+   "img": "img/zac.png"
+  },
+  {
+   "name": "Zed",
+   "role": "Assassin",
+   "sub": "Mid",
+   "twins": [
+    "drifter",
+    "pocket"
+   ],
+   "why": "Swaps to his shadows, marks a target, appears behind them",
+   "img": "img/zed.png"
+  },
+  {
+   "name": "Zeri",
+   "role": "Marksman",
+   "sub": "Bot",
+   "twins": [
+    "mina",
+    "seven"
+   ],
+   "why": "Nimble electric gunner who chains shocks while running",
+   "img": "img/zeri.png"
+  },
+  {
+   "name": "Ziggs",
+   "role": "Mage",
+   "sub": "Mid",
+   "twins": [
+    "holliday"
+   ],
+   "why": "Bouncing bombs, satchel knock-back, mega bomb ult",
+   "img": "img/ziggs.png"
+  },
+  {
+   "name": "Zilean",
+   "role": "Support",
+   "sub": "Support",
+   "twins": [
+    "paradox"
+   ],
+   "why": "Time mage: slow/haste, bomb stun, rewinds an ally's death",
+   "img": "img/zilean.png"
+  },
+  {
+   "name": "Zoe",
+   "role": "Mage",
+   "sub": "Mid",
+   "twins": [
+    "rem",
+    "celeste"
+   ],
+   "why": "Bouncing sleep bubble, portal hop, long-range poke",
+   "img": "img/zoe.png"
+  },
+  {
+   "name": "Zyra",
+   "role": "Mage",
+   "sub": "Support",
+   "twins": [
+    "graves"
+   ],
+   "why": "Plant summoner with a root and a knock-up bramble ult",
+   "img": "img/zyra.png"
+  }
+ ],
+ "fwd": {
+  "abrams": "Volibear",
+  "apollo": "Fiora",
+  "bebop": "Blitzcrank",
+  "billy": "Sett",
+  "calico": "Rengar",
+  "celeste": "Lux",
+  "drifter": "Nocturne",
+  "dynamo": "Orianna",
+  "graves": "Yorick",
+  "greytalon": "Ashe",
+  "haze": "Twitch",
+  "holliday": "Gangplank",
+  "infernus": "Brand",
+  "ivy": "Taric",
+  "kelvin": "Braum",
+  "geist": "Vladimir",
+  "lash": "Pantheon",
+  "mcginnis": "Heimerdinger",
+  "mina": "Vayne",
+  "mirage": "Shen",
+  "mokrill": "Rek'Sai",
+  "paige": "Soraka",
+  "paradox": "Ekko",
+  "pocket": "LeBlanc",
+  "rem": "Yuumi",
+  "seven": "Kennen",
+  "shiv": "Pyke",
+  "silver": "Nidalee",
+  "sinclair": "Sylas",
+  "doorman": "Bard",
+  "venator": "Jhin",
+  "victor": "Sion",
+  "vindicta": "Caitlyn",
+  "viscous": "Zac",
+  "vyper": "Cassiopeia",
+  "warden": "Warwick",
+  "wraith": "Twisted Fate",
+  "yamato": "Master Yi",
+  "ratking": "Jarvan IV",
+  "baba": "Fiddlesticks",
+  "solomon": "Azir",
+  "danny": "Corki",
+  "violet": "Hwei",
+  "harrow": "Senna"
+ }
+}

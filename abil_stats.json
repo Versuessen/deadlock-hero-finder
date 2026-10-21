@@ -1,0 +1,7145 @@
+{
+ "ability_incendiary_projectile": {
+  "cd": 25.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "40",
+    "u": "",
+    "sc": {
+     "x": 0.6,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Move Speed",
+    "v": "28",
+    "u": "%"
+   },
+   {
+    "k": "Slow Duration",
+    "v": "4",
+    "u": "s"
+   },
+   {
+    "k": "Damage Taken",
+    "v": "16",
+    "u": "%"
+   },
+   {
+    "k": "Cast Range",
+    "v": "20",
+    "u": "m"
+   },
+   {
+    "k": "Debuff Duration",
+    "v": "8",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: +1 Charges",
+   "T2: Napalm Effect: +15% Lifesteal",
+   "T3: Napalm Effect: +17% Damage Taken and -33% Healing"
+  ]
+ },
+ "ability_flame_dash": {
+  "cd": 38.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Max Dash Speed",
+    "v": "20",
+    "u": "m/s"
+   },
+   {
+    "k": "Damage Per Second",
+    "v": "30",
+    "u": "",
+    "sc": {
+     "x": 0.7,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Duration",
+    "v": "3",
+    "u": "s"
+   },
+   {
+    "k": "Trail Width",
+    "v": "4.5",
+    "u": "m"
+   },
+   {
+    "k": "Trail Duration",
+    "v": "4",
+    "u": "s"
+   },
+   {
+    "k": "Slow Resistance",
+    "v": "50",
+    "u": "%"
+   }
+  ],
+  "up": [
+   "T1: -12s Cooldown",
+   "T2: +1s Trail Duration and +20 DPS",
+   "T3: Enable 2 Ability Charges with 14s Recharge time"
+  ]
+ },
+ "ability_afterburn": {
+  "cd": null,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage Per Second",
+    "v": "14",
+    "u": "",
+    "sc": {
+     "x": 0.66,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Base Burn Duration",
+    "v": "3",
+    "u": "s"
+   },
+   {
+    "k": "Max Burn Duration",
+    "v": "3",
+    "u": "s"
+   },
+   {
+    "k": "Buildup Per Bullet",
+    "v": "8.1",
+    "u": "%"
+   },
+   {
+    "k": "Buildup Per Headshot",
+    "v": "15.4",
+    "u": "%"
+   },
+   {
+    "k": "Extend Per Bullet",
+    "v": "0.5",
+    "u": "s"
+   },
+   {
+    "k": "Extend Per Headshot",
+    "v": "1",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: +16 Damage Per Second",
+   "T2: Burn Effect: -35% Spirit Damage",
+   "T3: +3s Max Burn Duration"
+  ]
+ },
+ "ability_fire_bomb": {
+  "cd": 190.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Explosion Delay",
+    "v": "3.25",
+    "u": "s"
+   },
+   {
+    "k": "Damage",
+    "v": "125",
+    "u": "",
+    "sc": {
+     "x": 0.975,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Stun",
+    "v": "1.25",
+    "u": "s"
+   },
+   {
+    "k": "Radius",
+    "v": "12",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: +100 Damage",
+   "T2: -65s Cooldown and +100% Explosion Lifesteal",
+   "T3: +0.9s Stun Duration and +10m Radius"
+  ]
+ },
+ "citadel_ability_lightning_ball": {
+  "cd": 26.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage Per Second",
+    "v": "75",
+    "u": "",
+    "sc": {
+     "x": 0.5,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Radius",
+    "v": "4.25",
+    "u": "m"
+   },
+   {
+    "k": "Lifetime",
+    "v": "5",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: +1 Charges",
+   "T2: -28% move speed on hit targets and +1s Lifetime",
+   "T3: +58.5 DPS and +1.75m radius"
+  ]
+ },
+ "citadel_ability_static_charge": {
+  "cd": 42.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Stun",
+    "v": "0.9",
+    "u": "s"
+   },
+   {
+    "k": "Delay Before Stun",
+    "v": "3.5",
+    "u": "s"
+   },
+   {
+    "k": "Damage",
+    "v": "35",
+    "u": "",
+    "sc": {
+     "x": 0.792,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Cast Range",
+    "v": "15",
+    "u": "m"
+   },
+   {
+    "k": "Radius",
+    "v": "5",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: -20s Cooldown",
+   "T2: +7m Radius; +5m Cast range",
+   "T3: +0.9s Stun Duration; +160 Damage"
+  ]
+ },
+ "ability_power_surge": {
+  "cd": 50.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Shock Damage",
+    "v": "10",
+    "u": "",
+    "sc": {
+     "x": 0.14,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Max Jumps",
+    "v": "4",
+    "u": ""
+   },
+   {
+    "k": "Duration",
+    "v": "10",
+    "u": "s"
+   },
+   {
+    "k": "Jump Radius",
+    "v": "10",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: -18s Cooldown",
+   "T2: +3m Move Speed; +8 Damage and increased scaling",
+   "T3: +10s Duration; Applies -15% Spirit Resist"
+  ]
+ },
+ "citadel_ability_storm_cloud": {
+  "cd": 205.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage Per Second",
+    "v": "95",
+    "u": "",
+    "sc": {
+     "x": 0.6,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Flight Speed",
+    "v": "1.5",
+    "u": "m/s"
+   },
+   {
+    "k": "Channel Duration",
+    "v": "7",
+    "u": "s"
+   },
+   {
+    "k": "Radius",
+    "v": "30",
+    "u": "m"
+   },
+   {
+    "k": "Initial Radius",
+    "v": "10",
+    "u": "m"
+   },
+   {
+    "k": "Strike Radius",
+    "v": "7",
+    "u": "m"
+   },
+   {
+    "k": "Strike Damage",
+    "v": "75",
+    "u": "",
+    "sc": {
+     "x": 0.5,
+     "stat": "Spirit"
+    }
+   }
+  ],
+  "up": [
+   "T1: +55% Bullet Resist while channeling Storm Cloud",
+   "T2: +7s Channel Time; +10m Final Radius; +5m Initial Radius",
+   "T3: +65 DPS; +4m Flight Speed"
+  ]
+ },
+ "citadel_ability_hornet_chain": {
+  "cd": 40.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Tether Duration",
+    "v": "1.75",
+    "u": "s"
+   },
+   {
+    "k": "Damage",
+    "v": "40",
+    "u": "",
+    "sc": {
+     "x": 0.5,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Capture Radius",
+    "v": "9",
+    "u": "m"
+   },
+   {
+    "k": "Tether Length",
+    "v": "9",
+    "u": "m"
+   },
+   {
+    "k": "Move Speed",
+    "v": "40",
+    "u": "%"
+   }
+  ],
+  "up": [
+   "T1: +45 Damage",
+   "T2: -22s Cooldown",
+   "T3: +0.75s Tether Duration and +2m Capture Radius"
+  ]
+ },
+ "citadel_ability_hornet_leap": {
+  "cd": 42.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Spirit Damage Per Bullet",
+    "v": "10",
+    "u": "",
+    "sc": {
+     "x": 0.18,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Item Range",
+    "v": "50",
+    "u": "%"
+   },
+   {
+    "k": "Duration",
+    "v": "13",
+    "u": "s"
+   },
+   {
+    "k": "Channel Duration",
+    "v": "0.2",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: +50% base Ammo while flying",
+   "T2: +10s Duration",
+   "T3: Hero Kills Refresh Duration. +10 Spirit Damage with increased Spirit scaling"
+  ]
+ },
+ "citadel_ability_hornet_sting": {
+  "cd": 32.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Impact Damage",
+    "v": "40",
+    "u": "",
+    "sc": {
+     "x": 0.744,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Bleed Damage",
+    "v": "2.2",
+    "u": "%/sec"
+   },
+   {
+    "k": "Debuff Duration",
+    "v": "5",
+    "u": "s"
+   },
+   {
+    "k": "Bullet Resist",
+    "v": "-6",
+    "u": "%"
+   },
+   {
+    "k": "Spirit Resist",
+    "v": "-6",
+    "u": "%"
+   }
+  ],
+  "up": [
+   "T1: Reduces Incoming Healing by -35%",
+   "T2: +0.5% Bleed Damage; -16s Cooldown",
+   "T3: +2s Duration; -8% Bullet Resist; -8% Spirit Resist"
+  ]
+ },
+ "citadel_ability_hornet_snipe": {
+  "cd": 55.0,
+  "charges": 2,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "90",
+    "u": "",
+    "sc": {
+     "x": 0.93,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Max Bonus Damage",
+    "v": "90",
+    "u": "",
+    "sc": {
+     "x": 2.3,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Weapon Damage Per Kill",
+    "v": "6",
+    "u": "%"
+   },
+   {
+    "k": "Charge Delay",
+    "v": "2.5",
+    "u": "s"
+   },
+   {
+    "k": "Range",
+    "v": "1000",
+    "u": "m"
+   },
+   {
+    "k": "Full Charge Time",
+    "v": "1",
+    "u": "s"
+   },
+   {
+    "k": "No Charge Damage",
+    "v": "50",
+    "u": "%"
+   }
+  ],
+  "up": [
+   "T1: -15s Cooldown",
+   "T2: +80 Max Bonus Damage",
+   "T3: +4% Weapon Damage Per Kill"
+  ]
+ },
+ "ability_blood_bomb": {
+  "cd": 14.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "90",
+    "u": "",
+    "sc": {
+     "x": 1.22,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Health Cost",
+    "v": "30",
+    "u": "%"
+   },
+   {
+    "k": "Radius",
+    "v": "7",
+    "u": "m"
+   },
+   {
+    "k": "Arming Duration",
+    "v": "0.65",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: -5s Cooldown",
+   "T2: +2m Radius and +50 Damage.",
+   "T3: Bombs leave a toxic mess on the ground, dealing 30% of the original damage per second, for 6s."
+  ]
+ },
+ "ability_life_drain": {
+  "cd": 34.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage Per Second",
+    "v": "24",
+    "u": "",
+    "sc": {
+     "x": 0.323,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Duration",
+    "v": "2.5",
+    "u": "s"
+   },
+   {
+    "k": "Cast Range",
+    "v": "18",
+    "u": "m"
+   },
+   {
+    "k": "Max Tether Range",
+    "v": "28",
+    "u": "m"
+   },
+   {
+    "k": "Damage to Heal",
+    "v": "100",
+    "u": "%"
+   }
+  ],
+  "up": [
+   "T1: +13 Damage Per Second",
+   "T2: +2.5s Duration",
+   "T3: Enables and Grants +2 Charges. Increases spirit scaling."
+  ]
+ },
+ "ability_blood_shards": {
+  "cd": 6.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "23",
+    "u": "",
+    "sc": {
+     "x": 0.558,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Health Cost",
+    "v": "9",
+    "u": "%"
+   },
+   {
+    "k": "Damage Amplification",
+    "v": "7",
+    "u": "%"
+   },
+   {
+    "k": "Movement Slow",
+    "v": "12",
+    "u": "%"
+   },
+   {
+    "k": "Blood Shards",
+    "v": "3",
+    "u": ""
+   },
+   {
+    "k": "Max Stacks",
+    "v": "5",
+    "u": ""
+   },
+   {
+    "k": "Debuff Duration",
+    "v": "9",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: -3s Cooldown",
+   "T2: +25.2 Damage and +4 Blood Shards",
+   "T3: +8% Damage Amp"
+  ]
+ },
+ "ability_health_swap": {
+  "cd": 220.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Enemy Min Health",
+    "v": "30",
+    "u": "%"
+   },
+   {
+    "k": "Min Health Received",
+    "v": "30",
+    "u": "%"
+   },
+   {
+    "k": "Duration",
+    "v": "0.25",
+    "u": "s"
+   },
+   {
+    "k": "Cast Range",
+    "v": "5.5",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: -50s Cooldown",
+   "T2: Silence enemies within 25m for 3s",
+   "T3: On cast, +60 Spirit Power, +40% Fire Rate and +50% Spirit Resistance for 8s."
+  ]
+ },
+ "citadel_ability_bull_heal": {
+  "cd": 42.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage Per Second",
+    "v": "22",
+    "u": "",
+    "sc": {
+     "x": 0.6,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Duration",
+    "v": "4",
+    "u": "s"
+   },
+   {
+    "k": "Lifesteal",
+    "v": "70",
+    "u": "%"
+   },
+   {
+    "k": "Radius",
+    "v": "8",
+    "u": "m"
+   },
+   {
+    "k": "Lifesteal vs Non-Heroes",
+    "v": "35",
+    "u": "%"
+   }
+  ],
+  "up": [
+   "T1: -20s Cooldown",
+   "T2: +2s Duration",
+   "T3: +2m Radius and +18 DPS with improved Spirit scaling"
+  ]
+ },
+ "citadel_ability_bull_charge": {
+  "cd": 33.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "30",
+    "u": "",
+    "sc": {
+     "x": 1.4,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Stun",
+    "v": "0.3",
+    "u": "s"
+   },
+   {
+    "k": "Duration",
+    "v": "1.4",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: Applies +32% Slow for 3s",
+   "T2: On Wall Hit: +0.8s Stun Duration",
+   "T3: -18s Cooldown; On Hero Collide: +1.5 Weapon Damage for 6s"
+  ]
+ },
+ "citadel_ability_passive_beefy": {
+  "cd": null,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage Regenerated",
+    "v": "13",
+    "u": "%"
+   },
+   {
+    "k": "Regeneration Time",
+    "v": "20",
+    "u": "s"
+   },
+   {
+    "k": "Health Regen",
+    "v": "1",
+    "u": ""
+   }
+  ],
+  "up": [
+   "T1: +200 Max Health",
+   "T2: +18% Melee Lifesteal",
+   "T3: +20% Debuff Resist and +9% Damage Regenerated"
+  ]
+ },
+ "citadel_ability_bull_leap": {
+  "cd": 215.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "100",
+    "u": "",
+    "sc": {
+     "x": 2.325,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Stun",
+    "v": "1.6",
+    "u": "s"
+   },
+   {
+    "k": "Impact Radius",
+    "v": "9",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: -30s Cooldown",
+   "T2: +0.8s Stun Duration",
+   "T3: On cast, become Unstoppable for 5s and +6m Impact Radius"
+  ]
+ },
+ "citadel_ability_card_toss": {
+  "cd": 0.6,
+  "charges": 2,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "45",
+    "u": "",
+    "sc": {
+     "x": 0.55,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Bonus Damage",
+    "v": "60",
+    "u": "%"
+   },
+   {
+    "k": "Bullet and Spirit Resist Reduction",
+    "v": "-7",
+    "u": "%"
+   },
+   {
+    "k": "Move Speed",
+    "v": "24",
+    "u": "%"
+   },
+   {
+    "k": "Heal",
+    "v": "60",
+    "u": "",
+    "sc": {
+     "x": 0.5,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Radius",
+    "v": "4",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: +2 Charges",
+   "T2: +40 Damage and increased Spirit Scaling",
+   "T3: All suits are improved and higher chance for Jokers"
+  ]
+ },
+ "citadel_ability_projectmind": {
+  "cd": 46.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Cast Range",
+    "v": "25",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: +15m Cast Range",
+   "T2: 300 Barrier for 5s. Barrier scales with Spirit Power.",
+   "T3: -32s Cooldown"
+  ]
+ },
+ "citadel_ability_wraith_rapidfire": {
+  "cd": 45.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Fire Rate",
+    "v": "20",
+    "u": "%"
+   },
+   {
+    "k": "Spirit Damage Per Bullet",
+    "v": "2",
+    "u": "",
+    "sc": {
+     "x": 0.045,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Duration",
+    "v": "5",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: -20s Cooldown",
+   "T2: +10% Fire Rate and +3s Duration",
+   "T3: Unlimited Ammo and Increased Scaling on Spirit Damage Per Bullet"
+  ]
+ },
+ "citadel_ability_psychic_lift": {
+  "cd": 150.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "100",
+    "u": "",
+    "sc": {
+     "x": 1.0,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Throw Range",
+    "v": "13",
+    "u": "m"
+   },
+   {
+    "k": "Stun",
+    "v": "1.25",
+    "u": "s"
+   },
+   {
+    "k": "Duration",
+    "v": "2.25",
+    "u": "s"
+   },
+   {
+    "k": "Move Speed",
+    "v": "32",
+    "u": "%"
+   },
+   {
+    "k": "Cast Range",
+    "v": "10",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: +100 Damage",
+   "T2: -45s Cooldown",
+   "T3: +1.5s Debuff Duration and +6m Throw and Cast Range"
+  ]
+ },
+ "citadel_ability_shieldedsentry": {
+  "cd": 18.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Turret DPS",
+    "v": "24",
+    "u": "",
+    "sc": {
+     "x": 0.42,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Turret Health",
+    "v": "100",
+    "u": "",
+    "sc": {
+     "x": 9.0,
+     "stat": "Boon"
+    }
+   },
+   {
+    "k": "Attack Range",
+    "v": "30",
+    "u": "m"
+   },
+   {
+    "k": "Cast Range",
+    "v": "20",
+    "u": "m"
+   },
+   {
+    "k": "Lifetime",
+    "v": "35",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: +10 Turret DPS and +10m Attack Range",
+   "T2: +2 Charges",
+   "T3: +25% Turret Fire Rate and +12s Turret Lifetime"
+  ]
+ },
+ "citadel_ability_mobile_resupply": {
+  "cd": 50.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Health Regen",
+    "v": "25",
+    "u": "/sec",
+    "sc": {
+     "x": 0.3,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Heal Radius",
+    "v": "6",
+    "u": "m"
+   },
+   {
+    "k": "Duration",
+    "v": "6.5",
+    "u": "s"
+   },
+   {
+    "k": "Cast Range",
+    "v": "15",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: +1.5s Duration",
+   "T2: -20s Cooldown and provides +100% Stamina Recovery",
+   "T3: +2% Max HP Regen; +3m Heal Radius; +40% Spirit Resist"
+  ]
+ },
+ "citadel_ability_fissure_wall": {
+  "cd": 50.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "60",
+    "u": "",
+    "sc": {
+     "x": 0.731,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Move Speed",
+    "v": "16",
+    "u": "%"
+   },
+   {
+    "k": "Duration",
+    "v": "6",
+    "u": "s"
+   },
+   {
+    "k": "Cast Range",
+    "v": "50",
+    "u": "m"
+   },
+   {
+    "k": "Minimum Range",
+    "v": "5",
+    "u": "m"
+   },
+   {
+    "k": "Impact Range",
+    "v": "5",
+    "u": "m"
+   },
+   {
+    "k": "Slow Duration",
+    "v": "2.5",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: Amplifies McGinnis's damage by +20% on hit enemies for 7s",
+   "T2: -20s Cooldown and +2s Duration",
+   "T3: Deploy 2 Mini Turrets near the wall for 8s; +24% Slow"
+  ]
+ },
+ "citadel_ability_rocket_barrage": {
+  "cd": 200.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage Per Rocket",
+    "v": "21",
+    "u": "",
+    "sc": {
+     "x": 0.2,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Rockets per second",
+    "v": "6",
+    "u": ""
+   },
+   {
+    "k": "Explosion Radius",
+    "v": "4.5",
+    "u": "m"
+   },
+   {
+    "k": "Duration",
+    "v": "8",
+    "u": "s"
+   },
+   {
+    "k": "Cast Range",
+    "v": "36",
+    "u": "m"
+   },
+   {
+    "k": "Min Range",
+    "v": "8.5",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: Applies 24% movement and dash slow for 1s",
+   "T2: -45s Cooldown and +6s Duration",
+   "T3: +2m Radius and +15 Damage per Rocket with increased spirit scaling"
+  ]
+ },
+ "citadel_ability_chrono_pulse_grenade": {
+  "cd": 32.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Pulse Damage",
+    "v": "35",
+    "u": "",
+    "sc": {
+     "x": 0.3,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Damage Amp per stack",
+    "v": "4",
+    "u": "%"
+   },
+   {
+    "k": "Duration",
+    "v": "3.2",
+    "u": "s"
+   },
+   {
+    "k": "Radius",
+    "v": "5.5",
+    "u": "m"
+   },
+   {
+    "k": "Radius Per Pulse",
+    "v": "1",
+    "u": "m"
+   },
+   {
+    "k": "Pulse Interval",
+    "v": "0.8",
+    "u": "s"
+   },
+   {
+    "k": "Amp Duration",
+    "v": "8",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: -12s Cooldown",
+   "T2: +20 Pulse Damage and increased Spirit scaling",
+   "T3: +4% Damage Amp and +1.6s Duration"
+  ]
+ },
+ "citadel_ability_chrono_time_wall": {
+  "cd": 25.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Movement Slow",
+    "v": "64",
+    "u": "%"
+   },
+   {
+    "k": "Time Stop Duration",
+    "v": "0.5",
+    "u": "s"
+   },
+   {
+    "k": "Ally Weapon Damage",
+    "v": "30",
+    "u": "%"
+   },
+   {
+    "k": "Duration",
+    "v": "5.5",
+    "u": "s"
+   },
+   {
+    "k": "Wall Width",
+    "v": "8",
+    "u": "m"
+   },
+   {
+    "k": "Wall Height",
+    "v": "4",
+    "u": "m"
+   },
+   {
+    "k": "Ally Bullet Speed",
+    "v": "2",
+    "u": "x"
+   }
+  ],
+  "up": [
+   "T1: +3.5s Duration; +3m Width; +1m Height",
+   "T2: Silences enemies for 2.3s; +35% Weapon Damage",
+   "T3: +2 Ability Charges"
+  ]
+ },
+ "citadel_ability_chrono_kinetic_carbine": {
+  "cd": 28.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Max Damage",
+    "v": "5",
+    "u": "",
+    "sc": {
+     "x": 125.0,
+     "stat": "Weapon"
+    }
+   },
+   {
+    "k": "Max Time-Stop",
+    "v": "0.4",
+    "u": "s"
+   },
+   {
+    "k": "Bonus Speed",
+    "v": "25",
+    "u": "%",
+    "sc": {
+     "x": 0.13,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Min Damage",
+    "v": "5",
+    "u": "",
+    "sc": {
+     "x": 10.0,
+     "stat": "Weapon"
+    }
+   },
+   {
+    "k": "Charge Hold Duration",
+    "v": "3.5",
+    "u": "s"
+   },
+   {
+    "k": "HeadShot Bonus",
+    "v": "14",
+    "u": "%"
+   }
+  ],
+  "up": [
+   "T1: +0.4s Max Time-Stop",
+   "T2: -12s Cooldown; Increases Speed Scaling",
+   "T3: +2s Charge Hold Duration and +55% Damage Scaling"
+  ]
+ },
+ "citadel_ability_chrono_swap": {
+  "cd": 110.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Swap Damage",
+    "v": "150",
+    "u": "",
+    "sc": {
+     "x": 1.1,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Cast Range",
+    "v": "25",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: 200 Barrier for 8s. Barrier scales with Spirit",
+   "T2: -30s Cooldown and +13m Cast Range",
+   "T3: Swaps all enemies within 7m of hit target and +10% Max Health Damage"
+  ]
+ },
+ "citadel_ability_stomp": {
+  "cd": 26.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "115",
+    "u": "",
+    "sc": {
+     "x": 1.55,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Displacement",
+    "v": "1",
+    "u": "s"
+   },
+   {
+    "k": "Pulse Range",
+    "v": "16",
+    "u": "m"
+   },
+   {
+    "k": "Pulse Width",
+    "v": "5.5",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: +1 Charge",
+   "T2: On Hit: -15% Bullet Resist and -24% Move Speed for 4s",
+   "T3: +135 Damage and +20m Cast Range"
+  ]
+ },
+ "citadel_ability_void_sphere": {
+  "cd": 20.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Cast Range",
+    "v": "10",
+    "u": "m"
+   },
+   {
+    "k": "Duration",
+    "v": "1.4",
+    "u": "s"
+   },
+   {
+    "k": "Stamina Restored",
+    "v": "1",
+    "u": ""
+   },
+   {
+    "k": "Ally Distance",
+    "v": "13",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: +6m Cast Range",
+   "T2: -6s Cooldown",
+   "T3: Reduces non-ult debuffs by 50%; Replenishes 1 Charge"
+  ]
+ },
+ "citadel_ability_nikuman": {
+  "cd": 48.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Health Restored",
+    "v": "30",
+    "u": "/s",
+    "sc": {
+     "x": 0.4,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Channel Duration",
+    "v": "5",
+    "u": "s"
+   },
+   {
+    "k": "Friendly Heal Radius",
+    "v": "8",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: Aura provides +4m Move Speed during channel",
+   "T2: -20s Cooldown and +1s Duration",
+   "T3: Full move and ability use and additionally heals +2.5% of Max Health per second"
+  ]
+ },
+ "citadel_ability_self_vacuum": {
+  "cd": 250.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage Per Second",
+    "v": "75",
+    "u": "",
+    "sc": {
+     "x": 0.28,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Channel Duration",
+    "v": "2.75",
+    "u": "s"
+   },
+   {
+    "k": "Singularity Radius",
+    "v": "7",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: +2m Singularity Radius",
+   "T2: +0.75s Channel Duration",
+   "T3: +6% Max Health as Damage"
+  ]
+ },
+ "ability_ice_grenade": {
+  "cd": 30.0,
+  "charges": 2,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "60",
+    "u": "",
+    "sc": {
+     "x": 0.6,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Heal Amount",
+    "v": "60",
+    "u": "",
+    "sc": {
+     "x": 0.8,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Move Speed",
+    "v": "32",
+    "u": "%"
+   },
+   {
+    "k": "Charge Delay",
+    "v": "7",
+    "u": "s"
+   },
+   {
+    "k": "Radius",
+    "v": "6.5",
+    "u": "m"
+   },
+   {
+    "k": "Slow Duration",
+    "v": "4",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: +30 Damage and +30 Heal Amount",
+   "T2: -10 Cooldown and debuff now freezes Stamina Regen",
+   "T3: +2m Radius. Damage and Heal Spirit Scaling increased."
+  ]
+ },
+ "ability_icepath": {
+  "cd": 50.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Move Speed",
+    "v": "2",
+    "u": "m/s"
+   },
+   {
+    "k": "Sprint Speed",
+    "v": "2",
+    "u": "m/s"
+   },
+   {
+    "k": "Duration",
+    "v": "8",
+    "u": "s"
+   },
+   {
+    "k": "Explosion Radius",
+    "v": "5",
+    "u": "m"
+   },
+   {
+    "k": "Ice Trail Duration",
+    "v": "18",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: +2m Move Speed and +35% Bullet Resist for Kelvin while on Ice Path",
+   "T2: -25s Cooldown",
+   "T3: +35% Spirit and +20 Spirit for Kelvin while on Ice Path"
+  ]
+ },
+ "ability_icebeam": {
+  "cd": 28.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage Per Second",
+    "v": "45",
+    "u": "",
+    "sc": {
+     "x": 0.38,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Max Move Speed",
+    "v": "16",
+    "u": "%"
+   },
+   {
+    "k": "Max Fire Rate",
+    "v": "20",
+    "u": "%"
+   },
+   {
+    "k": "Duration",
+    "v": "5",
+    "u": "s"
+   },
+   {
+    "k": "Time To Max Debuff",
+    "v": "2",
+    "u": "s"
+   },
+   {
+    "k": "Beam Length",
+    "v": "25",
+    "u": "m"
+   },
+   {
+    "k": "Debuff Linger Duration",
+    "v": "2",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: -20% to Fire Rate and Move Speed",
+   "T2: +20 DPS and increased Spirit Scaling",
+   "T3: -13s Cooldown and Fires 2 additional Arctic Beams within 10m of the last target hit."
+  ]
+ },
+ "ability_ice_dome": {
+  "cd": 185.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Health Regen",
+    "v": "90",
+    "u": "",
+    "sc": {
+     "x": 0.2,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Duration",
+    "v": "5",
+    "u": "s"
+   },
+   {
+    "k": "Cast Range",
+    "v": "8",
+    "u": "m"
+   },
+   {
+    "k": "Radius",
+    "v": "10",
+    "u": "m"
+   },
+   {
+    "k": "Move Speed",
+    "v": "28",
+    "u": "%"
+   }
+  ],
+  "up": [
+   "T1: -20s Cooldown",
+   "T2: +1.5s Duration",
+   "T3: Purges non-ult debuffs for you and your allies. +65 Health Regen and increased Spirit Scaling"
+  ]
+ },
+ "ability_sleep_dagger": {
+  "cd": 30.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "65",
+    "u": "",
+    "sc": {
+     "x": 2.2,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Sleep Duration",
+    "v": "2.75",
+    "u": "s"
+   },
+   {
+    "k": "Min Sleep Time",
+    "v": "0.2",
+    "u": "s"
+   },
+   {
+    "k": "Wake Up Delay",
+    "v": "0.1",
+    "u": "s"
+   },
+   {
+    "k": "Sleep Movespeed",
+    "v": "1.5",
+    "u": "m/s"
+   }
+  ],
+  "up": [
+   "T1: -10% Bullet Resist Reduction for 6s on wake-up",
+   "T2: +1s Sleep Duration; Applies 15 Fixation Stacks",
+   "T3: -17s Cooldown; -40% Move and Dash Speed for 3s on wake-up"
+  ]
+ },
+ "ability_smoke_bomb": {
+  "cd": 33.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Fade Time",
+    "v": "1.5",
+    "u": "s"
+   },
+   {
+    "k": "Duration",
+    "v": "8",
+    "u": "s",
+    "sc": {
+     "x": 0.1,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Spot Radius",
+    "v": "18",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: +7m/s Invis Sprint Speed",
+   "T2: Enable 2 Ability Charges",
+   "T3: Dispels non-ult debuffs; Grants +50% Bullet Lifesteal for 5s"
+  ]
+ },
+ "ability_stacking_damage": {
+  "cd": null,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Weapon Damage",
+    "v": "0.2",
+    "u": "/stack"
+   },
+   {
+    "k": "Max Stacks",
+    "v": "40",
+    "u": ""
+   },
+   {
+    "k": "Duration",
+    "v": "6",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: 40 Spirit damage and 12% slow for 2s to target every 20 stacks",
+   "T2: +40 Max Stacks and +5s Duration",
+   "T3: +0.11/ per Stack; Scales with Weapon Damage"
+  ]
+ },
+ "ability_bullet_flurry": {
+  "cd": 165.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Fire Rate",
+    "v": "25",
+    "u": "%"
+   },
+   {
+    "k": "Bullet Damage",
+    "v": "7",
+    "u": ""
+   },
+   {
+    "k": "Targets Hit Per Shot",
+    "v": "1",
+    "u": ""
+   },
+   {
+    "k": "Duration",
+    "v": "3.5",
+    "u": "s",
+    "sc": {
+     "x": 0.03,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Radius",
+    "v": "16",
+    "u": "m"
+   },
+   {
+    "k": "Bullet Evasion",
+    "v": "30",
+    "u": "%"
+   }
+  ],
+  "up": [
+   "T1: +7 Bullet Damage",
+   "T2: +10% Fire Rate; +3m Movespeed",
+   "T3: +40% Evasion; -65s Cooldown"
+  ]
+ },
+ "ability_explosive_barrel": {
+  "cd": 28.0,
+  "charges": 2,
+  "stats": [
+   {
+    "k": "Impact Damage",
+    "v": "40",
+    "u": "",
+    "sc": {
+     "x": 0.525,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Damage Per Second",
+    "v": "13.33",
+    "u": "",
+    "sc": {
+     "x": 0.175,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Displacement",
+    "v": "0.4",
+    "u": "s"
+   },
+   {
+    "k": "Charge Delay",
+    "v": "7.5",
+    "u": "s"
+   },
+   {
+    "k": "Radius",
+    "v": "6",
+    "u": "m"
+   },
+   {
+    "k": "Burn Duration",
+    "v": "3",
+    "u": "s"
+   },
+   {
+    "k": "Arm Time",
+    "v": "0.1",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: -10s Cooldown",
+   "T2: +1 Charges",
+   "T3: +40 Impact Damage; +13.33 Burn Damage per Second; -5s Charge Time; Improved Spirit Scaling"
+  ]
+ },
+ "ability_bounce_pad": {
+  "cd": 41.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Stomp Damage",
+    "v": "60",
+    "u": "",
+    "sc": {
+     "x": 0.372,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Radius",
+    "v": "9",
+    "u": "m"
+   },
+   {
+    "k": "Duration",
+    "v": "22",
+    "u": "s"
+   },
+   {
+    "k": "Air Control",
+    "v": "100",
+    "u": "%"
+   }
+  ],
+  "up": [
+   "T1: -10s Cooldown",
+   "T2: You and allies gain a +4m/s move speed bonus for 4s on landing",
+   "T3: +0.7s Stomp Stun"
+  ]
+ },
+ "ability_crackshot": {
+  "cd": 20.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "55",
+    "u": "",
+    "sc": {
+     "x": 1.116,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Fading Move Speed",
+    "v": "40",
+    "u": "%"
+   },
+   {
+    "k": "Debuff Duration",
+    "v": "2",
+    "u": "s"
+   },
+   {
+    "k": "Explosion Radius",
+    "v": "2",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: -20% Fading Move Speed",
+   "T2: +49.5 Damage and -6% Bullet Resist for 5s",
+   "T3: -6s Cooldown on Hero Headshots. -3s on NPC Headshots"
+  ]
+ },
+ "ability_gravity_lasso": {
+  "cd": 130.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Stun",
+    "v": "2.25",
+    "u": "s"
+   },
+   {
+    "k": "Cast Range",
+    "v": "20",
+    "u": "m"
+   },
+   {
+    "k": "Damage",
+    "v": "80",
+    "u": "",
+    "sc": {
+     "x": 0.93,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Extended Duration from Bounce Pad",
+    "v": "1.25",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: +80 Damage",
+   "T2: +0.75s Duration",
+   "T3: -40s Cooldown"
+  ]
+ },
+ "citadel_ability_uppercut": {
+  "cd": 22.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Uppercut Damage",
+    "v": "100",
+    "u": "% of Light Melee Damage"
+   },
+   {
+    "k": "Displacement",
+    "v": "0.5",
+    "u": "s"
+   },
+   {
+    "k": "Area Damage",
+    "v": "75",
+    "u": "",
+    "sc": {
+     "x": 0.6,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Fire Rate",
+    "v": "-14",
+    "u": "%",
+    "sc": {
+     "x": -0.186,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Landing Radius",
+    "v": "14",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: -11s Cooldown",
+   "T2: On Hero Hit: Gain fast spin-up time, 2x weapon range and +30% weapon damage for 9s",
+   "T3: On Hero Hit: Set Grapple Arm cooldown to 0 and restores +18% of your missing health"
+  ]
+ },
+ "citadel_ability_sticky_bomb": {
+  "cd": 18.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Fuse Time",
+    "v": "3.5",
+    "u": "s"
+   },
+   {
+    "k": "Damage",
+    "v": "85",
+    "u": "",
+    "sc": {
+     "x": 1.5,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Sticky Bomb Damage",
+    "v": "1",
+    "u": "%"
+   },
+   {
+    "k": "Cast Range",
+    "v": "6",
+    "u": "m"
+   },
+   {
+    "k": "Radius",
+    "v": "8",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: -8s Cooldown",
+   "T2: +85 Damage",
+   "T3: On Cast: +5m Move Speed and +25% Debuff Resistance for 6s"
+  ]
+ },
+ "citadel_ability_hook": {
+  "cd": 23.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Cast Range",
+    "v": "30",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: +20% weapon damage against victims for 6s",
+   "T2: +30m Cast Range",
+   "T3: -11.5s Cooldown"
+  ]
+ },
+ "citadel_ability_bebop_laser_beam": {
+  "cd": 120.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage Per Second",
+    "v": "160",
+    "u": "",
+    "sc": {
+     "x": 2.511,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Move Speed",
+    "v": "20",
+    "u": "%"
+   },
+   {
+    "k": "Channel Duration",
+    "v": "11",
+    "u": "s"
+   },
+   {
+    "k": "Beam Length",
+    "v": "70",
+    "u": "m"
+   },
+   {
+    "k": "Beam Width",
+    "v": "2.9",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: -20s Cooldown",
+   "T2: +108 Damage Per Second",
+   "T3: Hyper Beam heals Bebop for 65% of its damage on Heroes. 20% on non-hero"
+  ]
+ },
+ "ability_nano_clustergrenade": {
+  "cd": 14.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Bomb Count",
+    "v": "4",
+    "u": ""
+   },
+   {
+    "k": "Damage",
+    "v": "45",
+    "u": "",
+    "sc": {
+     "x": 0.644,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Radius",
+    "v": "3",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: -3s Cooldown",
+   "T2: Per Bomb Touch : -6% Melee Resist for 6s",
+   "T3: +3 Bomb Count"
+  ]
+ },
+ "ability_nano_dash": {
+  "cd": 13.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Impact Damage",
+    "v": "10",
+    "u": "",
+    "sc": {
+     "x": 0.8,
+     "stat": "Light Melee"
+    }
+   },
+   {
+    "k": "Heal Amount",
+    "v": "40",
+    "u": "",
+    "sc": {
+     "x": 1.4,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Slash Radius",
+    "v": "4",
+    "u": "m"
+   },
+   {
+    "k": "Cast Range",
+    "v": "9",
+    "u": "m"
+   },
+   {
+    "k": "Radius",
+    "v": "2",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: +25 Heal Amount",
+   "T2: Heroes killed within 3s grant +200 souls",
+   "T3: +60 Damage & On Hero Hit: 50% Cooldown Refund"
+  ]
+ },
+ "ability_nano_catform": {
+  "cd": 30.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Min Move Speed",
+    "v": "30",
+    "u": "%"
+   },
+   {
+    "k": "Max Move Speed",
+    "v": "65",
+    "u": "%"
+   },
+   {
+    "k": "Buff Duration",
+    "v": "15",
+    "u": "s"
+   },
+   {
+    "k": "Time for Max Bonus",
+    "v": "4",
+    "u": "s"
+   },
+   {
+    "k": "Interrupt Cooldown",
+    "v": "6",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: +15s Buff Duration",
+   "T2: +15 Health Regen & +40% Max Move Speed",
+   "T3: Gain Damage Amp over time, up to 18%. Lingers for 6s"
+  ]
+ },
+ "ability_nano_shadow_pulse": {
+  "cd": 115.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "150",
+    "u": "",
+    "sc": {
+     "x": 0.609,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Move Speed",
+    "v": "20",
+    "u": "%"
+   },
+   {
+    "k": "Explosion Delay",
+    "v": "3",
+    "u": "s"
+   },
+   {
+    "k": "Radius",
+    "v": "7.5",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: -20s Cooldown",
+   "T2: +75 Damage and +20% Move Speed",
+   "T3: On Completion: Heal for 450 and refund all ability cooldowns"
+  ]
+ },
+ "ability_charged_shot": {
+  "cd": 17.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "80",
+    "u": "",
+    "sc": {
+     "x": 1.0,
+     "stat": "Spirit"
+    }
+   }
+  ],
+  "up": [
+   "T1: +1 Charges",
+   "T2: +54 Damage",
+   "T3: Improved damage scaling and -3s Charge Delay"
+  ]
+ },
+ "ability_power_jump": {
+  "cd": 25.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Weapon Multishot",
+    "v": "5",
+    "u": ""
+   },
+   {
+    "k": "Weapon Damage",
+    "v": "3",
+    "u": ""
+   },
+   {
+    "k": "Duration",
+    "v": "4",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: While airborne, +3 Weapon Damage and weapon damage applies 24% movement slow for 1.5s",
+   "T2: -12s Cooldown",
+   "T3: While airborne, +30% Bullet Lifesteal, +30% Spirit Lifesteal and +30% Bullet Evasion"
+  ]
+ },
+ "ability_immobilize_trap": {
+  "cd": 34.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Curse Duration",
+    "v": "2.25",
+    "u": "s"
+   },
+   {
+    "k": "Damage",
+    "v": "25",
+    "u": ""
+   },
+   {
+    "k": "Lifetime",
+    "v": "22",
+    "u": "s"
+   },
+   {
+    "k": "Radius",
+    "v": "6.5",
+    "u": "m"
+   },
+   {
+    "k": "Charged Shot Radius",
+    "v": "30",
+    "u": "%"
+   },
+   {
+    "k": "Arm Time",
+    "v": "2",
+    "u": "s"
+   },
+   {
+    "k": "Move Speed",
+    "v": "24",
+    "u": "%"
+   }
+  ],
+  "up": [
+   "T1: -20s Cooldown",
+   "T2: Applies -15% Bullet Resist for 10s",
+   "T3: +1s Curse Duration and +1.5m Radius"
+  ]
+ },
+ "ability_guided_arrow": {
+  "cd": 125.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "230",
+    "u": "",
+    "sc": {
+     "x": 0.937,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Explosion Radius",
+    "v": "12",
+    "u": "m"
+   },
+   {
+    "k": "Stun Duration",
+    "v": "0.75",
+    "u": "s"
+   },
+   {
+    "k": "Channel Duration",
+    "v": "20",
+    "u": "s"
+   },
+   {
+    "k": "Spirit Power Per Kill",
+    "v": "8",
+    "u": ""
+   }
+  ],
+  "up": [
+   "T1: +85 Damage",
+   "T2: -40s Cooldown",
+   "T3: After hit, kills enemies that are below 22% Health"
+  ]
+ },
+ "ability_intimidate": {
+  "cd": 13.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "50",
+    "u": "",
+    "sc": {
+     "x": 0.75,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Hero Damage to Heal",
+    "v": "1.2",
+    "u": "x"
+   },
+   {
+    "k": "Radius",
+    "v": "9",
+    "u": "m"
+   },
+   {
+    "k": "Damage to Heal",
+    "v": "0.35",
+    "u": "x"
+   }
+  ],
+  "up": [
+   "T1: +35 Damage",
+   "T2: -5s Cooldown; +1m Radius",
+   "T3: Adds a debuff to enemies that lets Mo & Krill deal +15% Damage to them. Stacks and lasts 16s."
+  ]
+ },
+ "ability_burrow": {
+  "cd": 40.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Move Speed",
+    "v": "5",
+    "u": "m/s"
+   },
+   {
+    "k": "Damage Per Second",
+    "v": "75",
+    "u": "",
+    "sc": {
+     "x": 1.488,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Spin Duration",
+    "v": "1.5",
+    "u": "s"
+   },
+   {
+    "k": "Displacement",
+    "v": "1",
+    "u": "s"
+   },
+   {
+    "k": "Channel Duration",
+    "v": "5",
+    "u": "s"
+   },
+   {
+    "k": "Radius",
+    "v": "5",
+    "u": "m"
+   },
+   {
+    "k": "Bullet Resist",
+    "v": "60",
+    "u": "%"
+   }
+  ],
+  "up": [
+   "T1: +50 Spin DPS",
+   "T2: +4s Burrow time and +2m radius",
+   "T3: -20 Cooldown and +4m/s Move Speed"
+  ]
+ },
+ "ability_throw_sand": {
+  "cd": 40.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Disarm",
+    "v": "2.5",
+    "u": "s"
+   },
+   {
+    "k": "Damage",
+    "v": "40",
+    "u": ""
+   },
+   {
+    "k": "Cast Range",
+    "v": "25",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: +50 Damage and +5m Range",
+   "T2: Slow targets by -24% and reduces dash distances by -26%",
+   "T3: +1.5s Duration and -25 Cooldown"
+  ]
+ },
+ "ability_ult_combo": {
+  "cd": 150.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage Per Second",
+    "v": "40",
+    "u": "",
+    "sc": {
+     "x": 0.6,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Bonus Max Health Per Kill",
+    "v": "40",
+    "u": "",
+    "sc": {
+     "x": 2.0,
+     "stat": "Boon"
+    }
+   },
+   {
+    "k": "Cast Range",
+    "v": "4",
+    "u": "m"
+   },
+   {
+    "k": "Channel Duration",
+    "v": "2.4",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: +100% lifesteal",
+   "T2: -30s Cooldown and +50% Bullet Resist",
+   "T3: +0.7s Duration and +40 Damage Per Second and increased scaling"
+  ]
+ },
+ "citadel_ability_shiv_dagger": {
+  "cd": 16.0,
+  "charges": 2,
+  "stats": [
+   {
+    "k": "Bleed DPS Per Knife",
+    "v": "10",
+    "u": "",
+    "sc": {
+     "x": 0.13,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Bleed Duration",
+    "v": "5",
+    "u": "s"
+   },
+   {
+    "k": "Current Health Damage",
+    "v": "3.5",
+    "u": "%",
+    "sc": {
+     "x": 0.01,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Movement Slow",
+    "v": "28",
+    "u": "%"
+   },
+   {
+    "k": "Channel Duration",
+    "v": "0.2",
+    "u": "s"
+   },
+   {
+    "k": "Charge Delay",
+    "v": "2",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: +2s Bleed Duration",
+   "T2: +2 Charges",
+   "T3: +12 Bleed DPS with increased Spirit scaling"
+  ]
+ },
+ "citadel_ability_shiv_dash": {
+  "cd": 16.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Impact Damage",
+    "v": "75",
+    "u": "",
+    "sc": {
+     "x": 1.2,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Dash Range",
+    "v": "12",
+    "u": "m"
+   },
+   {
+    "k": "Spirit Resist",
+    "v": "-6",
+    "u": "%"
+   },
+   {
+    "k": "Radius",
+    "v": "2.5",
+    "u": "m"
+   },
+   {
+    "k": "Debuff Duration",
+    "v": "14",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: -6s Cooldown",
+   "T2: -4% Spirit Resist; +2m Dash Range",
+   "T3: +50 Impact Damage; -2s Cooldown per Hero hit."
+  ]
+ },
+ "citadel_ability_shiv_defer_damage": {
+  "cd": 25.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Incoming Damage Deferred",
+    "v": "25",
+    "u": "%"
+   },
+   {
+    "k": "Deferred Damage Duration",
+    "v": "6",
+    "u": "s"
+   },
+   {
+    "k": "Deferred Damage Cleared",
+    "v": "30",
+    "u": "%"
+   }
+  ],
+  "up": [
+   "T1: -15s Cooldown",
+   "T2: +40% Deferred Damage Cleared",
+   "T3: +15% Incoming Damage Deferred"
+  ]
+ },
+ "citadel_ability_shiv_killing_blow": {
+  "cd": 145.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "200",
+    "u": ""
+   },
+   {
+    "k": "Enemy health threshold",
+    "v": "18",
+    "u": "%"
+   },
+   {
+    "k": "Full Rage Damage Bonus",
+    "v": "8",
+    "u": "%"
+   },
+   {
+    "k": "Cast Range",
+    "v": "12",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: +6 m Range; +2 m/s in Full Rage.",
+   "T2: +16% Full Rage Bonus Damage; -25s Cooldown",
+   "T3: +10% Enemy Health Threshold"
+  ]
+ },
+ "citadel_ability_tengu_urn": {
+  "cd": 32.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage Per Second",
+    "v": "40",
+    "u": "",
+    "sc": {
+     "x": 0.55,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Move Speed",
+    "v": "28",
+    "u": "%"
+   },
+   {
+    "k": "Duration",
+    "v": "4",
+    "u": "s"
+   },
+   {
+    "k": "Radius",
+    "v": "6",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: +1 Charges",
+   "T2: +2m Radius and increased DPS Spirit scaling",
+   "T3: Enemies caught in thorns for 2s are Immobilized for +1.6s"
+  ]
+ },
+ "citadel_ability_tangotether": {
+  "cd": 37.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Fire Rate",
+    "v": "10",
+    "u": "%",
+    "sc": {
+     "x": 0.18,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Bullet Lifesteal",
+    "v": "15",
+    "u": "%",
+    "sc": {
+     "x": 0.15,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Replicated Healing",
+    "v": "35",
+    "u": "%",
+    "sc": {
+     "x": 0.85,
+     "stat": "Boon"
+    }
+   },
+   {
+    "k": "Duration",
+    "v": "12",
+    "u": "s"
+   },
+   {
+    "k": "Cast Range",
+    "v": "16",
+    "u": "m"
+   },
+   {
+    "k": "Tether Count",
+    "v": "1",
+    "u": ""
+   }
+  ],
+  "up": [
+   "T1: +2m Move Speed",
+   "T2: +8% Fire Rate and +8% Bullet Lifesteal",
+   "T3: Ability is always active"
+  ]
+ },
+ "citadel_ability_tengu_stone_form": {
+  "cd": 40.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "75",
+    "u": "",
+    "sc": {
+     "x": 0.6,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Stun",
+    "v": "0.75",
+    "u": "s"
+   },
+   {
+    "k": "Max Health Heal",
+    "v": "6",
+    "u": "%"
+   },
+   {
+    "k": "Duration",
+    "v": "3",
+    "u": "s"
+   },
+   {
+    "k": "Radius",
+    "v": "5.75",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: +6% Max Health Heal",
+   "T2: -25s Cooldown",
+   "T3: +0.75s Stun Duration and increased Damage spirit scaling"
+  ]
+ },
+ "citadel_ability_tengu_airlift": {
+  "cd": 100.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Explode Damage",
+    "v": "115",
+    "u": "",
+    "sc": {
+     "x": 0.7,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Outgoing Damage Bonus",
+    "v": "20",
+    "u": "%"
+   },
+   {
+    "k": "Duration",
+    "v": "21",
+    "u": "s"
+   },
+   {
+    "k": "Grab Range",
+    "v": "22",
+    "u": "m"
+   },
+   {
+    "k": "Explode Radius",
+    "v": "20",
+    "u": "m"
+   },
+   {
+    "k": "Buff Duration",
+    "v": "8",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: On Fly End : 300 Barrier to Ivy and ally that scales with Spirit",
+   "T2: +32% Slow for 3s on enemies hit",
+   "T3: Silence for 3s on enemies hit. Increases damage and barrier scaling."
+  ]
+ },
+ "ability_warden_crowd_control": {
+  "cd": 12.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "60",
+    "u": "",
+    "sc": {
+     "x": 0.63,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Move Speed",
+    "v": "16",
+    "u": "%"
+   },
+   {
+    "k": "Weapon Damage",
+    "v": "-25",
+    "u": "%"
+   },
+   {
+    "k": "Radius",
+    "v": "5.5",
+    "u": "m"
+   },
+   {
+    "k": "Slow Duration",
+    "v": "3",
+    "u": "s"
+   },
+   {
+    "k": "Weapon Debuff Duration",
+    "v": "7",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: Hit enemies lose 1 Stamina",
+   "T2: +35 Damage and -25% Weapon Damage",
+   "T3: -7s Cooldown and +2m Radius; Applies -30% Fire Rate"
+  ]
+ },
+ "ability_warden_high_alert": {
+  "cd": 40.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Barrier",
+    "v": "125",
+    "u": "",
+    "sc": {
+     "x": 0.8,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Move Speed bonus",
+    "v": "15",
+    "u": "%"
+   },
+   {
+    "k": "Duration",
+    "v": "5",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: +20% Move Speed bonus",
+   "T2: -24s Cooldown and +2s Duration",
+   "T3: +30% Debuff Resistance and improved Barrier scaling"
+  ]
+ },
+ "ability_warden_lock_down": {
+  "cd": 34.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "110",
+    "u": "",
+    "sc": {
+     "x": 2.437,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Immobilize Duration",
+    "v": "1.75",
+    "u": "s"
+   },
+   {
+    "k": "Cast Range",
+    "v": "15",
+    "u": "m"
+   },
+   {
+    "k": "Escape Range",
+    "v": "20",
+    "u": "m"
+   },
+   {
+    "k": "Escape Time",
+    "v": "2.8",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: Warden deals +20% more Bullet Damage to trapped Heroes for 5s",
+   "T2: +0.75s Duration",
+   "T3: -14s Cooldown; Silences enemies until they escape or are immobilized"
+  ]
+ },
+ "ability_warden_riot_protocol": {
+  "cd": 180.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "DPS",
+    "v": "70",
+    "u": "",
+    "sc": {
+     "x": 1.3,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Hero Lifesteal",
+    "v": "75",
+    "u": "%"
+   },
+   {
+    "k": "Duration",
+    "v": "6",
+    "u": "s"
+   },
+   {
+    "k": "Radius",
+    "v": "12",
+    "u": "m"
+   },
+   {
+    "k": "Pulse Interval",
+    "v": "0.5",
+    "u": "s"
+   },
+   {
+    "k": "Non-Hero Lifesteal",
+    "v": "10",
+    "u": "%"
+   },
+   {
+    "k": "Bullet Resist",
+    "v": "50",
+    "u": "%"
+   }
+  ],
+  "up": [
+   "T1: +4m Radius",
+   "T2: +40.5 DPS; -30s Cooldown",
+   "T3: +4s Duration; Unstoppable and +30% Resists while channeling"
+  ]
+ },
+ "citadel_ability_power_slash": {
+  "cd": 12.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Full Charge Damage",
+    "v": "145",
+    "u": "",
+    "sc": {
+     "x": 1.85,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Slash Length",
+    "v": "22",
+    "u": "m"
+   },
+   {
+    "k": "Bullet Resist",
+    "v": "60",
+    "u": "%"
+   }
+  ],
+  "up": [
+   "T1: +32% Movement Slow for 3s",
+   "T2: -4s Ability Cooldown",
+   "T3: +8m Cast Range; +150 Damage and Increases Spirit Power scaling"
+  ]
+ },
+ "citadel_ability_flying_strike": {
+  "cd": 36.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Move Speed",
+    "v": "40",
+    "u": "%"
+   },
+   {
+    "k": "Cast Range",
+    "v": "26",
+    "u": "m"
+   },
+   {
+    "k": "Slow Duration",
+    "v": "2.5",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: -18s Cooldown",
+   "T2: Gain +35 Spirit Power for 6s",
+   "T3: Alt-Cast to Grapple allies; +15m Cast Range; Gains 1 extra charge"
+  ]
+ },
+ "citadel_ability_healing_slash": {
+  "cd": 16.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "55",
+    "u": "",
+    "sc": {
+     "x": 0.37,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Heal on hero hit",
+    "v": "55",
+    "u": "",
+    "sc": {
+     "x": 1.036,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Fire Rate",
+    "v": "30",
+    "u": "%"
+   },
+   {
+    "k": "Radius",
+    "v": "13",
+    "u": "m"
+   },
+   {
+    "k": "Debuff Duration",
+    "v": "4",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: On Hit : +30% Melee Damage for 4s",
+   "T2: On Hero Hit : +6% Max Health Heal",
+   "T3: -10s Cooldown and increases scaling"
+  ]
+ },
+ "citadel_ability_infinity_slash": {
+  "cd": 150.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Duration",
+    "v": "5",
+    "u": "s"
+   },
+   {
+    "k": "Ability Speed",
+    "v": "60",
+    "u": "%"
+   },
+   {
+    "k": "Max HP Heal On Kill",
+    "v": "15",
+    "u": "%"
+   },
+   {
+    "k": "Explosion Delay",
+    "v": "1.5",
+    "u": "s"
+   },
+   {
+    "k": "Bullet Resist",
+    "v": "30",
+    "u": "%"
+   },
+   {
+    "k": "Spirit Resist",
+    "v": "30",
+    "u": "%"
+   },
+   {
+    "k": "Duration On Kill",
+    "v": "2",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: +7 Weapon Damage",
+   "T2: +4m Move Speed and -20 Cooldown",
+   "T3: +3s Duration; +30% Bullet Resist; +30% Spirit Resist"
+  ]
+ },
+ "citadel_ability_lash_down_strike": {
+  "cd": 18.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Stomp Damage",
+    "v": "60",
+    "u": "",
+    "sc": {
+     "x": 0.79,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Damage Per Meter",
+    "v": "5.5",
+    "u": "",
+    "sc": {
+     "x": 0.04,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Radius",
+    "v": "10",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: -10s Cooldown",
+   "T2: Struck enemies are knocked up and slowed by 40% for 3s",
+   "T3: Damage Per Meter +120% and improved scaling"
+  ]
+ },
+ "citadel_ability_lash": {
+  "cd": 35.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Jump Velocity",
+    "v": "20",
+    "u": "m/s"
+   },
+   {
+    "k": "Cast Range",
+    "v": "30",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: -17s Cooldown",
+   "T2: +20m Cast Range and gain +7 Weapon Damage for 6s",
+   "T3: +1 Charges; OnCast : +1 Stamina and +60% Air Control"
+  ]
+ },
+ "ability_lash_flog": {
+  "cd": 26.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "65",
+    "u": "",
+    "sc": {
+     "x": 0.85,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Heal vs heroes",
+    "v": "40",
+    "u": "%"
+   },
+   {
+    "k": "Attack Angle",
+    "v": "40",
+    "u": "°"
+   },
+   {
+    "k": "Cast Range",
+    "v": "20",
+    "u": "m"
+   },
+   {
+    "k": "Heal vs non-heroes",
+    "v": "16",
+    "u": "%"
+   }
+  ],
+  "up": [
+   "T1: Apply -28% Move speed for 3s",
+   "T2: Apply -30% Fire Rate; -16s Cooldown",
+   "T3: +80 Damage; +25 Attack angle; +15% Heal"
+  ]
+ },
+ "citadel_ability_lash_ultimate": {
+  "cd": 170.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Impact Damage",
+    "v": "105",
+    "u": "",
+    "sc": {
+     "x": 0.975,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Max Throw Distance",
+    "v": "14",
+    "u": "m",
+    "sc": {
+     "x": 0.14,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Cast Range",
+    "v": "20",
+    "u": "m"
+   },
+   {
+    "k": "Channel Duration",
+    "v": "2.3",
+    "u": "s"
+   },
+   {
+    "k": "Impact Radius",
+    "v": "6",
+    "u": "m"
+   },
+   {
+    "k": "Move Speed",
+    "v": "40",
+    "u": "%"
+   },
+   {
+    "k": "Slow Duration",
+    "v": "4",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: +12m Max Throw Distance",
+   "T2: -35s Cooldown",
+   "T3: Stun enemies in Radius for 1.2s; +6m Cast Range"
+  ]
+ },
+ "viscous_goo_grenade": {
+  "cd": 26.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "55",
+    "u": "",
+    "sc": {
+     "x": 0.7,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Bounces",
+    "v": "2",
+    "u": ""
+   },
+   {
+    "k": "Move Speed",
+    "v": "28",
+    "u": "%"
+   },
+   {
+    "k": "Puddle Duration",
+    "v": "10",
+    "u": "s"
+   },
+   {
+    "k": "Radius",
+    "v": "5",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: +36 Damage and +1.5m Radius",
+   "T2: -14s Cooldown",
+   "T3: +1 Bounce and improved Spirit Scaling"
+  ]
+ },
+ "viscous_restorative_goo": {
+  "cd": 42.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Health Regen",
+    "v": "40",
+    "u": "",
+    "sc": {
+     "x": 0.3,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Duration",
+    "v": "3",
+    "u": "s"
+   },
+   {
+    "k": "Buff Duration",
+    "v": "8",
+    "u": "s"
+   },
+   {
+    "k": "Cast Range",
+    "v": "20",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: Increases Move Speed and Stamina Recovery",
+   "T2: +25 Health Regen and +1s Duration",
+   "T3: Removes all non-ult Debuffs and -20s Cooldown"
+  ]
+ },
+ "viscous_telepunch": {
+  "cd": 24.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "20",
+    "u": "",
+    "sc": {
+     "x": 0.6,
+     "stat": "Light Melee"
+    }
+   },
+   {
+    "k": "Move Speed",
+    "v": "24",
+    "u": "%"
+   },
+   {
+    "k": "Displacement",
+    "v": "0.6",
+    "u": "s"
+   },
+   {
+    "k": "Cast Range",
+    "v": "40",
+    "u": "m"
+   },
+   {
+    "k": "Radius",
+    "v": "4",
+    "u": "m"
+   },
+   {
+    "k": "Slow Duration",
+    "v": "3",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: +1 Charge and +20 Damage",
+   "T2: +1.5m Radius and +60% Lifesteal",
+   "T3: -14s Cooldown and now deals Heavy Melee Damage"
+  ]
+ },
+ "viscous_goo_bowling_ball": {
+  "cd": 150.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "110",
+    "u": "",
+    "sc": {
+     "x": 1.0,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Stun Duration",
+    "v": "0.5",
+    "u": "s"
+   },
+   {
+    "k": "Ball Radius",
+    "v": "1.4",
+    "u": "m"
+   },
+   {
+    "k": "Duration",
+    "v": "11",
+    "u": "s"
+   },
+   {
+    "k": "Spirit Resist",
+    "v": "35",
+    "u": "%"
+   },
+   {
+    "k": "Bullet Resist",
+    "v": "35",
+    "u": "%"
+   }
+  ],
+  "up": [
+   "T1: -25s Cooldown",
+   "T2: +70 Damage and +20% Resists",
+   "T3: +7s Duration, +0.3s Stun Duration, and +0.2 Spirit Scaling"
+  ]
+ },
+ "synth_barrage": {
+  "cd": 32.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Amp Per Stack",
+    "v": "6",
+    "u": "%"
+   },
+   {
+    "k": "Damage Per Projectile",
+    "v": "32",
+    "u": "",
+    "sc": {
+     "x": 0.465,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Move Speed",
+    "v": "24",
+    "u": "%"
+   },
+   {
+    "k": "Channel Duration",
+    "v": "2",
+    "u": "s"
+   },
+   {
+    "k": "Radius",
+    "v": "4.5",
+    "u": "m"
+   },
+   {
+    "k": "Projectile Amount",
+    "v": "4",
+    "u": ""
+   },
+   {
+    "k": "Slow Duration",
+    "v": "1.5",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: +16 Damage Per Projectile",
+   "T2: -16s Cooldown",
+   "T3: +4% Amp Per Stack and 3m Radius"
+  ]
+ },
+ "synth_plasma_flux": {
+  "cd": 26.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "60",
+    "u": "",
+    "sc": {
+     "x": 1.3,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Radius",
+    "v": "5",
+    "u": "m"
+   },
+   {
+    "k": "Lifetime",
+    "v": "3.8",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: +70 Damage",
+   "T2: +5 Weapon Damage for 6s",
+   "T3: +1.6s Lifetime and -10s Cooldown."
+  ]
+ },
+ "synth_pulse": {
+  "cd": 17.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Escape Duration",
+    "v": "1.5",
+    "u": "s"
+   },
+   {
+    "k": "Damage",
+    "v": "65",
+    "u": "",
+    "sc": {
+     "x": 1.1,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Radius",
+    "v": "12",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: -5s Cooldown",
+   "T2: +90 Damage",
+   "T3: +1.5s Duration; +4m Radius; -32% Move Speed and Fire Rate for 4s"
+  ]
+ },
+ "synth_affliction": {
+  "cd": 170.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage Per Second",
+    "v": "32",
+    "u": "",
+    "sc": {
+     "x": 0.21,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Debuff Duration",
+    "v": "10",
+    "u": "s"
+   },
+   {
+    "k": "Radius",
+    "v": "9",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: -35s Cooldown",
+   "T2: +3s Duration and +4m Radius",
+   "T3: Prevents all healing; +13 DPS with increased Spirit scaling"
+  ]
+ },
+ "mirage_fire_beetles": {
+  "cd": 35.0,
+  "charges": 2,
+  "stats": [
+   {
+    "k": "Health Steal Per Sec",
+    "v": "8",
+    "u": "",
+    "sc": {
+     "x": 0.1,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Damage Penalty",
+    "v": "-20",
+    "u": "%"
+   },
+   {
+    "k": "Charge Delay",
+    "v": "1",
+    "u": "s"
+   },
+   {
+    "k": "Steal Duration",
+    "v": "5",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: +7 Health Steal Per Sec",
+   "T2: +1 Charge; +2s Duration",
+   "T3: -15% Damage Penalty; Increased Spirit scaling"
+  ]
+ },
+ "mirage_tornado": {
+  "cd": 36.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "65",
+    "u": "",
+    "sc": {
+     "x": 0.3,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Lift Duration",
+    "v": "0.3",
+    "u": "s"
+   },
+   {
+    "k": "Bullet Evasion Chance",
+    "v": "30",
+    "u": "%"
+   },
+   {
+    "k": "Cast Range",
+    "v": "20",
+    "u": "m"
+   },
+   {
+    "k": "Radius",
+    "v": "4",
+    "u": "m"
+   },
+   {
+    "k": "Bullet Evasion Duration",
+    "v": "4",
+    "u": "s"
+   },
+   {
+    "k": "Move Speed",
+    "v": "24",
+    "u": "%"
+   }
+  ],
+  "up": [
+   "T1: +60 Damage",
+   "T2: -12s Cooldown; +30% Evasion",
+   "T3: Recast within 6s. Increases spirit scaling."
+  ]
+ },
+ "mirage_sand_phantom": {
+  "cd": 2.75,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Base Damage",
+    "v": "11",
+    "u": "",
+    "sc": {
+     "x": 0.35,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Damage Per Mark",
+    "v": "2",
+    "u": "x"
+   },
+   {
+    "k": "Max Marks",
+    "v": "4",
+    "u": ""
+   },
+   {
+    "k": "Proc Max Range",
+    "v": "40",
+    "u": "m"
+   },
+   {
+    "k": "Per Target Cooldown",
+    "v": "2.75",
+    "u": "s"
+   },
+   {
+    "k": "Djinn's Mark Duration",
+    "v": "5",
+    "u": "s"
+   },
+   {
+    "k": "Reveal Duration",
+    "v": "6",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: On Proc: Apply a fading 48% Slow for 0.8s",
+   "T2: +20 Base Damage and +3s Multiplier Duration",
+   "T3: -0.75s Cooldown; +1 Max Marks; Stun Victim for 0.5s on Max Marks"
+  ]
+ },
+ "mirage_teleport": {
+  "cd": 140.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Wait Time",
+    "v": "2",
+    "u": "s"
+   },
+   {
+    "k": "Interrupt Cooldown",
+    "v": "4",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: +3m Move Speed and +20% Fire Rate for 12s",
+   "T2: 400 Barrier that scales with Spirit",
+   "T3: -90s Cooldown"
+  ]
+ },
+ "ability_viper_debuffdagger": {
+  "cd": 10.0,
+  "charges": 2,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "50",
+    "u": "",
+    "sc": {
+     "x": 0.8,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Move Speed",
+    "v": "28",
+    "u": "%"
+   },
+   {
+    "k": "Damage per Stack",
+    "v": "25",
+    "u": "",
+    "sc": {
+     "x": 0.4,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Move Speed per Stack",
+    "v": "12",
+    "u": "%"
+   },
+   {
+    "k": "Charge Delay",
+    "v": "4",
+    "u": "s"
+   },
+   {
+    "k": "Stack Duration",
+    "v": "10",
+    "u": "s"
+   },
+   {
+    "k": "Max Stacks",
+    "v": "3",
+    "u": ""
+   }
+  ],
+  "up": [
+   "T1: +1 Charges",
+   "T2: On Hit: -8% Bullet Resist and -6% Bullet Resist per Stack",
+   "T3: +2 Max Stacks; -2s Charge Delay; On Hit: Refund 55% Charge Cooldown"
+  ]
+ },
+ "ability_viper_venom": {
+  "cd": 28.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Minimum Venom Damage",
+    "v": "20",
+    "u": "",
+    "sc": {
+     "x": 0.651,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Max Venom Damage",
+    "v": "140",
+    "u": "",
+    "sc": {
+     "x": 2.79,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Cast Range",
+    "v": "10",
+    "u": "m",
+    "sc": {
+     "x": 0.2,
+     "stat": "Boon"
+    }
+   },
+   {
+    "k": "Health for Max Damage",
+    "v": "30",
+    "u": "%"
+   },
+   {
+    "k": "Venom Buildup Duration",
+    "v": "3",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: +31.5 Max Venom Damage",
+   "T2: -40% Incoming Healing and -12s Cooldown",
+   "T3: Bullets also build up Lethal Venom"
+  ]
+ },
+ "ability_viper_snakedash": {
+  "cd": null,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Slide Distance",
+    "v": "15",
+    "u": "%"
+   }
+  ],
+  "up": [
+   "T1: +20% Slide Distance",
+   "T2: +2 Stamina",
+   "T3: On Slide: Gain 180 barrier for 4s"
+  ]
+ },
+ "ability_viper_petrifybola": {
+  "cd": 115.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Petrify",
+    "v": "2.2",
+    "u": "s"
+   },
+   {
+    "k": "Damage",
+    "v": "50",
+    "u": "",
+    "sc": {
+     "x": 0.744,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Petrify Damage",
+    "v": "180",
+    "u": "",
+    "sc": {
+     "x": 2.046,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Radius",
+    "v": "12",
+    "u": "m"
+   },
+   {
+    "k": "Move Speed",
+    "v": "40",
+    "u": "%"
+   },
+   {
+    "k": "Slow Duration",
+    "v": "1.5",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: +49.5 Petrify Damage",
+   "T2: -20s Cooldown",
+   "T3: +1s Petrify Duration. Petrifies all enemies in the area."
+  ]
+ },
+ "ability_magician_magicbolt": {
+  "cd": 24.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Minimum Damage",
+    "v": "60",
+    "u": "",
+    "sc": {
+     "x": 0.93,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Max Damage",
+    "v": "120",
+    "u": "",
+    "sc": {
+     "x": 1.86,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Assistant Damage",
+    "v": "50",
+    "u": "%"
+   },
+   {
+    "k": "Radius",
+    "v": "3.25",
+    "u": "m"
+   },
+   {
+    "k": "Time for Max Damage",
+    "v": "2",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: Bolts apply -25% Fire Rate for 5s.",
+   "T2: -13s Cooldown",
+   "T3: +126 Max Damage. +50% Assistant Damage."
+  ]
+ },
+ "ability_magician_cloneturret": {
+  "cd": 40.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "15",
+    "u": "",
+    "sc": {
+     "x": 0.36,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Duration",
+    "v": "6",
+    "u": "s"
+   },
+   {
+    "k": "Max Swaps",
+    "v": "2",
+    "u": ""
+   },
+   {
+    "k": "Cast Range",
+    "v": "15",
+    "u": "m"
+   },
+   {
+    "k": "Max Leash Radius",
+    "v": "20",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: -10s Cooldown",
+   "T2: +7s Duration & 5m Range",
+   "T3: +60% Fire Rate and +12.6 Assistant Damage"
+  ]
+ },
+ "ability_magician_animalhexarea": {
+  "cd": 26.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Hex Duration",
+    "v": "2",
+    "u": "s"
+   },
+   {
+    "k": "Damage Amp",
+    "v": "15",
+    "u": "%",
+    "sc": {
+     "x": 0.056,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Cast Range",
+    "v": "24",
+    "u": "m"
+   },
+   {
+    "k": "Radius",
+    "v": "6",
+    "u": "m"
+   },
+   {
+    "k": "Move Speed bonus",
+    "v": "36",
+    "u": "%"
+   }
+  ],
+  "up": [
+   "T1: -10s Cooldown",
+   "T2: +1s Hex Duration",
+   "T3: +7% Damage Amp and +2m Radius"
+  ]
+ },
+ "ability_magician_copyult": {
+  "cd": 85.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Copy Duration",
+    "v": "9",
+    "u": "s"
+   },
+   {
+    "k": "Copied Cooldown",
+    "v": "60",
+    "u": "%"
+   },
+   {
+    "k": "Cast Range",
+    "v": "20",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: Upgrade the Copy.",
+   "T2: Upgrade the Copy AGAIN!",
+   "T3: Upgrade the Copy ONCE AGAIN!"
+  ]
+ },
+ "ability_vampirebat_steallife": {
+  "cd": 16.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "60",
+    "u": ""
+   },
+   {
+    "k": "Missing Health as Damage",
+    "v": "6",
+    "u": "%"
+   },
+   {
+    "k": "Heal Per Kill",
+    "v": "25",
+    "u": "",
+    "sc": {
+     "x": 0.3,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Cast Range",
+    "v": "10",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: +60 Damage",
+   "T2: +30 Heal per Kill; -8s Cooldown",
+   "T3: +7% Missing health damage and increased Heal per Kill Spirit scaling"
+  ]
+ },
+ "ability_vampirebat_batblink": {
+  "cd": 32.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Cast Range",
+    "v": "9",
+    "u": "m",
+    "sc": {
+     "x": 0.02,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Recast Window",
+    "v": "4",
+    "u": "s"
+   },
+   {
+    "k": "Duration",
+    "v": "0.65",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: On Cast: Gain +25% Fire Rate for 8s and add 8 bullets",
+   "T2: -10s Cooldown",
+   "T3: +1 Recast; +4m Range"
+  ]
+ },
+ "ability_vampirebat_lovebites": {
+  "cd": null,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Spirit Damage Per Bullet",
+    "v": "4",
+    "u": "",
+    "sc": {
+     "x": 0.09,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Bonus Damage",
+    "v": "45",
+    "u": "",
+    "sc": {
+     "x": 1.85,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Cooldown per Target",
+    "v": "10",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: On Proc: +24% Slow for 3s",
+   "T2: +3 Spirit Damage per Bullet & +45 Bonus Damage",
+   "T3: -5 Cooldown; On Proc: +25% Fire Rate for 5s"
+  ]
+ },
+ "ability_vampirebat_batswarm": {
+  "cd": 150.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Bats per Second",
+    "v": "30",
+    "u": ""
+   },
+   {
+    "k": "Damage",
+    "v": "4.6",
+    "u": "",
+    "sc": {
+     "x": 0.094,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Silence",
+    "v": "1.25",
+    "u": "s"
+   },
+   {
+    "k": "Cast Range",
+    "v": "40",
+    "u": "m"
+   },
+   {
+    "k": "Additional Bats Per Love Bite",
+    "v": "2",
+    "u": ""
+   },
+   {
+    "k": "Total Bats Released",
+    "v": "75",
+    "u": ""
+   }
+  ],
+  "up": [
+   "T1: +1.9 Damage",
+   "T2: -45s Cooldown",
+   "T3: On Hit: Deal +0.5% Current Health as Damage"
+  ]
+ },
+ "drifter_blood_blast": {
+  "cd": 16.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "40",
+    "u": "",
+    "sc": {
+     "x": 1.4,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Cast Range",
+    "v": "16",
+    "u": "m"
+   },
+   {
+    "k": "Close Range",
+    "v": "8",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: +40 Damage",
+   "T2: -8s Cooldown",
+   "T3: Deals 55% Heavy Melee Damage; Silences enemies for 2s if close range"
+  ]
+ },
+ "drifter_shadow_mark": {
+  "cd": 26.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Bleed Damage",
+    "v": "2",
+    "u": "%/sec",
+    "sc": {
+     "x": 0.015,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Duration",
+    "v": "5",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: -8% Bullet Resist",
+   "T2: -10s Cooldown and +3s Duration",
+   "T3: +1.5% Bleed and -40% Incoming Healing"
+  ]
+ },
+ "ability_drifter_hunger": {
+  "cd": null,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Amplified Damage",
+    "v": "15",
+    "u": "%"
+   },
+   {
+    "k": "Isolation Range",
+    "v": "20",
+    "u": "m"
+   },
+   {
+    "k": "Permanent Weapon Damage",
+    "v": "3",
+    "u": "%"
+   },
+   {
+    "k": "Cast Range",
+    "v": "80",
+    "u": "m"
+   },
+   {
+    "k": "Spot Radius",
+    "v": "15",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: +3m/s Move Speed when around an isolated enemy hero",
+   "T2: On isolated hero death: Heal 24% of your missing health and restores 2 Stamina",
+   "T3: +11% Amplified Damage"
+  ]
+ },
+ "drifter_darkness": {
+  "cd": 145.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Reduced Vision",
+    "v": "15",
+    "u": "m"
+   },
+   {
+    "k": "Sprint Speed",
+    "v": "2",
+    "u": "m/s"
+   },
+   {
+    "k": "Duration",
+    "v": "6.5",
+    "u": "s"
+   },
+   {
+    "k": "Cast Range",
+    "v": "100",
+    "u": "m"
+   },
+   {
+    "k": "Max Targets",
+    "v": "2",
+    "u": ""
+   }
+  ],
+  "up": [
+   "T1: +10m/s Sprint Speed",
+   "T2: -40s Cooldown",
+   "T3: +2.5s Duration and +1 Max Target."
+  ]
+ },
+ "ability_priest_flashbang": {
+  "cd": 25.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "35",
+    "u": "",
+    "sc": {
+     "x": 1.0,
+     "stat": "Weapon"
+    }
+   },
+   {
+    "k": "Healing Reduction",
+    "v": "-30",
+    "u": "%"
+   },
+   {
+    "k": "Damage Per Second",
+    "v": "10",
+    "u": "",
+    "sc": {
+     "x": 1.6,
+     "stat": "Boon"
+    }
+   },
+   {
+    "k": "Radius",
+    "v": "4.5",
+    "u": "m"
+   },
+   {
+    "k": "Burn Radius",
+    "v": "4.5",
+    "u": "m"
+   },
+   {
+    "k": "Burn Duration",
+    "v": "3.5",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: -5s Cooldown",
+   "T2: +1.5m Radius & +1s Burn Duration",
+   "T3: -20% Incoming Healing and allow Charges"
+  ]
+ },
+ "ability_priest_knockback": {
+  "cd": 23.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "60",
+    "u": "",
+    "sc": {
+     "x": 0.7,
+     "stat": "Weapon"
+    }
+   },
+   {
+    "k": "Bonus Damage",
+    "v": "30",
+    "u": "",
+    "sc": {
+     "x": 0.8,
+     "stat": "Weapon"
+    }
+   },
+   {
+    "k": "Stun",
+    "v": "0.6",
+    "u": "s"
+   },
+   {
+    "k": "Cast Range",
+    "v": "10",
+    "u": "m"
+   },
+   {
+    "k": "Wall Stun Range",
+    "v": "7",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: +25 Damage",
+   "T2: -10s Ability Cooldown and +0.4s Stun Duration",
+   "T3: On Wall Stun: Your next heavy melee is blessed"
+  ]
+ },
+ "ability_priest_beartrap": {
+  "cd": 28.0,
+  "charges": 2,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "80",
+    "u": "",
+    "sc": {
+     "x": 2.2,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Immobilize",
+    "v": "1.25",
+    "u": "s"
+   },
+   {
+    "k": "Charge Delay",
+    "v": "8",
+    "u": "s"
+   },
+   {
+    "k": "Radius",
+    "v": "2",
+    "u": "m"
+   },
+   {
+    "k": "Reveal Duration",
+    "v": "6",
+    "u": "s"
+   },
+   {
+    "k": "Lifetime",
+    "v": "30",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: -11s Cooldown",
+   "T2: +1s Immobilize Duration",
+   "T3: +30% Damage Taken, +1 Charges"
+  ]
+ },
+ "ability_priest_weaponswap": {
+  "cd": 160.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "120",
+    "u": "",
+    "sc": {
+     "x": 1.5,
+     "stat": "Weapon"
+    }
+   },
+   {
+    "k": "Bonus Damage",
+    "v": "115",
+    "u": "",
+    "sc": {
+     "x": 3.0,
+     "stat": "Boon"
+    }
+   },
+   {
+    "k": "Execute Threshold",
+    "v": "8",
+    "u": "%"
+   },
+   {
+    "k": "Duration",
+    "v": "15",
+    "u": "s"
+   },
+   {
+    "k": "Explosion Radius",
+    "v": "0.2",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: While Active: Gain 1.2 m/s Move Speed",
+   "T2: -15s Ability Cooldown and +65 Bonus Damage",
+   "T3: All Stakes are Blessed"
+  ]
+ },
+ "ability_frank_shocktarget2": {
+  "cd": 2.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "100",
+    "u": "",
+    "sc": {
+     "x": 1.6,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Cast Range",
+    "v": "28",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: On Hit: Apply 32% Slow for 2s",
+   "T2: +50 Damage",
+   "T3: On Hero Hit: Heal for 15% of your missing health and increased Spirit scaling"
+  ]
+ },
+ "ability_frank_selfzap": {
+  "cd": 30.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Current Health",
+    "v": "15",
+    "u": "%"
+   },
+   {
+    "k": "Total HP Regen",
+    "v": "100",
+    "u": "",
+    "sc": {
+     "x": 1.2,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Move Speed",
+    "v": "3",
+    "u": "m/s"
+   },
+   {
+    "k": "Duration",
+    "v": "4.5",
+    "u": "s"
+   },
+   {
+    "k": "Channel Duration",
+    "v": "0.35",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: +3m Move Speed",
+   "T2: +70 Total HP Regen and -8s Cooldown",
+   "T3: +1 Charge; +50% Debuff Resistance; Increases spirit scaling"
+  ]
+ },
+ "ability_frank_painaura": {
+  "cd": 2.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Minimum DPS",
+    "v": "13",
+    "u": "",
+    "sc": {
+     "x": 0.15,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Max DPS",
+    "v": "58",
+    "u": "",
+    "sc": {
+     "x": 0.72,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Duration",
+    "v": "8",
+    "u": "s"
+   },
+   {
+    "k": "Radius",
+    "v": "8",
+    "u": "m"
+   },
+   {
+    "k": "Self Damage",
+    "v": "70",
+    "u": "%"
+   }
+  ],
+  "up": [
+   "T1: Enemies receive 20% Move and Dash Slow",
+   "T2: +13 Min DPS and +34 Max DPS",
+   "T3: +1m Radius; Enemies take +15% Damage"
+  ]
+ },
+ "ability_frank_revive": {
+  "cd": 240.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Rebirth Health",
+    "v": "50",
+    "u": "%"
+   },
+   {
+    "k": "Damage",
+    "v": "200",
+    "u": "",
+    "sc": {
+     "x": 2.0,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Stun",
+    "v": "1.5",
+    "u": "s"
+   },
+   {
+    "k": "Channel Duration",
+    "v": "3",
+    "u": "s"
+   },
+   {
+    "k": "Radius",
+    "v": "18",
+    "u": "m"
+   },
+   {
+    "k": "Move Speed",
+    "v": "120",
+    "u": "%"
+   },
+   {
+    "k": "Slow Duration",
+    "v": "3",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: While On Cooldown: Gain +15% Fire Rate and 6 Spirit Damage per Bullet",
+   "T2: +50% Rebirth Health",
+   "T3: +175 Damage; +1.5 Stun; -95s Cooldown"
+  ]
+ },
+ "ability_bookworm_dragonfire": {
+  "cd": 33.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "60",
+    "u": "",
+    "sc": {
+     "x": 1.3,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Damage Per Second",
+    "v": "30",
+    "u": "",
+    "sc": {
+     "x": 0.3,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Trail Duration",
+    "v": "3",
+    "u": "s"
+   },
+   {
+    "k": "Duration",
+    "v": "5",
+    "u": "s"
+   },
+   {
+    "k": "Radius",
+    "v": "4",
+    "u": "m"
+   },
+   {
+    "k": "Dragon Travel Range",
+    "v": "20",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: -12s Cooldown",
+   "T2: +1 Charge; +2s Trail Duration; +1m Radius",
+   "T3: +12m Travel Range; +100 Damage; +30 DPS"
+  ]
+ },
+ "ability_bookworm_knightbarrier": {
+  "cd": 28.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Barrier",
+    "v": "125",
+    "u": "",
+    "sc": {
+     "x": 1.5,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Weapon Damage",
+    "v": "25",
+    "u": "%",
+    "sc": {
+     "x": 0.3,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Duration",
+    "v": "5",
+    "u": "s"
+   },
+   {
+    "k": "Cast Range",
+    "v": "35",
+    "u": "m"
+   },
+   {
+    "k": "Shove Radius",
+    "v": "6",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: On Barrier: +14% Fire Rate",
+   "T2: +100 Barrier and +2s Duration",
+   "T3: Affects up to 2 additional allies. Increases barrier scaling."
+  ]
+ },
+ "ability_bookworm_aoemagic": {
+  "cd": 30.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "90",
+    "u": "",
+    "sc": {
+     "x": 1.3,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Immobilize",
+    "v": "1",
+    "u": "s"
+   },
+   {
+    "k": "Cast Range",
+    "v": "30",
+    "u": "m"
+   },
+   {
+    "k": "Radius",
+    "v": "7.5",
+    "u": "m"
+   },
+   {
+    "k": "Move Speed",
+    "v": "36",
+    "u": "%"
+   },
+   {
+    "k": "Slow Duration",
+    "v": "0.5",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: -14s Cooldown",
+   "T2: +1s Immobilize Duration",
+   "T3: +2m Radius; On Hit: Reduce Spirit Resist by -18% for 6s"
+  ]
+ },
+ "ability_bookworm_knightcharge": {
+  "cd": 210.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "125",
+    "u": "",
+    "sc": {
+     "x": 1.0,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Stun",
+    "v": "1",
+    "u": "s"
+   },
+   {
+    "k": "Heal Amount",
+    "v": "125",
+    "u": "",
+    "sc": {
+     "x": 1.6,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Move Speed",
+    "v": "5",
+    "u": "m/s"
+   },
+   {
+    "k": "Duration",
+    "v": "13",
+    "u": "s"
+   },
+   {
+    "k": "Cast Range",
+    "v": "600",
+    "u": "m"
+   },
+   {
+    "k": "Channel Duration",
+    "v": "0.7",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: +150 Heal Amount",
+   "T2: Increase width by +4 Steeds; -45 Cooldown",
+   "T3: +160 Damage; +0.5s Stun Duration; +70% Max Amp"
+  ]
+ },
+ "ability_doorman_bomb": {
+  "cd": 18.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Impact Damage",
+    "v": "40",
+    "u": "",
+    "sc": {
+     "x": 0.7,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Explosion Damage",
+    "v": "55",
+    "u": "",
+    "sc": {
+     "x": 1.2,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Weapon Accuracy",
+    "v": "-40",
+    "u": "%"
+   },
+   {
+    "k": "Move Speed",
+    "v": "28",
+    "u": "%"
+   },
+   {
+    "k": "Debuff Duration",
+    "v": "4",
+    "u": "s"
+   },
+   {
+    "k": "Radius",
+    "v": "5.5",
+    "u": "m"
+   },
+   {
+    "k": "Bell Lifetime",
+    "v": "3",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: +1 Charge",
+   "T2: +30 Impact Damage; +40 Explosion Damage",
+   "T3: +4.5m Radius; +26s Bell Lifetime; Improved Scaling"
+  ]
+ },
+ "ability_doorman_doorway": {
+  "cd": 45.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Doorway Distance",
+    "v": "65",
+    "u": "m"
+   },
+   {
+    "k": "Duration",
+    "v": "15",
+    "u": "s"
+   },
+   {
+    "k": "Cast Range",
+    "v": "50",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: +20s Duration",
+   "T2: Grants a Barrier first time traveling through doors",
+   "T3: +30m Cast Range. +40m Doorway Distance; and scales with Spirit Power."
+  ]
+ },
+ "ability_doorman_luggage_cart": {
+  "cd": 30.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Cart Damage",
+    "v": "60",
+    "u": "",
+    "sc": {
+     "x": 0.75,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Cast Range",
+    "v": "20",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: +80 Cart Damage",
+   "T2: +25m Cast Range; +75 Damage on wall impact",
+   "T3: -15s Cooldown and 1.25s Stun on wall impact"
+  ]
+ },
+ "ability_doorman_hotel": {
+  "cd": 140.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "75",
+    "u": "",
+    "sc": {
+     "x": 1.0,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Check-Out Time",
+    "v": "6.5",
+    "u": "s"
+   },
+   {
+    "k": "Cast Range",
+    "v": "7",
+    "u": "m"
+   },
+   {
+    "k": "Channel Duration",
+    "v": "1",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: 1 Stamina Drain and -20 Cooldown",
+   "T2: +150 Damage; +1.5s Stun on Failure to Check Out",
+   "T3: Unstoppable while the Baroness is occupied. 15s Cooldown on Failure to Check Out."
+  ]
+ },
+ "ability_punkgoat_ult": {
+  "cd": 35.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "35",
+    "u": "",
+    "sc": {
+     "x": 1.1,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Displacement",
+    "v": "0.4",
+    "u": "s"
+   },
+   {
+    "k": "Wave Radius",
+    "v": "8",
+    "u": "m"
+   },
+   {
+    "k": "Cast Range",
+    "v": "4",
+    "u": "m"
+   },
+   {
+    "k": "Channel Duration",
+    "v": "0.3",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: -10s Cooldown",
+   "T2: +1 Charge and +2m Radius",
+   "T3: -3s Charge Time; Now deals 50% Heavy Melee Damage"
+  ]
+ },
+ "ability_punkgoat_goatflip": {
+  "cd": 32.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "40",
+    "u": "",
+    "sc": {
+     "x": 1.9,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Duration",
+    "v": "0.3",
+    "u": "s"
+   },
+   {
+    "k": "Hit Range",
+    "v": "1.5",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: On Impact: +25% Weapon Damage for 5s",
+   "T2: 0.4s Charge Duration",
+   "T3: -13s Cooldown; On hero hit: +10% Max Health for 16s"
+  ]
+ },
+ "ability_punkgoat_blasted": {
+  "cd": 27.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Melee Bonus Health",
+    "v": "70",
+    "u": "",
+    "sc": {
+     "x": 0.6,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Wrecked Bullet Amp",
+    "v": "10",
+    "u": "%"
+   },
+   {
+    "k": "Duration",
+    "v": "8",
+    "u": "s"
+   },
+   {
+    "k": "Health Boost Duration",
+    "v": "11",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: While Blasted: +2.25m/s Bonus Move Speed",
+   "T2: +1 Bashdown Charge on use and +7% Wrecked Bullet Amp",
+   "T3: +50 Melee Bonus Health and increases spirit scaling"
+  ]
+ },
+ "ability_punkgoat_tether": {
+  "cd": 175.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "120",
+    "u": "",
+    "sc": {
+     "x": 0.7,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Duration",
+    "v": "2.8",
+    "u": "s"
+   },
+   {
+    "k": "Cast Range",
+    "v": "12",
+    "u": "m"
+   },
+   {
+    "k": "Velocity Slow",
+    "v": "35",
+    "u": "%"
+   }
+  ],
+  "up": [
+   "T1: +40% Spirit Resist & Bullet Resist",
+   "T2: -40s Cooldown",
+   "T3: +5m Range; +1.3s of Unstoppable Per Hero pulled in"
+  ]
+ },
+ "ability_necro_hauntingskull": {
+  "cd": null,
+  "charges": 4,
+  "stats": [
+   {
+    "k": "Deadheads",
+    "v": "4",
+    "u": ""
+   },
+   {
+    "k": "Damage",
+    "v": "16",
+    "u": "",
+    "sc": {
+     "x": 0.25,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Deadhead Lifetime",
+    "v": "10",
+    "u": "s"
+   },
+   {
+    "k": "Charge Delay",
+    "v": "13",
+    "u": "s"
+   },
+   {
+    "k": "Dash Range",
+    "v": "15",
+    "u": "m"
+   },
+   {
+    "k": "Collection Range",
+    "v": "40",
+    "u": "m"
+   },
+   {
+    "k": "Search Range",
+    "v": "7",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: Collecting death heals 5 health per pickup",
+   "T2: On Hit: Apply 24% Slow for 1s",
+   "T3: +2 Deadheads; +4s Deadhead Lifetime"
+  ]
+ },
+ "ability_necro_zombiewall": {
+  "cd": 34.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Ghouls Raised",
+    "v": "1",
+    "u": ""
+   },
+   {
+    "k": "Damage",
+    "v": "90",
+    "u": "",
+    "sc": {
+     "x": 1.6,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Immobilize",
+    "v": "1",
+    "u": "s"
+   },
+   {
+    "k": "Wall Length",
+    "v": "14",
+    "u": "m",
+    "sc": {
+     "x": 0.05,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Duration",
+    "v": "5",
+    "u": "s"
+   },
+   {
+    "k": "Cast Range",
+    "v": "24",
+    "u": "m"
+   },
+   {
+    "k": "Aura Radius",
+    "v": "0.75",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: +2s Duration",
+   "T2: +90 Damage and +10m Wall Length",
+   "T3: +1 Ghouls Raised; -14s Cooldown; +0.75s Immobilize Duration"
+  ]
+ },
+ "ability_necro_fear": {
+  "cd": null,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Max Weapon Damage Stolen",
+    "v": "25",
+    "u": "%",
+    "sc": {
+     "x": 0.25,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Max Spirit Resist Stolen",
+    "v": "10",
+    "u": "%"
+   },
+   {
+    "k": "Duration",
+    "v": "4",
+    "u": "s"
+   },
+   {
+    "k": "Max Steal Targets",
+    "v": "3",
+    "u": ""
+   },
+   {
+    "k": "Time for Max Damage",
+    "v": "4",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: +5% Max Spirit Resist Stolen",
+   "T2: +20% Max Weapon Damage Stolen",
+   "T3: +1 Max Steal Targets; All Summons now apply Essence Theft"
+  ]
+ },
+ "ability_necro_gravestone": {
+  "cd": 140.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "115",
+    "u": "",
+    "sc": {
+     "x": 1.27,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Move Speed",
+    "v": "64",
+    "u": "%"
+   },
+   {
+    "k": "Duration",
+    "v": "16",
+    "u": "s",
+    "sc": {
+     "x": 0.04,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Cast Range",
+    "v": "20",
+    "u": "m"
+   },
+   {
+    "k": "Channel Duration",
+    "v": "0.66",
+    "u": "s"
+   },
+   {
+    "k": "Aura Radius",
+    "v": "8",
+    "u": "m"
+   },
+   {
+    "k": "Explosion Radius",
+    "v": "6.5",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: +25% Ghoul Speed; -15s Cooldown",
+   "T2: +10s Duration; -0.3s Time To Spawn",
+   "T3: On Death: Deal +5% Current Health as Damage"
+  ]
+ },
+ "ability_fencer_throwblade": {
+  "cd": 12.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "85",
+    "u": "",
+    "sc": {
+     "x": 1.3,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Move Speed",
+    "v": "24",
+    "u": "%"
+   },
+   {
+    "k": "Radius",
+    "v": "6.5",
+    "u": "m"
+   },
+   {
+    "k": "Slow Duration",
+    "v": "4",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: Gain +25% Fire Rate and +25% Bullet Speed for 8s",
+   "T2: On Player Hit: +1 stamina restored and resets Air Jump/Dash limit",
+   "T3: Can be Recast within 4s"
+  ]
+ },
+ "ability_fencer_riposte": {
+  "cd": 22.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Invulnerability Duration",
+    "v": "0.3",
+    "u": "s"
+   },
+   {
+    "k": "Stun Duration",
+    "v": "0.8",
+    "u": "s"
+   },
+   {
+    "k": "Melee Resist",
+    "v": "-25",
+    "u": "%"
+   },
+   {
+    "k": "Deflect Duration",
+    "v": "0.8",
+    "u": "s"
+   },
+   {
+    "k": "Dash Range",
+    "v": "35",
+    "u": "m"
+   },
+   {
+    "k": "Radius",
+    "v": "2.2",
+    "u": "m"
+   },
+   {
+    "k": "Slash Radius",
+    "v": "6",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: -8s Cooldown",
+   "T2: -25% Melee Resist and +0.4s Stun Duration",
+   "T3: Gain 75% Bullet, Spirit & Melee Lifesteal against the Riposte target for 13s"
+  ]
+ },
+ "ability_fencer_lunge": {
+  "cd": 26.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Base Hold Damage",
+    "v": "25",
+    "u": "",
+    "sc": {
+     "x": 0.55,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Max Hold Damage",
+    "v": "40",
+    "u": "",
+    "sc": {
+     "x": 0.9,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Perfect Damage",
+    "v": "65",
+    "u": "",
+    "sc": {
+     "x": 1.55,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Strike Range",
+    "v": "13",
+    "u": "m"
+   },
+   {
+    "k": "Duration",
+    "v": "8",
+    "u": "s"
+   },
+   {
+    "k": "Lunge Distance",
+    "v": "5",
+    "u": "m"
+   },
+   {
+    "k": "Attacking Lunge Distance",
+    "v": "3",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: Perfect Hit on Hero: Heal 35",
+   "T2: -12s Cooldown. Gain +60% Bullet Resist during lunge",
+   "T3: +65 Perfect Damage with improved Spirit scaling. Increased lunge speed & distance."
+  ]
+ },
+ "ability_fencer_ultimate": {
+  "cd": 145.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Delayed Damage",
+    "v": "200",
+    "u": "",
+    "sc": {
+     "x": 2.6,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Bonus Damage",
+    "v": "60",
+    "u": "%"
+   },
+   {
+    "k": "Dash Range",
+    "v": "27",
+    "u": "m"
+   },
+   {
+    "k": "Radius",
+    "v": "7",
+    "u": "m"
+   },
+   {
+    "k": "Time Slow Damage Reduction",
+    "v": "70",
+    "u": "%"
+   },
+   {
+    "k": "Low Health Threshold",
+    "v": "50",
+    "u": "%"
+   },
+   {
+    "k": "Debuff Duration",
+    "v": "1.8",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: +8m Dash Range",
+   "T2: -35s Cooldown",
+   "T3: +50% Bonus Damage"
+  ]
+ },
+ "ability_familiar_ability02": {
+  "cd": 25.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "75",
+    "u": "",
+    "sc": {
+     "x": 1.6,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Fading Move Speed",
+    "v": "36",
+    "u": "%"
+   },
+   {
+    "k": "Displacement",
+    "v": "0.4",
+    "u": "s"
+   },
+   {
+    "k": "Radius",
+    "v": "5",
+    "u": "m"
+   },
+   {
+    "k": "Debuff Duration",
+    "v": "3",
+    "u": "s"
+   },
+   {
+    "k": "Cooldown On Pillow Hit",
+    "v": "5",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: -7s Cooldown",
+   "T2: +2m Radius and applies -35% Fire Rate",
+   "T3: +100 Damage and +1 Charge"
+  ]
+ },
+ "ability_familiar_attach": {
+  "cd": 40.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Missing Health Burst",
+    "v": "15",
+    "u": "%",
+    "sc": {
+     "x": 0.03,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Health Restored",
+    "v": "42",
+    "u": "/s",
+    "sc": {
+     "x": 0.4,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Duration",
+    "v": "5.5",
+    "u": "s"
+   },
+   {
+    "k": "Cast Range",
+    "v": "23",
+    "u": "m"
+   },
+   {
+    "k": "Regen Duration",
+    "v": "2",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: -8s Cooldown",
+   "T2: 35% Bonus Item Range, Duration, and Barrier Effectiveness while napping",
+   "T3: +15% Spirit Power and +35 Spirit Power while napping and for 10s after napping; Improved Spirit Scaling"
+  ]
+ },
+ "ability_familiar_helpinghands": {
+  "cd": null,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Spirit Resist",
+    "v": "12",
+    "u": "%"
+   },
+   {
+    "k": "Move Speed",
+    "v": "3",
+    "u": "m/s"
+   },
+   {
+    "k": "Duration",
+    "v": "8",
+    "u": "s"
+   },
+   {
+    "k": "Damage / Resists",
+    "v": "30",
+    "u": "%"
+   },
+   {
+    "k": "Trooper Heal",
+    "v": "8",
+    "u": "/s",
+    "sc": {
+     "x": 0.14,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Cast Range",
+    "v": "45",
+    "u": "m"
+   },
+   {
+    "k": "Aura Radius",
+    "v": "10",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: +1 Helper; +1.5m/s Move Speed",
+   "T2: +1 Helper; +15% Trooper Damage and Resist",
+   "T3: +1 Helper; +15% Spirit Resist"
+  ]
+ },
+ "ability_familiar_ability01": {
+  "cd": 200.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Wake Damage",
+    "v": "120",
+    "u": "",
+    "sc": {
+     "x": 1.6,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Sleep Damage Threshold",
+    "v": "100",
+    "u": "",
+    "sc": {
+     "x": 3.1,
+     "stat": "Boon"
+    }
+   },
+   {
+    "k": "Move/Dash Slow",
+    "v": "20",
+    "u": "%"
+   },
+   {
+    "k": "Cast Range",
+    "v": "24",
+    "u": "m"
+   },
+   {
+    "k": "Channel Duration",
+    "v": "1.9",
+    "u": "s"
+   },
+   {
+    "k": "Radius",
+    "v": "19",
+    "u": "m"
+   },
+   {
+    "k": "Sleep Duration",
+    "v": "4",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: -1 Stamina On Wake and no Stamina Regen while sleeping",
+   "T2: +3m Radius and +0.75s Sleep Duration",
+   "T3: -55s cooldown; Reduced damage and unstoppable while channeling"
+  ]
+ },
+ "ability_werewolf_unloadgun": {
+  "cd": 25.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Max Shots",
+    "v": "3",
+    "u": ""
+   },
+   {
+    "k": "Fire Rate",
+    "v": "300",
+    "u": "%"
+   },
+   {
+    "k": "Current Health as Damage",
+    "v": "2.5",
+    "u": "%"
+   },
+   {
+    "k": "Duration",
+    "v": "5",
+    "u": "s"
+   },
+   {
+    "k": "Weapon Accuracy",
+    "v": "-30",
+    "u": "%"
+   },
+   {
+    "k": "Weapon Damage vs. NPCs",
+    "v": "100",
+    "u": "%"
+   }
+  ],
+  "up": [
+   "T1: +15% Weapon Damage",
+   "T2: -10s Cooldown",
+   "T3: If you hit all shots, deal +7% current health as damage"
+  ]
+ },
+ "ability_werewolf_kickflip": {
+  "cd": 21.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Bonus Damage",
+    "v": "25",
+    "u": "",
+    "sc": {
+     "x": 2.0,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Cast Range",
+    "v": "10.6",
+    "u": "m"
+   },
+   {
+    "k": "Channel Duration",
+    "v": "0.35",
+    "u": "s"
+   },
+   {
+    "k": "Mark Duration",
+    "v": "3",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: -6s Cooldown",
+   "T2: On Hero Hit: Restore 2 Stamina",
+   "T3: +80 Bonus Damage and kicked enemies deal -35% Damage for 5s"
+  ]
+ },
+ "ability_werewolf_netshot": {
+  "cd": 23.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "40",
+    "u": "",
+    "sc": {
+     "x": 1.6,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Move Speed",
+    "v": "16",
+    "u": "%"
+   },
+   {
+    "k": "Debuff Duration",
+    "v": "1.5",
+    "u": "s"
+   },
+   {
+    "k": "Gravity Scale",
+    "v": "100",
+    "u": "%"
+   }
+  ],
+  "up": [
+   "T1: +20% Move Speed",
+   "T2: -8s Cooldown",
+   "T3: +0.75s Debuff Duration. Bola ricochets to 2 additional targets"
+  ]
+ },
+ "ability_werewolf_transformation": {
+  "cd": 60.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Bonus Health",
+    "v": "125",
+    "u": "",
+    "sc": {
+     "x": 15.0,
+     "stat": "Boon"
+    }
+   },
+   {
+    "k": "Move Speed",
+    "v": "1.5",
+    "u": "m/s"
+   },
+   {
+    "k": "Fire Rate",
+    "v": "60",
+    "u": "%",
+    "sc": {
+     "x": 0.45,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Duration",
+    "v": "15",
+    "u": "s"
+   },
+   {
+    "k": "Missing Health as Healing",
+    "v": "30",
+    "u": "%"
+   }
+  ],
+  "up": [
+   "T1: +15% Bullet & Spirit Resistance",
+   "T2: +4 m/s Move Speed and 200 Bonus Health",
+   "T3: On Hero Kill: Refresh abilities and duration"
+  ]
+ },
+ "ability_unicorn_radiantblast": {
+  "cd": 20.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Spirit Lifesteal",
+    "v": "18",
+    "u": "%"
+   },
+   {
+    "k": "Flare Damage",
+    "v": "40",
+    "u": "",
+    "sc": {
+     "x": 0.47,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Damage",
+    "v": "15",
+    "u": "",
+    "sc": {
+     "x": 0.34,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Duration",
+    "v": "8",
+    "u": "s",
+    "sc": {
+     "x": 0.05,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Cast Range",
+    "v": "10",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: +15% Spirit Lifesteal",
+   "T2: -10s Cooldown and +3m Cast Range",
+   "T3: +22 Damage and Increased Spirit Scaling"
+  ]
+ },
+ "ability_unicorn_prismaticguard": {
+  "cd": 38.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Barrier",
+    "v": "100",
+    "u": "",
+    "sc": {
+     "x": 0.8,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Debuff Duration",
+    "v": "1.75",
+    "u": "s"
+   },
+   {
+    "k": "Barrier Damage",
+    "v": "50",
+    "u": "%"
+   },
+   {
+    "k": "Explosion Radius",
+    "v": "14",
+    "u": "m"
+   },
+   {
+    "k": "Buff Duration",
+    "v": "4",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: +3.5m Move Speed",
+   "T2: +70 Barrier and Increased Barrier Spirit Scaling",
+   "T3: +1.25 Silence Duration and -20s Cooldown. Allows Shining Wonder Bounce."
+  ]
+ },
+ "ability_unicorn_luminousstrike": {
+  "cd": 33.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Impact Damage",
+    "v": "55",
+    "u": "",
+    "sc": {
+     "x": 0.63,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Spirit Amp per Stack",
+    "v": "7",
+    "u": "%"
+   },
+   {
+    "k": "Cast Range",
+    "v": "30",
+    "u": "m"
+   },
+   {
+    "k": "Explosion Radius",
+    "v": "8",
+    "u": "m"
+   },
+   {
+    "k": "Beam Form Duration",
+    "v": "1.4",
+    "u": "s"
+   },
+   {
+    "k": "Max Stacks",
+    "v": "6",
+    "u": ""
+   },
+   {
+    "k": "Buff Duration",
+    "v": "30",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: +2 Charges",
+   "T2: -22s Cooldown and +70 Impact Damage",
+   "T3: +4% Spirit Amp and +9% Fire Rate Per Stack"
+  ]
+ },
+ "ability_unicorn_dazzlingorb": {
+  "cd": 160.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "140",
+    "u": "",
+    "sc": {
+     "x": 0.6,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Move Speed",
+    "v": "32",
+    "u": "%"
+   },
+   {
+    "k": "Bounces",
+    "v": "8",
+    "u": ""
+   },
+   {
+    "k": "Bounce Range",
+    "v": "15.5",
+    "u": "m"
+   },
+   {
+    "k": "Dash Distance",
+    "v": "-22",
+    "u": "%"
+   },
+   {
+    "k": "Slow Duration",
+    "v": "1.5",
+    "u": "s"
+   },
+   {
+    "k": "Max Linger Duration",
+    "v": "3.25",
+    "u": ""
+   }
+  ],
+  "up": [
+   "T1: -16% Move Speed and -14% Dash Distance",
+   "T2: +90 Damage and Increased Spirit Scaling",
+   "T3: +6 Max Bounces and -30s Cooldown"
+  ]
+ },
+ "ability_ratking_scrap_grenade": {
+  "cd": 26.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Detonation Damage",
+    "v": "70",
+    "u": "",
+    "sc": {
+     "x": 0.6,
+     "stat": "Weapon"
+    }
+   },
+   {
+    "k": "Move Speed",
+    "v": "20",
+    "u": "%",
+    "sc": {
+     "x": 0.08,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Big Detonation Move Speed",
+    "v": "40",
+    "u": "%"
+   },
+   {
+    "k": "Detonation Radius",
+    "v": "8",
+    "u": "m"
+   },
+   {
+    "k": "Detonations",
+    "v": "3",
+    "u": ""
+   },
+   {
+    "k": "Slow Duration",
+    "v": "4",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: -8s Cooldown",
+   "T2: +70 Detonation Damage",
+   "T3: Add an additional final Bigger Detonation"
+  ]
+ },
+ "ability_ratking_ratnibble": {
+  "cd": 24.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage per Bite",
+    "v": "8",
+    "u": "",
+    "sc": {
+     "x": 0.08,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Bullet Resist per Bite",
+    "v": "-1",
+    "u": "%"
+   },
+   {
+    "k": "Duration",
+    "v": "6",
+    "u": "s"
+   },
+   {
+    "k": "Cast Range",
+    "v": "50",
+    "u": "m"
+   },
+   {
+    "k": "Radius",
+    "v": "10",
+    "u": "m"
+   },
+   {
+    "k": "Bite Interval per Rat",
+    "v": "1",
+    "u": "s"
+   },
+   {
+    "k": "Debuff Duration",
+    "v": "4",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: +1 Charges",
+   "T2: Increased Swarm Size; +4s Debuff Duration",
+   "T3: +8 Damage and -1% Bullet Resist per Bite"
+  ]
+ },
+ "ability_ratking_ratarmor": {
+  "cd": 22.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Max Health as Barrier",
+    "v": "15",
+    "u": "%"
+   },
+   {
+    "k": "Bullet Return Chance",
+    "v": "15",
+    "u": "%",
+    "sc": {
+     "x": 0.1,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Duration",
+    "v": "6",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: +4s Duration",
+   "T2: -8s Cooldown; +15% Bullet Return Chance",
+   "T3: Reduce all damage to a max of 250; +10% Max Health as Barrier"
+  ]
+ },
+ "ability_ratking_standard_bearer": {
+  "cd": 160.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Move Speed",
+    "v": "3",
+    "u": "m/s"
+   },
+   {
+    "k": "Damage Reduction",
+    "v": "15",
+    "u": "%"
+   },
+   {
+    "k": "Damage",
+    "v": "200",
+    "u": "",
+    "sc": {
+     "x": 1.2,
+     "stat": "Weapon"
+    }
+   },
+   {
+    "k": "Duration",
+    "v": "10",
+    "u": "s"
+   },
+   {
+    "k": "Radius",
+    "v": "20",
+    "u": "m"
+   },
+   {
+    "k": "Flag Duration",
+    "v": "12",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: +2m Move Speed",
+   "T2: +5s Flag Duration; +8m Radius",
+   "T3: +150 Damage and +10% Damage Reduction"
+  ]
+ },
+ "ability_baba_bubbling_brew": {
+  "cd": 28.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Spirit Stolen per Hit",
+    "v": "10",
+    "u": "",
+    "sc": {
+     "x": 0.9,
+     "stat": "Boon"
+    }
+   },
+   {
+    "k": "Stolen Spirit Effectiveness",
+    "v": "175",
+    "u": "%"
+   },
+   {
+    "k": "Spirit Damage Per Bullet",
+    "v": "8",
+    "u": "",
+    "sc": {
+     "x": 0.26,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Explosion Radius",
+    "v": "3.5",
+    "u": "m"
+   },
+   {
+    "k": "Cast Range",
+    "v": "35",
+    "u": "m"
+   },
+   {
+    "k": "Debuff Duration",
+    "v": "22",
+    "u": "s"
+   },
+   {
+    "k": "Max Spirit Stolen",
+    "v": "45",
+    "u": "",
+    "sc": {
+     "x": 2.0,
+     "stat": "Boon"
+    }
+   }
+  ],
+  "up": [
+   "T1: +8 Spirit Damage Per Bullet",
+   "T2: -12s Cooldown; +8s Debuff Duration",
+   "T3: +1 Charge; On Hit: Pull enemies 7m"
+  ]
+ },
+ "ability_baba_bench_run": {
+  "cd": 32.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Move Speed",
+    "v": "5",
+    "u": "m/s"
+   },
+   {
+    "k": "Debuff Resist",
+    "v": "30",
+    "u": "%"
+   },
+   {
+    "k": "Melee Resist",
+    "v": "30",
+    "u": "%"
+   },
+   {
+    "k": "Duration",
+    "v": "10",
+    "u": "s"
+   },
+   {
+    "k": "Radius",
+    "v": "8",
+    "u": "m"
+   },
+   {
+    "k": "Melee Range",
+    "v": "2",
+    "u": "m"
+   },
+   {
+    "k": "Light Melee Knockback",
+    "v": "10",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: +2.5m Move Speed",
+   "T2: -7s Cooldown",
+   "T3: +15% Resists; +50% Melee Lifesteal"
+  ]
+ },
+ "ability_baba_hexing_brew": {
+  "cd": 27.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Barrier",
+    "v": "90",
+    "u": "",
+    "sc": {
+     "x": 0.7,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Barrier Duration",
+    "v": "8",
+    "u": "s"
+   },
+   {
+    "k": "Silence",
+    "v": "3",
+    "u": "s"
+   },
+   {
+    "k": "Burn DPS",
+    "v": "12",
+    "u": "",
+    "sc": {
+     "x": 0.152,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Burn Spirit Resist",
+    "v": "-15",
+    "u": "%"
+   },
+   {
+    "k": "Burn Duration",
+    "v": "8",
+    "u": "s"
+   },
+   {
+    "k": "Radius",
+    "v": "6",
+    "u": "m"
+   }
+  ],
+  "up": [
+   "T1: +3m Radius",
+   "T2: -14s Cooldown",
+   "T3: +33.33% Brew Effectiveness"
+  ]
+ },
+ "ability_baba_ultimate_2": {
+  "cd": 150.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Max Damage",
+    "v": "450",
+    "u": "",
+    "sc": {
+     "x": 1.6,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Max Pigeon Duration",
+    "v": "2.75",
+    "u": "s"
+   },
+   {
+    "k": "Cast Range",
+    "v": "18",
+    "u": "m"
+   },
+   {
+    "k": "Channel Duration",
+    "v": "6.5",
+    "u": "s"
+   },
+   {
+    "k": "Time To Max Stacks",
+    "v": "3.5",
+    "u": "s"
+   },
+   {
+    "k": "Max Slow",
+    "v": "32",
+    "u": "%"
+   }
+  ],
+  "up": [
+   "T1: +4m Cast Range; +32% Max Slow",
+   "T2: -55s Cooldown",
+   "T3: +125 Max Damage; +1.5 Spirit Scaling; +0.5s Max Duration"
+  ]
+ },
+ "ability_chessmaster_throwbishop": {
+  "cd": 12.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Fading Move Speed",
+    "v": "30",
+    "u": "%"
+   },
+   {
+    "k": "Impact Damage",
+    "v": "70",
+    "u": "",
+    "sc": {
+     "x": 2.0,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Damage",
+    "v": "25",
+    "u": "",
+    "sc": {
+     "x": 0.64,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Cast Range",
+    "v": "20",
+    "u": "m"
+   },
+   {
+    "k": "Impact Radius",
+    "v": "2.5",
+    "u": "m"
+   },
+   {
+    "k": "Square Range",
+    "v": "2",
+    "u": ""
+   },
+   {
+    "k": "Move Distance",
+    "v": "12",
+    "u": "m",
+    "sc": {
+     "x": 0.23,
+     "stat": "Boon"
+    }
+   }
+  ],
+  "up": [
+   "T1: +5m Move Distance; +15% Fading Slow",
+   "T2: +1 Max Pieces; Can Recast within 8s",
+   "T3: +1 Square Range; Squares reduce Spirit Resist by -2.5%, stacking 10 times"
+  ]
+ },
+ "ability_chessmaster_knightbuff": {
+  "cd": 25.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Barrier",
+    "v": "80",
+    "u": "",
+    "sc": {
+     "x": 0.8,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Stamina",
+    "v": "1",
+    "u": ""
+   },
+   {
+    "k": "Cast Range",
+    "v": "28",
+    "u": "m"
+   },
+   {
+    "k": "King Move Distance",
+    "v": "7",
+    "u": "m",
+    "sc": {
+     "x": 0.14,
+     "stat": "Boon"
+    }
+   },
+   {
+    "k": "Move Distance",
+    "v": "13",
+    "u": "m",
+    "sc": {
+     "x": 0.23,
+     "stat": "Boon"
+    }
+   },
+   {
+    "k": "Buff Duration",
+    "v": "7",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: -8s Cooldown",
+   "T2: +80 Barrier; +1 Stamina",
+   "T3: Can target two allies within radius. On Self: Remove all debuffs after a move"
+  ]
+ },
+ "ability_chessmaster_forkpiece": {
+  "cd": 33.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "50",
+    "u": "",
+    "sc": {
+     "x": 1.3,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Immobilize",
+    "v": "1",
+    "u": "s"
+   },
+   {
+    "k": "Wall Reflects",
+    "v": "1",
+    "u": ""
+   }
+  ],
+  "up": [
+   "T1: On Hit: Reduce 25% Fire Rate for 5s",
+   "T2: On Hit: 5% Current Health as Damage",
+   "T3: +1 Wall Reflects; -12s Cooldown; +0.5s Immobilize Duration"
+  ]
+ },
+ "ability_chessmaster_queen": {
+  "cd": 210.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "120",
+    "u": "",
+    "sc": {
+     "x": 1.4,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Stun",
+    "v": "1.25",
+    "u": "s"
+   },
+   {
+    "k": "Cast Range",
+    "v": "30",
+    "u": "m"
+   },
+   {
+    "k": "Square Range",
+    "v": "3",
+    "u": ""
+   },
+   {
+    "k": "Move Distance",
+    "v": "16",
+    "u": "m",
+    "sc": {
+     "x": 0.23,
+     "stat": "Boon"
+    }
+   },
+   {
+    "k": "Move Cooldown",
+    "v": "5",
+    "u": "s"
+   },
+   {
+    "k": "Additional Moves",
+    "v": "2",
+    "u": ""
+   }
+  ],
+  "up": [
+   "T1: -40s Cooldown",
+   "T2: +15% Slow. Checkmates heroes below 200 health, executing them.",
+   "T3: +2 Moves; +1 Square Range"
+  ]
+ },
+ "ability_deadpack_chargeblast": {
+  "cd": 25.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "27",
+    "u": "",
+    "sc": {
+     "x": 0.74,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Marked Damage",
+    "v": "45",
+    "u": "",
+    "sc": {
+     "x": 1.1,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Fading Slow",
+    "v": "40",
+    "u": "%"
+   },
+   {
+    "k": "Cast Range",
+    "v": "35",
+    "u": "m"
+   },
+   {
+    "k": "Explosion Radius",
+    "v": "3.5",
+    "u": "m"
+   },
+   {
+    "k": "Range",
+    "v": "21",
+    "u": "m"
+   },
+   {
+    "k": "Mark Duration",
+    "v": "10",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: -12s Cooldown",
+   "T2: +30 Damage; +45 Marked Damage",
+   "T3: +2 Missiles, Longer Range, and Improved Spirit Scaling"
+  ]
+ },
+ "ability_deadpack_rocketeer": {
+  "cd": 21.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Explosion Damage",
+    "v": "70",
+    "u": "",
+    "sc": {
+     "x": 1.5,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Radius",
+    "v": "8",
+    "u": "m"
+   },
+   {
+    "k": "Self Stun",
+    "v": "1.3",
+    "u": "s"
+   },
+   {
+    "k": "Self Damage",
+    "v": "10",
+    "u": "% Max Health"
+   }
+  ],
+  "up": [
+   "T1: Heat vents faster while grounded",
+   "T2: On Hero Hit: Heal and take no self damage",
+   "T3: On Hero Hit: -50% Cooldown and +120 Spirit Damage"
+  ]
+ },
+ "ability_deadpack_flamethrower": {
+  "cd": 22.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage Per Second",
+    "v": "30",
+    "u": "",
+    "sc": {
+     "x": 0.8,
+     "stat": "Weapon"
+    }
+   },
+   {
+    "k": "Burst Damage",
+    "v": "35",
+    "u": "",
+    "sc": {
+     "x": 0.95,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Bullet Resist",
+    "v": "-15",
+    "u": "%"
+   },
+   {
+    "k": "Duration",
+    "v": "2",
+    "u": "s"
+   },
+   {
+    "k": "Cast Range",
+    "v": "22",
+    "u": "m"
+   },
+   {
+    "k": "Debuff Duration",
+    "v": "7",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: -8s Cooldown",
+   "T2: +60 Burst Damage; On Backblast Hit: +18% Fire Rate for 7s",
+   "T3: -10% Bullet Resist Shred; On Backblast Hit: Apply a Mark"
+  ]
+ },
+ "ability_deadpack_ultimate": {
+  "cd": 135.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "70",
+    "u": "",
+    "sc": {
+     "x": 1.0,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Falling Damage",
+    "v": "3",
+    "u": "/ meter",
+    "sc": {
+     "x": 0.09,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Stun",
+    "v": "0.5",
+    "u": "s"
+   },
+   {
+    "k": "Grab Range",
+    "v": "10",
+    "u": "m"
+   },
+   {
+    "k": "Self Damage",
+    "v": "25",
+    "u": "%"
+   },
+   {
+    "k": "Bonus Damage",
+    "v": "75",
+    "u": "%"
+   }
+  ],
+  "up": [
+   "T1: +90 Damage",
+   "T2: -35s Cooldown",
+   "T3: +0.5s Stun; +8 Damage / Meter"
+  ]
+ },
+ "ability_artist_homingbrush": {
+  "cd": 22.0,
+  "charges": 2,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "35",
+    "u": "",
+    "sc": {
+     "x": 0.7,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Cooldown Reduction per Hit",
+    "v": "1.5",
+    "u": "s"
+   },
+   {
+    "k": "Bullet Damage",
+    "v": "120",
+    "u": "%"
+   },
+   {
+    "k": "Max Drawing Size",
+    "v": "25",
+    "u": "m",
+    "sc": {
+     "x": 0.12,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Drawing Duration",
+    "v": "20",
+    "u": "s"
+   },
+   {
+    "k": "Duration",
+    "v": "10",
+    "u": "s"
+   },
+   {
+    "k": "Charge Delay",
+    "v": "7",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: -4s Cooldown; +15m Max Drawing Distance",
+   "T2: On Empower: Gain +10% Fire Rate for 10s, stacking 5 times",
+   "T3: +1s Cooldown Reduction Per Hit; Improve scaling"
+  ]
+ },
+ "ability_artist_rollingprojectile": {
+  "cd": 23.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Minimum Damage",
+    "v": "50",
+    "u": "",
+    "sc": {
+     "x": 0.9,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Max Damage",
+    "v": "100",
+    "u": "",
+    "sc": {
+     "x": 1.8,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Slide Distance",
+    "v": "100",
+    "u": "%"
+   },
+   {
+    "k": "Explosion Radius",
+    "v": "15",
+    "u": "m"
+   },
+   {
+    "k": "Ground Aura Duration",
+    "v": "6",
+    "u": "s"
+   },
+   {
+    "k": "Time for Max Damage",
+    "v": "2",
+    "u": "s"
+   },
+   {
+    "k": "Fading Move Speed",
+    "v": "60",
+    "u": "%"
+   }
+  ],
+  "up": [
+   "T1: On Slide: +150% Stamina Regeneration",
+   "T2: -6s Cooldown; +8m Flick Range; +4s Trail Duration",
+   "T3: On Slide: Gain Damage Amp over time, up to 20% for 6s"
+  ]
+ },
+ "ability_artist_tether": {
+  "cd": 35.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage Per Second",
+    "v": "30",
+    "u": "",
+    "sc": {
+     "x": 0.7,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Damage",
+    "v": "60",
+    "u": "",
+    "sc": {
+     "x": 1.4,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Stun",
+    "v": "1",
+    "u": "s"
+   },
+   {
+    "k": "Cast Range",
+    "v": "25",
+    "u": "m"
+   },
+   {
+    "k": "Channel Duration",
+    "v": "2.6",
+    "u": "s"
+   }
+  ],
+  "up": [
+   "T1: On Cast: Gain 15 Health Regen for 4s, refreshed on pickup",
+   "T2: While Drawing: Subjects deal -35% Damage",
+   "T3: +20% Move Speed; -11s Cooldown; +0.35s Stun Duration"
+  ]
+ },
+ "ability_artist_bamboogrove": {
+  "cd": 165.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage",
+    "v": "100",
+    "u": "",
+    "sc": {
+     "x": 1.4,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Move Speed",
+    "v": "30",
+    "u": "%"
+   },
+   {
+    "k": "Silence",
+    "v": "2",
+    "u": "s"
+   },
+   {
+    "k": "Display Radius",
+    "v": "18",
+    "u": "m"
+   },
+   {
+    "k": "Duration",
+    "v": "6",
+    "u": "s",
+    "sc": {
+     "x": 0.04,
+     "stat": "Spirit"
+    }
+   }
+  ],
+  "up": [
+   "T1: -20s Cooldown",
+   "T2: On Buff: +25% Spirit Lifesteal; +15 Spirit Power",
+   "T3: +1.25s Silence Duration; +4s Ability Duration; Ink is no longer destroyed"
+  ]
+ },
+ "ability_nurse_leech_therapy": {
+  "cd": 30.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage Per Second",
+    "v": "23",
+    "u": "",
+    "sc": {
+     "x": 0.19,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Buff Duration Drain Per Second",
+    "v": "0.65",
+    "u": "s"
+   },
+   {
+    "k": "Health Regen Per Leech",
+    "v": "0.6",
+    "u": "",
+    "sc": {
+     "x": 0.13,
+     "stat": "Boon"
+    }
+   },
+   {
+    "k": "Fire Rate Per Leech",
+    "v": "5",
+    "u": "%"
+   },
+   {
+    "k": "Duration",
+    "v": "5",
+    "u": "s"
+   },
+   {
+    "k": "Radius",
+    "v": "6.5",
+    "u": "m"
+   },
+   {
+    "k": "Leech Crawl Range",
+    "v": "8",
+    "u": "m",
+    "sc": {
+     "x": 1.3,
+     "stat": "Boon"
+    }
+   }
+  ],
+  "up": [
+   "T1: Leeches drain stamina and restore it to you on pickup",
+   "T2: -10s Cooldown; +4 Spirit Power Per Leech",
+   "T3: +1m Radius; +0.3 Spirit Scaling; +8 Max Leech Stacks"
+  ]
+ },
+ "ability_nurse_adrenaline_rush": {
+  "cd": 40.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Rush Speed",
+    "v": "25",
+    "u": "%",
+    "sc": {
+     "x": 0.06,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Duration",
+    "v": "4",
+    "u": "s"
+   },
+   {
+    "k": "Extra Damage Taken",
+    "v": "30",
+    "u": "%"
+   },
+   {
+    "k": "Cast Range",
+    "v": "13",
+    "u": "m"
+   },
+   {
+    "k": "Crash Duration",
+    "v": "4",
+    "u": "s"
+   },
+   {
+    "k": "Crash Slowdown",
+    "v": "20",
+    "u": "%"
+   }
+  ],
+  "up": [
+   "T1: -15s Cooldown; +7m Cast Range",
+   "T2: +1s Duration; +20% Healing Effectiveness",
+   "T3: +15% Rush Speed; Dispels non-ult debuffs"
+  ]
+ },
+ "ability_nurse_healing_needles": {
+  "cd": null,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Heal Per Shot",
+    "v": "25",
+    "u": "",
+    "sc": {
+     "x": 0.2,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Headshot Heal Bonus",
+    "v": "15",
+    "u": "%"
+   },
+   {
+    "k": "Charge Per Leech",
+    "v": "0.15",
+    "u": "%/s"
+   }
+  ],
+  "up": [
+   "T1: +1 Max Charge",
+   "T2: +20 Heal Per Shot; Shots restore 0.6 stamina",
+   "T3: +0.4 Spirit Scaling; Shots extend non-ultimate buff durations by 6%, up to their max duration"
+  ]
+ },
+ "ability_nurse_fear": {
+  "cd": 200.0,
+  "charges": null,
+  "stats": [
+   {
+    "k": "Damage Per Second",
+    "v": "60",
+    "u": "",
+    "sc": {
+     "x": 0.3,
+     "stat": "Spirit"
+    }
+   },
+   {
+    "k": "Fear Duration",
+    "v": "2.2",
+    "u": "s"
+   },
+   {
+    "k": "Cast Range",
+    "v": "35",
+    "u": "m"
+   },
+   {
+    "k": "Channel Duration",
+    "v": "7",
+    "u": "s"
+   },
+   {
+    "k": "Fear Buildup Time",
+    "v": "1.3",
+    "u": "s"
+   },
+   {
+    "k": "Fear Duration Per Leech",
+    "v": "0.1",
+    "u": "s"
+   },
+   {
+    "k": "Move Speed",
+    "v": "30",
+    "u": "%"
+   }
+  ],
+  "up": [
+   "T1: -50s Cooldown",
+   "T2: -20% Move Speed and Fire Rate; +30 DPS",
+   "T3: +3s Channel Time; +0.5 Spirit Scaling; Immune to damage while channeling"
+  ]
+ }
+}

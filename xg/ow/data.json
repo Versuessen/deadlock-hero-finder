@@ -1,0 +1,668 @@
+{
+ "game": "ow",
+ "roles": [
+  "Tank",
+  "Damage",
+  "Support"
+ ],
+ "sources": [
+  "https://overwatch.blizzard.com/en-us/heroes/",
+  "https://overwatch.weirdgloop.org/w/Heroes",
+  "https://overwatch.weirdgloop.org/w/Sub-Roles",
+  "https://overwatch.weirdgloop.org/w/Season/2026",
+  "https://overwatch.weirdgloop.org/w/Doctrine",
+  "https://overwatch.blizzard.com/en-us/heroes/hazard/",
+  "https://overwatch.blizzard.com/en-us/news/patch-notes/",
+  "https://en.wikipedia.org/wiki/Characters_of_the_Overwatch_franchise",
+  "https://www.nintendolife.com/news/2026/09/overwatch-announces-whats-next-as-it-reaches-the-end-of-its-first-year-long-story-arc",
+  "https://esports.gg/news/overwatch/overwatch-subroles-explained/",
+  "https://games.gg/overwatch/guides/overwatch-season-5-a-grim-doctrine/"
+ ],
+ "image_sources": [
+  "https://github.com/drippinghere/overwatch-hero-icons (3d/ folder, 256x256 RGBA; README: all 53 heroes as of Season 4: Heroes of Busan)",
+  "Doctrine: same repo, 3d/doctrine.png"
+ ],
+ "notes": "54 playable heroes (15 Tank / 23 Damage / 16 Support) as of Season 5 2026 'A Grim Doctrine' (launched Oct 6, 2026). Sub-roles are official. Season 5: Doctrine added (Support/Survivor); Sombra reworked from Damage/Recon to Support/Tactician (Hack and Virus removed, new Hotfix heal and Weaken status); Roadhog reworked (Trash Compactor replaces secondary fire, hook combo toned down). Forward-pick changes for Season 5: calico Sombra->Reaper, haze Sombra->Soldier: 76 (Sombra is no longer a pick-off damage hero). Earlier forward-pick changes: mokrill Winston->Venture, shiv Reaper->Vendetta, venator Freja->Ashe. Six new Deadlock heroes (build 6805) added Oct 21, 2026.",
+ "roster": [
+  {
+   "name": "D.Va",
+   "role": "Tank",
+   "sub": "Initiator",
+   "twins": [
+    "viscous",
+    "infernus"
+   ],
+   "why": "Dives in to soak fire; ult turns her mech into a bomb",
+   "img": "img/d-va.png"
+  },
+  {
+   "name": "D.Mon",
+   "role": "Tank",
+   "sub": "Stalwart",
+   "twins": [
+    "billy",
+    "apollo"
+   ],
+   "why": "Sword-and-shield brawler who cuts up the frontline up close",
+   "img": "img/d-mon.png"
+  },
+  {
+   "name": "Domina",
+   "role": "Tank",
+   "sub": "Stalwart",
+   "twins": [
+    "paradox",
+    "venator"
+   ],
+   "why": "Walls off space, knocks foes into walls and cages them",
+   "img": "img/domina.png"
+  },
+  {
+   "name": "Doomfist",
+   "role": "Tank",
+   "sub": "Initiator",
+   "twins": [
+    "abrams",
+    "lash"
+   ],
+   "why": "Punches foes into walls and slams down from the air",
+   "img": "img/doomfist.png"
+  },
+  {
+   "name": "Hazard",
+   "role": "Tank",
+   "sub": "Initiator",
+   "twins": [
+    "abrams",
+    "warden"
+   ],
+   "why": "Leaps in with a shotgun and pins enemies with spike walls",
+   "img": "img/hazard.png"
+  },
+  {
+   "name": "Junker Queen",
+   "role": "Tank",
+   "sub": "Stalwart",
+   "twins": [
+    "billy",
+    "shiv",
+    "ratking"
+   ],
+   "why": "Yanks foes in with her blade and bleeds them up close",
+   "img": "img/junker-queen.png"
+  },
+  {
+   "name": "Mauga",
+   "role": "Tank",
+   "sub": "Bruiser",
+   "twins": [
+    "warden"
+   ],
+   "why": "Charges in with twin chainguns and heals off his damage",
+   "img": "img/mauga.png"
+  },
+  {
+   "name": "Orisa",
+   "role": "Tank",
+   "sub": "Bruiser",
+   "twins": [
+    "warden",
+    "dynamo"
+   ],
+   "why": "Fortifies to hold ground; ult pulls foes in, then pulses",
+   "img": "img/orisa.png"
+  },
+  {
+   "name": "Ramattra",
+   "role": "Tank",
+   "sub": "Stalwart",
+   "twins": [
+    "silver",
+    "victor"
+   ],
+   "why": "Ranged poke that transforms into a melee brute form",
+   "img": "img/ramattra.png"
+  },
+  {
+   "name": "Reinhardt",
+   "role": "Tank",
+   "sub": "Stalwart",
+   "twins": [
+    "abrams"
+   ],
+   "why": "Charges enemies into walls and anchors the frontline",
+   "img": "img/reinhardt.png"
+  },
+  {
+   "name": "Roadhog",
+   "role": "Tank",
+   "sub": "Bruiser",
+   "twins": [
+    "bebop",
+    "victor"
+   ],
+   "why": "Hooks foes in, swallows projectiles and heals himself",
+   "img": "img/roadhog.png"
+  },
+  {
+   "name": "Sigma",
+   "role": "Tank",
+   "sub": "Stalwart",
+   "twins": [
+    "paradox",
+    "wraith"
+   ],
+   "why": "Lobbed poke, eats projectiles, lifts foes and slams them",
+   "img": "img/sigma.png"
+  },
+  {
+   "name": "Winston",
+   "role": "Tank",
+   "sub": "Initiator",
+   "twins": [
+    "lash",
+    "mokrill"
+   ],
+   "why": "Leaps onto the backline and zaps everyone at short range",
+   "img": "img/winston.png"
+  },
+  {
+   "name": "Wrecking Ball",
+   "role": "Tank",
+   "sub": "Initiator",
+   "twins": [
+    "viscous",
+    "lash"
+   ],
+   "why": "Rolls into the enemy team as an armored ball",
+   "img": "img/wrecking-ball.png"
+  },
+  {
+   "name": "Zarya",
+   "role": "Tank",
+   "sub": "Bruiser",
+   "twins": [
+    "dynamo",
+    "paige"
+   ],
+   "why": "Bubbles allies and pulls the enemy team into one spot",
+   "img": "img/zarya.png"
+  },
+  {
+   "name": "Anran",
+   "role": "Damage",
+   "sub": "Flanker",
+   "twins": [
+    "infernus"
+   ],
+   "why": "Dashes in and stacks burning damage on targets",
+   "img": "img/anran.png"
+  },
+  {
+   "name": "Ashe",
+   "role": "Damage",
+   "sub": "Sharpshooter",
+   "twins": [
+    "holliday",
+    "venator"
+   ],
+   "why": "Scoped shots, a burning explosive and a shotgun knockback",
+   "img": "img/ashe.png"
+  },
+  {
+   "name": "Bastion",
+   "role": "Damage",
+   "sub": "Specialist",
+   "twins": [
+    "mcginnis",
+    "wraith"
+   ],
+   "why": "Toggles a high-fire-rate turret mode; ult rains artillery",
+   "img": "img/bastion.png"
+  },
+  {
+   "name": "Cassidy",
+   "role": "Damage",
+   "sub": "Sharpshooter",
+   "twins": [
+    "silver"
+   ],
+   "why": "Revolver duelist who roll-reloads and fans the hammer",
+   "img": "img/cassidy.png"
+  },
+  {
+   "name": "Echo",
+   "role": "Damage",
+   "sub": "Recon",
+   "twins": [
+    "sinclair",
+    "pocket"
+   ],
+   "why": "Flying burst caster who copies an enemy's kit for her ult",
+   "img": "img/echo.png"
+  },
+  {
+   "name": "Emre",
+   "role": "Damage",
+   "sub": "Specialist",
+   "twins": [
+    "silver",
+    "wraith"
+   ],
+   "why": "Run-and-gun rifle, lifesteal weapon swap, transform ult",
+   "img": "img/emre.png"
+  },
+  {
+   "name": "Freja",
+   "role": "Damage",
+   "sub": "Recon",
+   "twins": [
+    "greytalon",
+    "vindicta"
+   ],
+   "why": "Crossbow poke; launches up to fire from above, bola ult",
+   "img": "img/freja.png"
+  },
+  {
+   "name": "Genji",
+   "role": "Damage",
+   "sub": "Flanker",
+   "twins": [
+    "apollo",
+    "yamato"
+   ],
+   "why": "Dashes through targets, deflects shots, sword ult",
+   "img": "img/genji.png"
+  },
+  {
+   "name": "Hanzo",
+   "role": "Damage",
+   "sub": "Sharpshooter",
+   "twins": [
+    "greytalon"
+   ],
+   "why": "Charged bow shots, multishot volley, piercing spirit ult",
+   "img": "img/hanzo.png"
+  },
+  {
+   "name": "Junkrat",
+   "role": "Damage",
+   "sub": "Specialist",
+   "twins": [
+    "holliday",
+    "seven",
+    "danny"
+   ],
+   "why": "Spams area explosives and launches himself with mines",
+   "img": "img/junkrat.png"
+  },
+  {
+   "name": "Mei",
+   "role": "Damage",
+   "sub": "Specialist",
+   "twins": [
+    "kelvin",
+    "violet"
+   ],
+   "why": "Slowing ice beam, walls and a self-freeze to survive",
+   "img": "img/mei.png"
+  },
+  {
+   "name": "Pharah",
+   "role": "Damage",
+   "sub": "Recon",
+   "twins": [
+    "pocket",
+    "vindicta",
+    "danny"
+   ],
+   "why": "Hovers overhead raining explosive rockets",
+   "img": "img/pharah.png"
+  },
+  {
+   "name": "Reaper",
+   "role": "Damage",
+   "sub": "Flanker",
+   "twins": [
+    "drifter",
+    "haze",
+    "calico"
+   ],
+   "why": "Teleports behind the team and shreds up close",
+   "img": "img/reaper.png"
+  },
+  {
+   "name": "Shion",
+   "role": "Damage",
+   "sub": "Flanker",
+   "twins": [
+    "vyper",
+    "haze"
+   ],
+   "why": "Dual-pistol flanker who dodges in for burst damage",
+   "img": "img/shion.png"
+  },
+  {
+   "name": "Sierra",
+   "role": "Damage",
+   "sub": "Recon",
+   "twins": [
+    "mirage",
+    "wraith"
+   ],
+   "why": "Mid-range rifle; marks a target and repositions fast",
+   "img": "img/sierra.png"
+  },
+  {
+   "name": "Sojourn",
+   "role": "Damage",
+   "sub": "Sharpshooter",
+   "twins": [
+    "paradox",
+    "vyper"
+   ],
+   "why": "Charged rail shots, a slowing field and a power slide",
+   "img": "img/sojourn.png"
+  },
+  {
+   "name": "Soldier: 76",
+   "role": "Damage",
+   "sub": "Specialist",
+   "twins": [
+    "wraith",
+    "haze"
+   ],
+   "why": "Mid-range rifle gunner; ult auto-aims every shot",
+   "img": "img/soldier-76.png"
+  },
+  {
+   "name": "Sombra",
+   "role": "Support",
+   "sub": "Tactician",
+   "twins": [
+    "haze",
+    "calico"
+   ],
+   "why": "Stealthy support who weakens enemies and patches up allies",
+   "img": "img/sombra.png"
+  },
+  {
+   "name": "Symmetra",
+   "role": "Damage",
+   "sub": "Specialist",
+   "twins": [
+    "doorman",
+    "graves",
+    "solomon"
+   ],
+   "why": "Controls the map with teleporters and turret summons",
+   "img": "img/symmetra.png"
+  },
+  {
+   "name": "Torbjörn",
+   "role": "Damage",
+   "sub": "Specialist",
+   "twins": [
+    "mcginnis"
+   ],
+   "why": "Builds a turret and fortifies a position",
+   "img": "img/torbjorn.png"
+  },
+  {
+   "name": "Tracer",
+   "role": "Damage",
+   "sub": "Flanker",
+   "twins": [
+    "mina",
+    "vyper"
+   ],
+   "why": "Blinks around the backline with rapid-fire pistols",
+   "img": "img/tracer.png"
+  },
+  {
+   "name": "Vendetta",
+   "role": "Damage",
+   "sub": "Flanker",
+   "twins": [
+    "shiv",
+    "yamato"
+   ],
+   "why": "Dashes in, blocks damage, then leaps to finish targets",
+   "img": "img/vendetta.png"
+  },
+  {
+   "name": "Venture",
+   "role": "Damage",
+   "sub": "Flanker",
+   "twins": [
+    "mokrill"
+   ],
+   "why": "Burrows under enemies and pops up for close-range damage",
+   "img": "img/venture.png"
+  },
+  {
+   "name": "Widowmaker",
+   "role": "Damage",
+   "sub": "Sharpshooter",
+   "twins": [
+    "vindicta",
+    "greytalon"
+   ],
+   "why": "Long-range sniper who grapples to high ground",
+   "img": "img/widowmaker.png"
+  },
+  {
+   "name": "Ana",
+   "role": "Support",
+   "sub": "Tactician",
+   "twins": [
+    "paige",
+    "rem",
+    "harrow"
+   ],
+   "why": "Ranged healer who sleeps a target and buffs an ally",
+   "img": "img/ana.png"
+  },
+  {
+   "name": "Baptiste",
+   "role": "Support",
+   "sub": "Tactician",
+   "twins": [
+    "kelvin",
+    "mcginnis"
+   ],
+   "why": "Heal-damage grenades and a field that saves the team",
+   "img": "img/baptiste.png"
+  },
+  {
+   "name": "Brigitte",
+   "role": "Support",
+   "sub": "Survivor",
+   "twins": [
+    "paige",
+    "kelvin",
+    "ratking"
+   ],
+   "why": "Frontline support who shields allies and rallies the team",
+   "img": "img/brigitte.png"
+  },
+  {
+   "name": "Illari",
+   "role": "Support",
+   "sub": "Survivor",
+   "twins": [
+    "mcginnis",
+    "celeste"
+   ],
+   "why": "Plants a healing pylon and fires a charged light rifle",
+   "img": "img/illari.png"
+  },
+  {
+   "name": "Jetpack Cat",
+   "role": "Support",
+   "sub": "Tactician",
+   "twins": [
+    "ivy",
+    "rem"
+   ],
+   "why": "Flies an ally around the map while keeping them healed",
+   "img": "img/jetpack-cat.png"
+  },
+  {
+   "name": "Juno",
+   "role": "Support",
+   "sub": "Survivor",
+   "twins": [
+    "kelvin",
+    "celeste"
+   ],
+   "why": "Speeds up the team; ult calls a healing beam from above",
+   "img": "img/juno.png"
+  },
+  {
+   "name": "Kiriko",
+   "role": "Support",
+   "sub": "Medic",
+   "twins": [
+    "mirage",
+    "kelvin"
+   ],
+   "why": "Teleports to allies and gives the team a speed path",
+   "img": "img/kiriko.png"
+  },
+  {
+   "name": "Lifeweaver",
+   "role": "Support",
+   "sub": "Medic",
+   "twins": [
+    "viscous",
+    "ivy"
+   ],
+   "why": "Pulls allies out of danger and heals them",
+   "img": "img/lifeweaver.png"
+  },
+  {
+   "name": "Lúcio",
+   "role": "Support",
+   "sub": "Tactician",
+   "twins": [
+    "kelvin",
+    "dynamo"
+   ],
+   "why": "Speeds or heals the team while knocking enemies back",
+   "img": "img/lucio.png"
+  },
+  {
+   "name": "Mercy",
+   "role": "Support",
+   "sub": "Medic",
+   "twins": [
+    "rem",
+    "ivy"
+   ],
+   "why": "Tethers to one ally at a time to heal and boost them",
+   "img": "img/mercy.png"
+  },
+  {
+   "name": "Mizuki",
+   "role": "Support",
+   "sub": "Survivor",
+   "twins": [
+    "kelvin",
+    "paige"
+   ],
+   "why": "Aggressive healer; chain stops escapes, ult is a heal dome",
+   "img": "img/mizuki.png"
+  },
+  {
+   "name": "Moira",
+   "role": "Support",
+   "sub": "Medic",
+   "twins": [
+    "geist",
+    "baba"
+   ],
+   "why": "Drains enemies with a beam to sustain herself and allies",
+   "img": "img/moira.png"
+  },
+  {
+   "name": "Wuyang",
+   "role": "Support",
+   "sub": "Survivor",
+   "twins": [
+    "dynamo",
+    "sinclair"
+   ],
+   "why": "Steers a water orb, heals and knocks enemies back",
+   "img": "img/wuyang.png"
+  },
+  {
+   "name": "Zenyatta",
+   "role": "Support",
+   "sub": "Tactician",
+   "twins": [
+    "celeste",
+    "solomon"
+   ],
+   "why": "Floating caster who marks enemies to take more damage",
+   "img": "img/zenyatta.png"
+  },
+  {
+   "name": "Doctrine",
+   "role": "Support",
+   "sub": "Survivor",
+   "twins": [
+    "harrow",
+    "mina"
+   ],
+   "why": "Vampiric healer; bat drones heal an ally and speed up their attacks",
+   "img": "img/doctrine.png"
+  }
+ ],
+ "fwd": {
+  "abrams": "Reinhardt",
+  "apollo": "Genji",
+  "bebop": "Roadhog",
+  "billy": "Junker Queen",
+  "calico": "Reaper",
+  "celeste": "Zenyatta",
+  "drifter": "Reaper",
+  "dynamo": "Zarya",
+  "graves": "Symmetra",
+  "greytalon": "Hanzo",
+  "haze": "Soldier: 76",
+  "holliday": "Ashe",
+  "infernus": "Anran",
+  "ivy": "Jetpack Cat",
+  "kelvin": "Mei",
+  "geist": "Moira",
+  "lash": "Doomfist",
+  "mcginnis": "Torbjörn",
+  "mina": "Tracer",
+  "mirage": "Kiriko",
+  "mokrill": "Venture",
+  "paige": "Brigitte",
+  "paradox": "Sojourn",
+  "pocket": "Echo",
+  "rem": "Mercy",
+  "seven": "Junkrat",
+  "shiv": "Vendetta",
+  "silver": "Cassidy",
+  "sinclair": "Echo",
+  "doorman": "Symmetra",
+  "venator": "Ashe",
+  "victor": "Roadhog",
+  "vindicta": "Widowmaker",
+  "viscous": "Wrecking Ball",
+  "vyper": "Tracer",
+  "warden": "Mauga",
+  "wraith": "Soldier: 76",
+  "yamato": "Genji",
+  "ratking": "Junker Queen",
+  "baba": "Moira",
+  "solomon": "Zenyatta",
+  "danny": "Pharah",
+  "violet": "Mei",
+  "harrow": "Ana"
+ }
+}

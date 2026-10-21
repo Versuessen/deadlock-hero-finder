@@ -1,0 +1,386 @@
+{
+ "game": "val",
+ "roles": [
+  "Duelist",
+  "Initiator",
+  "Controller",
+  "Sentinel"
+ ],
+ "sources": [
+  "https://wiki.playvalorant.com/en-us/Agents",
+  "https://wiki.playvalorant.com/en-us/Patch_Notes/13.06",
+  "https://turbosmurfs.gg/article/valorant-agent-release-order-a-complete-timeline",
+  "https://esports.gg/news/valorant/all-valorant-agents/",
+  "https://www.thespike.gg/valorant/news/valorant-agent-miks-all-abilities/7762",
+  "https://www.thespike.gg/valorant/agents/veto",
+  "https://pley.gg/valorant/agent-30-leaks/"
+ ],
+ "image_sources": [
+  "https://github.com/andrerfcsantos/valorant-agent-picker (public/imgs/agents/portraits/*.webp, commit 2026-08-13; converted to PNG)"
+ ],
+ "notes": "29 playable agents as of patch 13.06 (released 2026-09-22); newest is Miks (Controller, patch 12.05, March 2026). Miks is 'Agent 30' in lore numbering because Agent 08 exists in lore but is unplayable; the official wiki's '30 total' header counts that, its role lists sum to 29. No new agent in 13.00-13.06; one is announced for after Champions 2026 but unreleased/unnamed. Portraits are official full-body agent renders (350x350 RGBA, transparent) from one consistent source; no complete set of bust/display icons >=128px was reachable, so faces are small. Forward pick changed: ivy Sage->Miks (Harmonize ally stim mirrors Kudzu Connection). Matches are looser than in hero games since Valorant is tactical.",
+ "roster": [
+  {
+   "name": "Brimstone",
+   "role": "Controller",
+   "sub": null,
+   "twins": [
+    "mcginnis",
+    "ratking"
+   ],
+   "why": "Map-called barrage and a stim beacon that buffs the team",
+   "img": "img/brimstone.png"
+  },
+  {
+   "name": "Viper",
+   "role": "Controller",
+   "sub": null,
+   "twins": [
+    "seven",
+    "paradox",
+    "violet"
+   ],
+   "why": "Toxic walls and zones that deny space and wear foes down",
+   "img": "img/viper.png"
+  },
+  {
+   "name": "Omen",
+   "role": "Controller",
+   "sub": null,
+   "twins": [
+    "mirage",
+    "doorman"
+   ],
+   "why": "Teleports anywhere on the map; mind games from the shadows",
+   "img": "img/omen.png"
+  },
+  {
+   "name": "Astra",
+   "role": "Controller",
+   "sub": null,
+   "twins": [
+    "dynamo"
+   ],
+   "why": "Gravity wells pull and stun clumped enemies to swing fights",
+   "img": "img/astra.png"
+  },
+  {
+   "name": "Harbor",
+   "role": "Controller",
+   "sub": null,
+   "twins": [
+    "kelvin"
+   ],
+   "why": "Moving water walls and a shield dome that protect pushes",
+   "img": "img/harbor.png"
+  },
+  {
+   "name": "Clove",
+   "role": "Controller",
+   "sub": null,
+   "twins": [
+    "victor",
+    "geist"
+   ],
+   "why": "Fights on past death: self-revive and kill-fed sustain",
+   "img": "img/clove.png"
+  },
+  {
+   "name": "Miks",
+   "role": "Controller",
+   "sub": null,
+   "twins": [
+    "ivy",
+    "dynamo"
+   ],
+   "why": "Shares a combat buff with an ally; pulse heals or concusses",
+   "img": "img/miks.png"
+  },
+  {
+   "name": "Phoenix",
+   "role": "Duelist",
+   "sub": null,
+   "twins": [
+    "infernus"
+   ],
+   "why": "Fire walls and molotovs that burn foes and heal himself",
+   "img": "img/phoenix.png"
+  },
+  {
+   "name": "Jett",
+   "role": "Duelist",
+   "sub": null,
+   "twins": [
+    "apollo",
+    "lash"
+   ],
+   "why": "Aerial dash-in, dash-out duelist built on mobility",
+   "img": "img/jett.png"
+  },
+  {
+   "name": "Reyna",
+   "role": "Duelist",
+   "sub": null,
+   "twins": [
+    "mina",
+    "geist"
+   ],
+   "why": "Snowballs off kills: heals or goes untargetable to escape",
+   "img": "img/reyna.png"
+  },
+  {
+   "name": "Raze",
+   "role": "Duelist",
+   "sub": null,
+   "twins": [
+    "holliday",
+    "billy",
+    "danny"
+   ],
+   "why": "Explosive entry: blast packs launch her, grenades clear rooms",
+   "img": "img/raze.png"
+  },
+  {
+   "name": "Yoru",
+   "role": "Duelist",
+   "sub": null,
+   "twins": [
+    "pocket",
+    "sinclair"
+   ],
+   "why": "Teleports, decoys and untargetable drift to trick enemies",
+   "img": "img/yoru.png"
+  },
+  {
+   "name": "Neon",
+   "role": "Duelist",
+   "sub": null,
+   "twins": [
+    "vyper",
+    "silver"
+   ],
+   "why": "Sprint-and-slide gunner; ult turns her into a live wire",
+   "img": "img/neon.png"
+  },
+  {
+   "name": "Iso",
+   "role": "Duelist",
+   "sub": null,
+   "twins": [
+    "wraith",
+    "drifter"
+   ],
+   "why": "Isolates one target and forces a 1v1 duel",
+   "img": "img/iso.png"
+  },
+  {
+   "name": "Waylay",
+   "role": "Duelist",
+   "sub": null,
+   "twins": [
+    "calico",
+    "apollo"
+   ],
+   "why": "Light-speed dash in, then snaps back to a safe anchor",
+   "img": "img/waylay.png"
+  },
+  {
+   "name": "Sova",
+   "role": "Initiator",
+   "sub": null,
+   "twins": [
+    "greytalon"
+   ],
+   "why": "Archer scout: steered owl drone, recon arrows, long-range ult",
+   "img": "img/sova.png"
+  },
+  {
+   "name": "Breach",
+   "role": "Initiator",
+   "sub": null,
+   "twins": [
+    "abrams",
+    "mokrill"
+   ],
+   "why": "Frontline stuns and knock-ups that crack open a site",
+   "img": "img/breach.png"
+  },
+  {
+   "name": "Skye",
+   "role": "Initiator",
+   "sub": null,
+   "twins": [
+    "paige",
+    "baba"
+   ],
+   "why": "Healer who sends summoned creatures to stun and hunt",
+   "img": "img/skye.png"
+  },
+  {
+   "name": "KAY/O",
+   "role": "Initiator",
+   "sub": null,
+   "twins": [
+    "paradox"
+   ],
+   "why": "Pulsing grenades and a blade that silences enemy abilities",
+   "img": "img/kay-o.png"
+  },
+  {
+   "name": "Fade",
+   "role": "Initiator",
+   "sub": null,
+   "twins": [
+    "drifter",
+    "harrow"
+   ],
+   "why": "Hunts marked enemies along trails and blinds with Nightfall",
+   "img": "img/fade.png"
+  },
+  {
+   "name": "Gekko",
+   "role": "Initiator",
+   "sub": null,
+   "twins": [
+    "graves",
+    "rem"
+   ],
+   "why": "Throws out creature buddies that fight and do chores",
+   "img": "img/gekko.png"
+  },
+  {
+   "name": "Tejo",
+   "role": "Initiator",
+   "sub": null,
+   "twins": [
+    "celeste",
+    "mcginnis"
+   ],
+   "why": "Calls down guided missile strikes from afar",
+   "img": "img/tejo.png"
+  },
+  {
+   "name": "Sage",
+   "role": "Sentinel",
+   "sub": null,
+   "twins": [
+    "viscous",
+    "kelvin",
+    "harrow"
+   ],
+   "why": "Heals and protects allies, walls lanes, slows pushes",
+   "img": "img/sage.png"
+  },
+  {
+   "name": "Killjoy",
+   "role": "Sentinel",
+   "sub": null,
+   "twins": [
+    "mcginnis",
+    "solomon"
+   ],
+   "why": "Engineer who holds ground with a turret and gadgets",
+   "img": "img/killjoy.png"
+  },
+  {
+   "name": "Cypher",
+   "role": "Sentinel",
+   "sub": null,
+   "twins": [
+    "venator"
+   ],
+   "why": "Traps and cameras lock down flanks and reveal intruders",
+   "img": "img/cypher.png"
+  },
+  {
+   "name": "Chamber",
+   "role": "Sentinel",
+   "sub": null,
+   "twins": [
+    "venator",
+    "vindicta"
+   ],
+   "why": "Gun-first sentinel: custom guns, a trap and a teleport",
+   "img": "img/chamber.png"
+  },
+  {
+   "name": "Deadlock",
+   "role": "Sentinel",
+   "sub": null,
+   "twins": [
+    "bebop",
+    "warden"
+   ],
+   "why": "Snares enemies; ult cocoons and drags a victim away",
+   "img": "img/deadlock.png"
+  },
+  {
+   "name": "Vyse",
+   "role": "Sentinel",
+   "sub": null,
+   "twins": [
+    "ivy",
+    "graves"
+   ],
+   "why": "Thorn fields, trap walls and a weapon-jamming ult",
+   "img": "img/vyse.png"
+  },
+  {
+   "name": "Veto",
+   "role": "Sentinel",
+   "sub": null,
+   "twins": [
+    "paradox",
+    "yamato"
+   ],
+   "why": "Destroys enemy utility, then goes debuff-immune",
+   "img": "img/veto.png"
+  }
+ ],
+ "fwd": {
+  "abrams": "Breach",
+  "apollo": "Jett",
+  "bebop": "Deadlock",
+  "billy": "Raze",
+  "calico": "Waylay",
+  "celeste": "Tejo",
+  "drifter": "Fade",
+  "dynamo": "Astra",
+  "graves": "Gekko",
+  "greytalon": "Sova",
+  "haze": "Yoru",
+  "holliday": "Raze",
+  "infernus": "Phoenix",
+  "ivy": "Miks",
+  "kelvin": "Harbor",
+  "geist": "Reyna",
+  "lash": "Jett",
+  "mcginnis": "Killjoy",
+  "mina": "Reyna",
+  "mirage": "Omen",
+  "mokrill": "Breach",
+  "paige": "Skye",
+  "paradox": "Chamber",
+  "pocket": "Yoru",
+  "rem": "Gekko",
+  "seven": "Viper",
+  "shiv": "Neon",
+  "silver": "Neon",
+  "sinclair": "Yoru",
+  "doorman": "Omen",
+  "venator": "Chamber",
+  "victor": "Clove",
+  "vindicta": "Chamber",
+  "viscous": "Sage",
+  "vyper": "Neon",
+  "warden": "Deadlock",
+  "wraith": "Iso",
+  "yamato": "Jett",
+  "ratking": "Brimstone",
+  "baba": "Skye",
+  "solomon": "Killjoy",
+  "danny": "Raze",
+  "violet": "Viper",
+  "harrow": "Sage"
+ }
+}
