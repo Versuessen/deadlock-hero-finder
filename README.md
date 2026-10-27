@@ -1,6 +1,6 @@
 # Deadlock Soulmate
 
-An unofficial fan site for Valve's Deadlock. You answer a short questionnaire about how you like to play, and a tarot-style reading picks the hero that suits you. The site also has a dossier for every hero, side-by-side comparisons and a "Deadlock twin" finder for players coming from Overwatch, Marvel Rivals, Valorant, League of Legends and Apex Legends.
+An unofficial fan site for Valve's Deadlock. You answer a short questionnaire about how you like to play, and a tarot-style reading picks the hero that suits you. The site also has a dossier for every hero, side-by-side comparisons. You are also able to search for specific heros coming from another game using "Deadlock twin" finder for players coming from Overwatch, Marvel Rivals, Valorant, League of Legends and Apex Legends. 
 
 **Live site:** https://deadlock-soulmate.vercel.app/
 
