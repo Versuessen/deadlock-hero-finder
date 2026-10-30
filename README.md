@@ -36,7 +36,7 @@ There is no framework and no build step on the server. `pipeline/build2.py` asse
 | `src/` | Page sources. `template2.html` holds the markup and CSS, `app2.js` the app, and `model.js` the questions and scoring. `edit.js` has the hand-written pitches, ability one-liners and trait scores, and `team.js` the team fits and counters. `extra.js` is generated data. The folder also holds the quiz tests. |
 | `pipeline/` | Python scripts that turn game files into data and build the page. |
 | `xg/` | Cross-game rosters and portraits (`xg/<game>/data.json`), weapon stats, overview text and voice-line metadata. |
-| `*.json` (root) | Generated hero data: base stats, ability stats and texts, kits. The `*_6701.json` files are the previous build's data, which `update_base.py` reads. |
+| `*.json` (root) | Generated hero data: base stats, ability stats and texts, kits, and `codes.json`, which maps the site's hero ids to the game's. |
 
 ## Development
 
@@ -61,42 +61,52 @@ node src/test.js reach
 
 ### Updating hero data after a game patch
 
-> [!WARNING]
-> The data scripts were written for the October 2026 update and are not yet a one-command pipeline. On a fresh clone, `gen_abil_text.py`, `new_vo.py` and `update_base.py` stop with missing-file errors (see the notes after the table).
+This also needs [Pillow](https://pypi.org/project/pillow/) (`pip install pillow`) and a sparse clone of [GameTracking-Deadlock](https://github.com/SteamTracking/GameTracking-Deadlock) in `gt/` (about 20 MB, git-ignored). Run everything from the repository root:
 
-Run the scripts from the repository root, with [GameTracking-Deadlock](https://github.com/SteamTracking/GameTracking-Deadlock) cloned into `gt/` (git-ignored):
+```bash
+# Game files: hero and ability data plus the English localization
+git clone --depth 1 --filter=blob:none --sparse https://github.com/SteamTracking/GameTracking-Deadlock gt
+git -C gt sparse-checkout set --no-cone /game/citadel/pak01_dir/scripts/heroes.vdata \
+  /game/citadel/pak01_dir/scripts/abilities.vdata '/game/citadel/resource/localization/*/*_english.txt'
 
-| Order | Script | Reads | Writes |
-| --- | --- | --- | --- |
-| 1 | `parse_heroes.py` | `gt/…/heroes.vdata` | `heroes_raw.json` |
-| 2 | `build_kits.py` | localization, `heroes_raw.json` | `kits.json` |
-| 3 | `update_base.py` | `*_6701.json`, `kits.json`, `ext/api/heroes.json`, `ext/ab/*.png` | `hero_base.json`, `codes.json`, `site/img/ab/` |
-| 4 | `abil_stats.py` | `gt/…/abilities.vdata`, localization | `abil_stats.json` |
-| 5 | `gen_abil_text.py` | localization, `abil_vdata.pkl` | `abil_text.json` |
-| 6 | `wpn3.py` | `heroes.vdata`, `heroes_raw.json`, `codes.json` | `xg/hstats.json` |
-| 7 | `data3.py` | everything above, `xg/` | `src/extra.js`, `site/img/xg/*.webp` |
-| 8 | `build2.py` | `src/`, `hero_base.json` | `site/index.html` |
+python3 pipeline/parse_heroes.py    # heroes.vdata            -> heroes_raw.json
+python3 pipeline/build_kits.py      # + localization          -> kits.json (and a readable kits.txt)
+python3 pipeline/fetch_assets.py    # deadlock-api.com        -> ext/ (API lists, ability icons), xg/val/icons/
+python3 pipeline/update_base.py     # all of the above        -> hero_base.json, codes.json, new ability icons
+python3 pipeline/hero_images.py     # new heroes only         -> card, hover art, render and name mark
+python3 pipeline/abil_stats.py      # abilities.vdata         -> abil_stats.json
+python3 pipeline/gen_abil_text.py   # localization            -> abil_text.json
+python3 pipeline/wpn3.py            # weapon stats            -> xg/hstats.json
+python3 pipeline/data3.py           # everything              -> src/extra.js, site/img/xg/*.webp
+python3 pipeline/build2.py          #                         -> site/index.html
+node src/test.js reach
+```
 
-Known gaps:
+`update_base.py` prints every field that changed, which makes a patch easy to review. To update to an older build, check it out in `gt/` first (`git -C gt fetch --depth=300` and `git -C gt checkout <commit>`). Run against build 6805, the scripts reproduce the committed data.
 
-- `update_base.py` needs the [deadlock-api.com](https://deadlock-api.com) hero list and ability icons saved by hand into `ext/` (git-ignored), and it hard-codes the six October 2026 heroes.
-- `gen_abil_text.py` reads `abil_vdata.pkl`, a pickled copy of the parsed `abilities.vdata` that no script writes yet.
-- `new_vo.py` (voice-line audio sprites) opens `audio6.py` relative to the working directory, so it fails from both the root and `pipeline/`. It also needs `ffmpeg`.
-- Hero cards, renders and name marks in `site/img/` were downloaded and converted by hand.
+A newly released hero gets its stats, abilities, pictures and lore from the scripts. These parts are hand-written and must be added before the page will work:
+
+- **`src/edit.js`:** pitch, four ability one-liners, the 23 quiz trait scores, aesthetic, gun feel and gimmicks. The page breaks for a hero without an entry.
+- **`src/team.js`:** three heroes they play well with and three to watch out for, each with a reason.
+- **`xg/<game>/data.json`:** add the hero to some characters' `twins` lists and set its closest match in `fwd`, for each of the five games.
+- **`xg/ov_fill.json`:** a role line and playstyle text, for heroes the game files give none.
+- **`codes.json`:** optionally rename the site id `update_base.py` made up from the hero's name (for example, `deadmandanny` to `danny`).
+- **Voice lines (optional):** list them in `LINES` in `pipeline/new_vo.py` with their Deadlock Wiki file names, then run it (needs `ffmpeg`).
 
 ## Credits
 
 - **Game data:** [SteamTracking/GameTracking-Deadlock](https://github.com/SteamTracking/GameTracking-Deadlock) (`heroes.vdata`, `abilities.vdata`, localization).
-- **Hero cards, renders, ability icons and colours:** the [deadlock-api.com](https://deadlock-api.com) assets API.
-- **Voice lines, innates and release dates:** the [Deadlock Wiki](https://deadlock.wiki).
+- **Hero cards, name marks, ability icons and colours:** the [deadlock-api.com](https://deadlock-api.com) assets API.
+- **Hero renders, voice lines, innates and release dates:** the [Deadlock Wiki](https://deadlock.wiki).
 - **Fonts, UI art and sounds:** Deadlock, © Valve.
 - **Cross-game portraits:** [overwatch-hero-icons](https://github.com/drippinghere/overwatch-hero-icons), [rivals-player-assets](https://github.com/yuqichin/rivals-player-assets), [valorant-agent-picker](https://github.com/andrerfcsantos/valorant-agent-picker), [LoL_DDragon](https://github.com/InFinity54/LoL_DDragon) and [GameTeamer](https://github.com/HyIsNoob/GameTeamer) (Apex Legends).
 
-<!-- TODO: confirm you want issue reports, and whether you accept pull requests -->
-Spotted wrong hero data or a missing hero? [Open an issue](https://github.com/Versuessen/deadlock-hero-finder/issues).
+## Contributing
 
-## Legal
+This is a personal project that I update now and then, so I'm not taking pull requests or feature requests. You're welcome to fork it under the license below.
 
-This is an unofficial fan project, not affiliated with or endorsed by Valve. Deadlock and its assets are © Valve Corporation. Characters from other games are © their respective owners.
+## License
 
-<!-- TODO: add a LICENSE for the code, or state that all rights are reserved -->
+The code and the hand-written content are [MIT licensed](./LICENSE). That doesn't cover the game material the site uses: Deadlock's assets and data are © Valve Corporation, and characters from other games are © their respective owners (Blizzard, NetEase and Marvel, Riot Games, Electronic Arts and Respawn). [LICENSE](./LICENSE) lists exactly what is excluded.
+
+This is an unofficial fan project, not affiliated with or endorsed by Valve or any other game publisher.

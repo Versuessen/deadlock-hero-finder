@@ -1,12 +1,14 @@
+"""Builds src/extra.js (cross-game rosters, voice-line timings, UI sound map, name-mark ratios, overview text,
+weapon stats for the compare page, ability stats and texts) and the cross-game sprite sheets in site/img/xg/.
+Run from the repository root after the other data scripts."""
 import json,re,os,math
 from PIL import Image
-import numpy as np
-from vo import D, code, clean
+code=json.load(open('codes.json'))
 HB=json.load(open('hero_base.json'))
 OUT={}
 # ---------------- cross-game ----------------
 GAMES=[('ow','Overwatch','hero'),('mr','Marvel Rivals','hero'),('val','Valorant','agent'),('lol','League of Legends','champion'),('apex','Apex Legends','legend')]
-VALICON='/tmp/vap/public/imgs/agents/icons/'
+VALICON='xg/val/icons/'   # agent icons (fetch_assets.py); portraits in xg/val/img are the fallback
 CELL=96
 xg=[]
 for gid,gname,unit in GAMES:
@@ -37,41 +39,9 @@ for gid,gname,unit in GAMES:
     print(gid,len(items),'cells',len(cells),os.path.getsize(f'site/img/xg/{gid}.webp')//1024,'KB')
 OUT['XG']=xg
 # ---------------- voice lines ----------------
-SIG={'abrams':"I know how to make an entrance.",'apollo':"I am without equal",'bebop':"A little trouble never hurt anyone…",
-'billy':"Hey. Hey. Hey. Hey. Hey. Your taste in music sucks.",'calico':"The shadows call, and I answer…",'celeste':"Let the light shine",
-'doorman':"Happy to be of service",'drifter':"Oh, I'm exactly who you think I am",'dynamo':"I AM THE COSMOS!",'geist':"My beauty is eternal",
-'graves':"There's no escaping the grave.",'greytalon':"I do not miss.",'haze':"Mercy is not a gift that I bring today…",
-'holliday':"No one's a better shot than me…",'infernus':"Once this goes off all they can do is burn…",'ivy':"You tried to punch a gargoyle? really?",
-'kelvin':"Welcome to my ice dome.",'lash':"They save the best for last",'mcginnis':"Sometimes turrets aren't enough…",'mina':"New York will be mine",
-'mirage':"The Djinn take me where I am needed",'mokrill':"Alright Maurice, here's the plan: I hold 'em down, you maul them.",
-'paige':"Sorry I'm a little late, had to finish the chapter I was on...",'paradox':"Where are you going?",'pocket':"I'm a Fairfax…I can handle the pressure",
-'rem':"I like naps.",'seven':"The storm gathers…",'shiv':"It takes a monster to stop a monster…",'silver':"Time to let out the beast…",
-'sinclair':"Please hold your applause",'venator':"Ancient evils call for ancient tools",'victor':"Let's see 'em try to kill a dead man",
-'vindicta':"They're not even gonna hear the bullet that kills them…",'viscous':"Cubes are for healing. Balls are for murder.",
-'vyper':"The ol' Gorgon special",'warden':"I will stand against many!",'wraith':"Hope they got the message…",'yamato':"My family has defied death for generations."}
-allv={clean(v) for v in D.values()}
-CATS=['kill_anyhero','use_power4','melee_kill','congrats','last_one_standing','upgrade_power4','hunt','select','killstreak_high','close_call','near_miss','pick_up_gold','parry']
-vo={}
-for hid in HB:
-    if hid not in SIG: continue
-    s=SIG[hid]; assert s in allv or s.replace('really','Really') in allv or s.replace('…','....') in allv or True, hid
-    pre=[code[hid][5:]+'_'] if hid!='sinclair' else ['magician_henry_','magician_savannah_']
-    pool=[]
-    for cat in CATS:
-        for p in pre:
-            for k,v in D.items():
-                if re.match(re.escape(p+cat)+r'(_\d+[a-z]?)?_(hero|ult|ability)_3d$',k):
-                    v=clean(v)
-                    if 14<=len(v)<=100 and v!=s and v not in pool and not re.search(r'in spanish|\*|scream|laughter|[<>{}\[\]]',v,re.I): pool.append(v)
-    # spread categories: round-robin-ish take
-    vo[hid]={'s':s,'r':pool[:18]}
-    if len(pool)<6: print('few lines',hid,len(pool))
 OUT['VO']=json.load(open('xg/voice6.json'))
 OUT['UISND']=json.load(open('xg/ui6.json'))
 OUT['NM']=json.load(open('xg/nm_ratio2.json'))
-# verify signature lines are verbatim
-for hid,s in SIG.items():
-    if s not in allv: print('SIG not verbatim:',hid,repr(s))
 # ---------------- overview ----------------
 t=open('gt/game/citadel/resource/localization/citadel_heroes/citadel_heroes_english.txt',encoding='utf-8-sig').read()
 H=dict(re.findall(r'"([^"]+)"\s+"((?:[^"\\]|\\.)*)"',t))

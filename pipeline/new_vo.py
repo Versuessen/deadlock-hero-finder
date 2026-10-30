@@ -1,6 +1,9 @@
-import json,os,subprocess,sys,re
-sys.argv=['x']
-src=open('audio6.py').read(); exec(src[:src.index('# ---------- voices')])   # sprite(), dur()
+"""Voice-line sprites for heroes listed in LINES: downloads each line from the Deadlock Wiki CDN into ext/vo/,
+joins them into site/img/vo/<id>.mp3 and records the line texts and timings in xg/voice6.json.
+Run from the repository root; needs ffmpeg."""
+import json,os,subprocess
+from sprite import sprite
+os.makedirs('ext/vo',exist_ok=True)
 LINES={
  'ratking':[("I'm the king of the rats! And don't you forget it.","Ratking_hero_anim_intro_02"),
   ("They're not fighting me. They're fighting me and 100 of my friends.","Ratking_select_10"),

@@ -424,7 +424,7 @@
    {
     "k": "Bleed Damage",
     "v": "2.2",
-    "u": "%/sec"
+    "u": "% DPS"
    },
    {
     "k": "Debuff Duration",
@@ -975,7 +975,7 @@
    {
     "k": "Health Regen",
     "v": "25",
-    "u": "/sec",
+    "u": "/s",
     "sc": {
      "x": 0.3,
      "stat": "Spirit"
@@ -4178,7 +4178,7 @@
    {
     "k": "Bleed Damage",
     "v": "2",
-    "u": "%/sec",
+    "u": "% DPS",
     "sc": {
      "x": 0.015,
      "stat": "Spirit"
@@ -4282,7 +4282,7 @@
     }
    },
    {
-    "k": "Healing Reduction",
+    "k": "Incoming Healing",
     "v": "-30",
     "u": "%"
    },

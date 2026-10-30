@@ -1,5 +1,7 @@
-import json,re,pickle,copy
-V=pickle.load(open('abil_vdata.pkl','rb'))
+"""Writes abil_text.json: full ability descriptions from the localization files, with numbers and key names filled in.
+Run from the repository root."""
+import json,re
+from abil_stats import V   # parsed abilities.vdata
 def props(name,seen=()):
     e=V.get(name) or {}
     acc={}

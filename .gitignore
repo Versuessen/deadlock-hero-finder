@@ -2,6 +2,6 @@ gt/
 ext/
 artifact/
 __pycache__/
-*.pkl
 node_modules/
 .vercel
+kits.txt

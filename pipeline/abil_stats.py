@@ -1,5 +1,5 @@
-"""Build abil_stats.json from Deadlock abilities.vdata + localization (GameTracking build 6701)."""
-import copy, html, json, os, pickle, re
+"""Build abil_stats.json from Deadlock abilities.vdata + localization (GameTracking-Deadlock clone in gt/). Run from the repository root."""
+import copy, html, json, os, re
 import kv3
 
 HERE = os.getcwd()  # run from the repo root
@@ -7,11 +7,7 @@ VD = os.path.join(HERE, 'gt/game/citadel/pak01_dir/scripts/abilities.vdata')
 LOC = os.path.join(HERE, 'gt/game/citadel/resource/localization')
 
 # ---------------- vdata + inheritance ----------------
-pk = os.path.join(HERE, 'abil_vdata.pkl')
-if os.path.exists(pk) and os.path.getmtime(pk) > os.path.getmtime(VD):
-    V = pickle.load(open(pk, 'rb'))
-else:
-    V = kv3.parse(open(VD, encoding='utf-8').read())
+V = kv3.parse(open(VD, encoding='utf-8').read())
 
 
 def deep_merge(base, over):

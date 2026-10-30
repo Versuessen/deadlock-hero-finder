@@ -1,0 +1,41 @@
+MIT License
+
+Copyright (c) 2026 Versuessen
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+-------------------------------------------------------------------------------
+
+Third-party material (not covered by the license above)
+
+The MIT license covers this project's own code and its hand-written content
+(hero pitches, ability one-liners, quiz questions and trait scores, team fits
+and cross-game matches). It does not cover material owned by others, which
+stays the property of its owners and is used here in an unofficial fan project:
+
+- Deadlock game assets and data, (c) Valve Corporation: hero cards, renders,
+  name marks, ability icons, fonts, UI art, sounds and voice lines (everything
+  under site/img/, plus site/favicon.png and site/og.jpg), and the hero names,
+  stats, ability texts, lore and voice-line texts taken from the game files.
+- Characters and portraits from other games, (c) their respective owners,
+  including Blizzard Entertainment (Overwatch), NetEase Games and Marvel
+  (Marvel Rivals), Riot Games (Valorant, League of Legends) and Electronic Arts
+  and Respawn Entertainment (Apex Legends): everything under xg/*/img/ and
+  xg/val/icons/.
+- Screenshots of the site in .github/assets/, which show the material above.
