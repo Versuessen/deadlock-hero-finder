@@ -939,6 +939,9 @@ footer p{margin:0; max-width:78em}
 .rgroup .label{color:var(--mint)}
 .rgroup .rn{margin-left:auto; color:var(--faint); font-size:13px}
 .rgroup[hidden]{display:none}
+.sortbtn svg .bar{stroke-width:3}
+.rgroup .rhint{flex-basis:100%; margin:2px 0 4px; color:var(--muted); font-size:15px}
+.rgroup .tape{border:0; margin-bottom:6px}
 @media (max-width:760px){ .rgroup h3{font-size:23px} .rgroup .rn{display:none} }
 </style>
 </head>
@@ -2000,6 +2003,8 @@ function show(view){
   hideTip && hideTip(); stopVoice();
   ["viewIntro","viewQuiz","viewResult","viewCompare","viewTwin"].forEach(v => $("#"+v).hidden = (v !== view));
   document.body.classList.toggle("in-quiz", view === "viewQuiz");
+  // a new reading or a friend's hero changes the order of the roster when it is sorted by match
+  if (view === "viewIntro") try { if (rosterSort === "match") renderRoster(); } catch(e) {}
   window.scrollTo(0,0);
 }
 
@@ -2007,7 +2012,7 @@ function show(view){
 function tcard(h, o){
   o = o || {};
   const tag = o.tag || "span", r = role(h);
-  return `<${tag} class="tcard r-${r} ${o.plate===false?"noplate":""} ${o.cls||""}" ${o.attrs||""} style="${cvars(h)};--fr:url('img/k/${frame(h)}.webp');--cbg:url('img/k/cbg_${r}.webp');--emb:url('img/k/emb_${r}.webp');${o.style||""}"><span class="in"><span class="aura"></span><img class="frame" src="img/k/${frame(h)}.webp" alt="" ${o.lazy?'loading="lazy"':""}><span class="art"><span class="ah"></span><img class="pt" src="${img(h.id)}" alt="" ${o.lazy?'loading="lazy"':""}><img class="gl" alt="" data-gl="${h.id}" src="img/gloat/${h.id}.webp" ${o.lazy?'loading="lazy"':""} decoding="async"></span>${o.plate===false?"":`<span class="plate"><b>${esc(h.name)}</b><small><i></i>${esc(h.type||"Unclassed")}</small></span>`}<span class="iri"></span><span class="glit"></span><span class="shine"></span></span></${tag}>`;
+  return `<${tag} class="tcard r-${r} ${o.plate===false?"noplate":""} ${o.cls||""}" ${o.attrs||""} style="${cvars(h)};--fr:url('img/k/${frame(h)}.webp');--cbg:url('img/k/cbg_${r}.webp');--emb:url('img/k/emb_${r}.webp');${o.style||""}"><span class="in"><span class="aura"></span><img class="frame" src="img/k/${frame(h)}.webp" alt="" ${o.lazy?'loading="lazy"':""}><span class="art"><span class="ah"></span><img class="pt" src="${img(h.id)}" alt="" ${o.lazy?'loading="lazy"':""}><img class="gl" alt="" data-gl="${h.id}" src="img/gloat/${h.id}.webp" ${o.lazy?'loading="lazy"':""} decoding="async"></span>${o.plate===false?"":`<span class="plate"><b>${esc(h.name)}</b><small><i></i>${esc(o.sub||h.type||"Unclassed")}</small></span>`}<span class="iri"></span><span class="glit"></span><span class="shine"></span></span></${tag}>`;
 }
 
 // ================= intro =================
@@ -2088,19 +2093,30 @@ const RELEASES = [
   { name:"Old Gods, New Blood", kind:"Major update", date:"2026-01-22", heroes:[["rem","2026-01-26"],["graves","2026-01-29"],["silver","2026-02-02"],["venator","2026-02-05"],["celeste","2026-02-09"],["apollo","2026-02-12"]] },
   { name:"Six New Heroes", kind:"Major update", date:"2025-08-18", heroes:[["mina","2025-08-18"],["billy","2025-08-20"],["doorman","2025-08-22"],["paige","2025-08-25"],["drifter","2025-08-27"],["victor","2025-08-29"]] },
   { name:"Out of Hero Labs", kind:"Major update", date:"2025-01-17", heroes:["calico","holliday","sinclair","vyper"] },
-  { name:"Mirage", kind:"Patch", date:"2024-09-26", heroes:["mirage"] },
-  { name:"Shiv", kind:"Patch", date:"2024-08-15", heroes:["shiv"] },
-  { name:"Viscous", kind:"Patch", date:"2024-08-01", heroes:["viscous"] },
+  // the 2024 playtest shipped a big update every two weeks; three of them added one hero each
+  { name:"Playtest arrivals", kind:"Patches", date:"2024-08-01", until:"2024-09-26", heroes:[["viscous","2024-08-01"],["shiv","2024-08-15"],["mirage","2024-09-26"]] },
   { name:"Closed playtest", kind:"The first roster", date:"2024-04-24", heroes:["abrams","bebop","dynamo","greytalon","haze","infernus","ivy","kelvin","geist","lash","mcginnis","mokrill","paradox","pocket","seven","vindicta","warden","wraith","yamato"] }
 ];
 const RELEASED = {};   // hero id -> release date (ISO)
 RELEASES.forEach(r => r.heroes.forEach(x => { const [id, d] = Array.isArray(x) ? x : [x, r.date]; RELEASED[id] = d; }));
 const fmtDate = iso => new Date(iso + "T12:00:00Z").toLocaleDateString("en-GB", { day:"numeric", month:"long", year:"numeric", timeZone:"UTC" });
+const fmtRange = (a, b) => { const x = fmtDate(a).split(" "), y = fmtDate(b); return (x[2] === y.split(" ")[2] ? x.slice(0,2).join(" ") : x.join(" ")) + " \u2013 " + y; };
 // roster order: one icon next to the heading cycles through these
 const SORTS = [
   { id:"az", label:"A to Z", icon:`<path d="M3.5 19.5L8.5 4.5l5 15M5.4 14h6.2"/><path d="M18.5 5v13.5M15.6 15.8l2.9 2.9 2.9-2.9"/>` },
-  { id:"release", label:"By release", icon:`<rect x="3.5" y="5.5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3.5v4M16 3.5v4"/><path class="d" d="M7.5 13.5h2M11 13.5h2M14.5 13.5h2M7.5 17h2M11 17h2"/>` }
+  { id:"release", label:"By release", icon:`<rect x="3.5" y="5.5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3.5v4M16 3.5v4"/><path class="d" d="M7.5 13.5h2M11 13.5h2M14.5 13.5h2M7.5 17h2M11 17h2"/>` },
+  { id:"cx", label:"By complexity", icon:`<path class="bar" d="M5.5 19.5v-4.5M12 19.5v-9M18.5 19.5V5"/>` },
+  { id:"match", label:"Your match", icon:`<path d="M12 20.2s-7.7-4.6-7.7-10.4A4.3 4.3 0 0 1 12 7.2a4.3 4.3 0 0 1 7.7 2.6c0 5.8-7.7 10.4-7.7 10.4z"/>` }
 ];
+// complexity groups use the game's own wording for its 1-3 rating; Sinclair's 4 sits with the advanced heroes
+const CX_GROUPS = [ { title:"For New Players", label:"Complexity I", cx:[1] }, { title:"For Intermediate Players", label:"Complexity II", cx:[2] }, { title:"For Advanced Players", label:"Complexity III\u2013IV", cx:[3,4] } ];
+// your own ranking for the roster: this session's reading, or else the answers saved in this browser
+function myRanking(){
+  if (lastRank) return { rk: lastRank, n: answeredCount() };
+  const sv = load(); if (!sv) return null;
+  const n = QUESTIONS.filter(q => { const a = sv.answers[q.id]; return a !== undefined && a !== null && !(Array.isArray(a) && !a.length); }).length;
+  return n >= FROG_MIN ? { rk: applyTeam(rankHeroes(HEROES, sv.answers)), n } : null;
+}
 let rosterSort = "az";
 try { const v = localStorage.getItem("dlhf.sort"); if (SORTS.some(x => x.id === v)) rosterSort = v; } catch(e) {}
 function renderSortBtn(){
@@ -2119,7 +2135,9 @@ function renderRoster(anim){
   $("#filters").innerHTML = types.map(t=>`<button type="button" class="tape" aria-pressed="${t===rosterFilter}" data-f="${t}">${t!=="All"?`<i style="--emb:url('img/k/emb_${t.toLowerCase()}.webp')"></i>`:""}${t}</button>`).join("");
   renderSortBtn();
   const shown = h => rosterFilter === "All" || (h.type || "Unclassed") === rosterFilter;
-  const card = h => { const t = h.type || "Unclassed"; return tcard(h, {tag:"button", lazy:true, attrs:`type="button" data-hero="${h.id}" aria-label="${esc(h.name)}, ${esc(t)}" ${shown(h)?"":"hidden"}`}); };
+  const card = (h, sub) => { const t = h.type || "Unclassed"; return tcard(h, {tag:"button", lazy:true, sub, attrs:`type="button" data-hero="${h.id}" aria-label="${esc(h.name)}, ${esc(sub || t)}" ${shown(h)?"":"hidden"}`}); };
+  const head = (title, label, n, extra) => `<div class="rgroup" ${n ? "" : "hidden"}><h3>${esc(title)}</h3>${label ? `<span class="label">${esc(label)}</span>` : ""}${n && !extra ? `<span class="rn">${plural(n, "hero")}</span>` : ""}${extra || ""}</div>`;
+  const group = (title, label, hs, sub) => head(title, label, hs.filter(shown).length) + hs.map(h => card(h, sub && sub(h))).join("");
   let html;
   if (rosterSort === "release"){
     const placed = new Set();
@@ -2127,15 +2145,29 @@ function renderRoster(anim){
       const hs = r.heroes.map(x => BY[Array.isArray(x) ? x[0] : x]).filter(Boolean);
       if (!r.heroes.some(Array.isArray)) hs.sort((a,b) => a.name.localeCompare(b.name));
       hs.forEach(h => placed.add(h.id));
-      const vis = hs.filter(shown).length;
-      return `<div class="rgroup" ${vis ? "" : "hidden"}><h3>${esc(r.name)}</h3><span class="label">${esc(r.kind)} \u00B7 ${fmtDate(r.date)}</span><span class="rn">${plural(vis, "hero")}</span></div>` + hs.map(card).join("");
+      return group(r.name, `${r.kind} \u00B7 ${r.until ? fmtRange(r.date, r.until) : fmtDate(r.date)}`, hs);
     }).join("");
     // a hero added to the game but not yet to RELEASES still shows up
     const rest = HEROES.filter(h => !placed.has(h.id));
-    if (rest.length) html += `<div class="rgroup"><h3>Recently added</h3></div>` + rest.map(card).join("");
-  } else html = HEROES.map(card).join("");
+    if (rest.length) html += group("Recently added", "", rest);
+  } else if (rosterSort === "cx"){
+    html = CX_GROUPS.map(g => group(g.title, g.label, HEROES.filter(h => g.cx.includes(h.cx)).sort((a,b) => a.cx - b.cx || a.name.localeCompare(b.name)))).join("");
+  } else if (rosterSort === "match"){
+    const my = myRanking();
+    if (!my){
+      html = head("No reading yet", "", 1, `<p class="rhint">Take the reading and the roster lines up by how well each hero fits you.</p><button type="button" class="tape mint" data-startread data-hov>Begin the reading</button>`)
+        + HEROES.map(h => card(h)).join("");
+    } else {
+      const res = my.rk.res, pct = r => () => `${Math.round(r.score*100)}% match`;
+      const mine = res.filter(r => !r.taken), taken = res.filter(r => r.taken);
+      const src = my.n >= TOTAL ? "From your reading" : `From ${my.n} of ${TOTAL} answers`;
+      const part = (title, label, rs) => head(title, label, rs.filter(r => shown(r.hero)).length) + rs.map(r => card(r.hero, pct(r)())).join("");
+      html = part("Your soulmate", src, mine.slice(0,1)) + part("Close contenders", "", mine.slice(1,6)) + part("Also in the cards", "", mine.slice(6))
+        + (taken.length ? head("Played by your friends", "Left out of your ranking", taken.filter(r => shown(r.hero)).length) + taken.map(r => card(r.hero, "Friend's pick")).join("") : "");
+    }
+  } else html = HEROES.map(h => card(h)).join("");
   const g = $("#rosterGrid"); g.innerHTML = html;
-  g.classList.toggle("by-release", rosterSort === "release");
+  g.classList.toggle("grouped", rosterSort !== "az");
   if (anim && !RM) g.animate([{opacity:0, transform:"translateY(8px)"},{opacity:1, transform:"none"}], {duration:260, easing:"cubic-bezier(.2,.8,.2,1)"});
 }
 
@@ -3150,6 +3182,7 @@ document.addEventListener("click", e => {
   if (t.dataset.xg){ const grp = t.closest(".xgroup"), open = !grp.classList.contains("open"); grp.classList.toggle("open", open); t.setAttribute("aria-expanded", open); openGroups[gameTab + ":" + t.dataset.xg] = open; SFX.play(open ? "open" : "close",{gain:.35}); return; }
   if (t.dataset.g){ gameTab = t.dataset.g; SFX.play("filter",{gain:.3, jitter:0}); renderCross(); return; }
   if (t.id === "sortBtn" || t.closest && t.closest("#sortBtn")){ return cycleSort(); }
+  if (t.hasAttribute("data-startread")){ return $("#startBtn").click(); }
   if (t.dataset.f){ rosterFilter = t.dataset.f; SFX.play("filter",{gain:.3, jitter:0}); renderRoster(); return; }
   if (t.id === "codeToggle"){ const f = $("#codeForm"), open = !f.classList.contains("open"); f.classList.toggle("open", open); f.inert = !open; if (!open) $("#codeErr").hidden = true; t.setAttribute("aria-expanded", open); SFX.play(open ? "open" : "close",{gain:.4}); if (open) $("#codeIn").focus(); return; }
   if (t.id === "shareBtn") return openShare();
