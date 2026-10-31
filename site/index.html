@@ -1852,14 +1852,18 @@ function alignSegs(buf, segs){
 }
 const SFX = (() => {
   // every cue is a slice of one sprite of Deadlock's own UI sounds; cues with several takes rotate so repeats don't sound identical
-  let ctx = null, master = null, sprite = null, lastHover = 0, on = true;
+  let ctx = null, master = null, bus = null, sprite = null, lastHover = 0, on = true;
   const last = {};
   try { on = localStorage.getItem("dlhf.sound") !== "off"; } catch(e) {}
   function init(){
     if (ctx) return;
     const AC = window.AudioContext || window.webkitAudioContext; if (!AC) return;
     try { ctx = new AC(); } catch(e) { return; }
-    master = ctx.createGain(); master.gain.value = 0.8; master.connect(ctx.destination);
+    // every sound (UI cues and voice lines) ends in one safety limiter, so sounds that overlap can't clip
+    bus = ctx.createDynamicsCompressor();
+    bus.threshold.value = -3; bus.knee.value = 0; bus.ratio.value = 20; bus.attack.value = .002; bus.release.value = .15;
+    bus.connect(ctx.destination);
+    master = ctx.createGain(); master.gain.value = 0.8; master.connect(bus);
     fetch("img/snd/ui.mp3").then(r => r.arrayBuffer()).then(a => new Promise((res, rej) => ctx.decodeAudioData(a, res, rej))).then(b => { sprite = b; const keys = Object.keys(UISND), flat = keys.flatMap(k => UISND[k]), al = alignSegs(b, flat); let n = 0; keys.forEach(k => { UISND[k] = UISND[k].map(() => al[n++]); }); }).catch(()=>{});
   }
   function unlock(){ init(); if (ctx && ctx.state === "suspended") ctx.resume().catch(()=>{}); }
@@ -1881,7 +1885,7 @@ const SFX = (() => {
   }
   function hover(kind){ const t = performance.now(); if (t - lastHover < 70) return; lastHover = t; play(kind || "hover", {gain: kind === "hover" ? .55 : .6}); }
   function set(v){ on = v; try { localStorage.setItem("dlhf.sound", v ? "on" : "off"); } catch(e) {} }
-  return { init, unlock, play, hover, set, get on(){ return on; }, get ctx(){ return ctx; } };
+  return { init, unlock, play, hover, set, get on(){ return on; }, get ctx(){ return ctx; }, get bus(){ return bus; } };
 })();
 // hero voice lines: one sprite per hero, decoded on first use
 // hero voice lines: one small sprite per hero. Compressed files are prefetched in the background;
@@ -1900,8 +1904,18 @@ const VOX = (() => {
     if (dec.has(id)){ const b = dec.get(id); dec.delete(id); dec.set(id, b); return Promise.resolve(b); }
     return fetchRaw(id).then(a => new Promise((res, rej) => c.decodeAudioData(a.slice(0), res, rej))).then(b => {
       if (!VO[id].aligned){ VO[id].seg = alignSegs(b, VO[id].seg); VO[id].aligned = true; }
+      if (VO[id].g == null) VO[id].g = voiceGain(b);
       dec.set(id, b); while (dec.size > MAXDEC) dec.delete(dec.keys().next().value); return b;
     });
+  }
+  // the source lines are mastered hot (peaks at full scale) and their loudness differs by up to 8 dB between heroes:
+  // bring every hero to the same speech level, with headroom left for UI sounds that play at the same time
+  function voiceGain(b){
+    const d = b.getChannelData(0); let sum = 0, n = 0, pk = 0;
+    for (let i = 0; i < d.length; i++){ const v = Math.abs(d[i]); if (v > pk) pk = v; if (v > .003){ sum += v*v; n++; } }
+    if (!n) return .5;
+    const rms = Math.sqrt(sum / n), TARGET = Math.pow(10, -22/20);   // about -22 dBFS while speaking
+    return Math.min(TARGET / rms, .5 / pk);                           // peaks stay at or below -6 dBFS
   }
   function warm(id){ if (!VO[id]) return; if (SFX.ctx) load(id).catch(()=>{}); else fetchRaw(id).catch(()=>{}); }
   function stop(){ if (src){ try { src.stop(); } catch(e) {} src = null; } }
@@ -1910,7 +1924,8 @@ const VOX = (() => {
     if (!c || !seg || !vOn) return Promise.reject();
     if (c.state === "suspended") c.resume().catch(()=>{});
     return load(id).then(b => {
-      stop(); if (!gain){ gain = c.createGain(); gain.gain.value = 1; gain.connect(c.destination); }
+      stop(); if (!gain){ gain = c.createGain(); gain.connect(SFX.bus || c.destination); }
+      gain.gain.value = VO[id].g;
       const s = c.createBufferSource(); s.buffer = b; s.connect(gain); s.start(0, seg[0], seg[1]); src = s;
       return seg[1];
     });
