@@ -924,6 +924,22 @@ footer p{margin:0; max-width:78em}
 .modal,.share{background:url("img/k/grain_a.webp") 0 0/900px repeat, rgba(4,7,7,.86); background-attachment:local, scroll}
 .page{min-height:100vh; display:flex; flex-direction:column}
 .page > main{flex:1 0 auto}
+/* roster order: an icon beside the heading, plus release groups */
+.sortbtn{position:absolute; left:100%; top:50%; margin:-19px 0 0 12px; z-index:1}
+.sortbtn svg{width:24px; height:24px}
+.sortbtn svg .d{stroke-width:2.2}
+.sortbtn .sl{position:absolute; left:100%; top:50%; margin-left:4px; transform:translate(-4px,-50%); white-space:nowrap; font:600 11.5px var(--f-ui); letter-spacing:.18em; text-transform:uppercase; color:var(--muted); opacity:0; pointer-events:none; transition:opacity .18s, transform .18s}
+.sortbtn:hover .sl,.sortbtn:focus-visible .sl{opacity:1; transform:translate(0,-50%)}
+.sortbtn svg{transition:transform .35s cubic-bezier(.2,.8,.2,1)}
+.sortbtn:active svg{transform:rotate(-12deg) scale(.92)}
+.rgroup{grid-column:1/-1; display:flex; align-items:baseline; flex-wrap:wrap; gap:4px 16px; padding-top:22px; position:relative}
+.rgroup:first-child{padding-top:0}
+.rgroup::after{content:""; position:absolute; left:0; right:0; bottom:-12px; height:10px; background:url("img/k/chalk_line.webp") left center/100% 100% no-repeat; opacity:.22}
+.rgroup h3{margin:0; font-family:var(--f-display); font-weight:700; font-size:28px; line-height:1.1; color:var(--bone)}
+.rgroup .label{color:var(--mint)}
+.rgroup .rn{margin-left:auto; color:var(--faint); font-size:13px}
+.rgroup[hidden]{display:none}
+@media (max-width:760px){ .rgroup h3{font-size:23px} .rgroup .rn{display:none} }
 </style>
 </head>
 <body>
@@ -981,7 +997,7 @@ footer p{margin:0; max-width:78em}
     <div class="torn">
       <div class="wrap roster" id="roster">
         <div class="shead">
-          <div><span class="label">Every playable hero</span><h2><img src="img/k/sigil6.webp" alt="">The roster</h2></div>
+          <div><span class="label">Every playable hero</span><h2><img src="img/k/sigil6.webp" alt="">The roster<button class="sound sortbtn" id="sortBtn" type="button" data-hov></button></h2></div>
           <div class="filters" id="filters" role="group" aria-label="Filter by class"></div>
         </div>
         <div class="grid-roster" id="rosterGrid"></div>
@@ -2065,13 +2081,62 @@ $("#stage").addEventListener("click", e => {
   setTimeout(() => openDossier(id), RM ? 0 : 650);
 });
 let rosterFilter = "All";
-function renderRoster(){
+// hero releases, newest first (Deadlock Wiki, "Heroes by release" and the update pages). Heroes are listed in the
+// order they unlocked; the original playtest roster has no order of its own, so it falls back to A-Z
+const RELEASES = [
+  { name:"City Never Sleeps", kind:"Major update", date:"2026-09-29", heroes:[["ratking","2026-10-02"],["baba","2026-10-06"],["solomon","2026-10-09"],["danny","2026-10-13"],["violet","2026-10-16"],["harrow","2026-10-20"]] },
+  { name:"Old Gods, New Blood", kind:"Major update", date:"2026-01-22", heroes:[["rem","2026-01-26"],["graves","2026-01-29"],["silver","2026-02-02"],["venator","2026-02-05"],["celeste","2026-02-09"],["apollo","2026-02-12"]] },
+  { name:"Six New Heroes", kind:"Major update", date:"2025-08-18", heroes:[["mina","2025-08-18"],["billy","2025-08-20"],["doorman","2025-08-22"],["paige","2025-08-25"],["drifter","2025-08-27"],["victor","2025-08-29"]] },
+  { name:"Out of Hero Labs", kind:"Major update", date:"2025-01-17", heroes:["calico","holliday","sinclair","vyper"] },
+  { name:"Mirage", kind:"Patch", date:"2024-09-26", heroes:["mirage"] },
+  { name:"Shiv", kind:"Patch", date:"2024-08-15", heroes:["shiv"] },
+  { name:"Viscous", kind:"Patch", date:"2024-08-01", heroes:["viscous"] },
+  { name:"Closed playtest", kind:"The first roster", date:"2024-04-24", heroes:["abrams","bebop","dynamo","greytalon","haze","infernus","ivy","kelvin","geist","lash","mcginnis","mokrill","paradox","pocket","seven","vindicta","warden","wraith","yamato"] }
+];
+const RELEASED = {};   // hero id -> release date (ISO)
+RELEASES.forEach(r => r.heroes.forEach(x => { const [id, d] = Array.isArray(x) ? x : [x, r.date]; RELEASED[id] = d; }));
+const fmtDate = iso => new Date(iso + "T12:00:00Z").toLocaleDateString("en-GB", { day:"numeric", month:"long", year:"numeric", timeZone:"UTC" });
+// roster order: one icon next to the heading cycles through these
+const SORTS = [
+  { id:"az", label:"A to Z", icon:`<path d="M3.5 19.5L8.5 4.5l5 15M5.4 14h6.2"/><path d="M18.5 5v13.5M15.6 15.8l2.9 2.9 2.9-2.9"/>` },
+  { id:"release", label:"By release", icon:`<rect x="3.5" y="5.5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3.5v4M16 3.5v4"/><path class="d" d="M7.5 13.5h2M11 13.5h2M14.5 13.5h2M7.5 17h2M11 17h2"/>` }
+];
+let rosterSort = "az";
+try { const v = localStorage.getItem("dlhf.sort"); if (SORTS.some(x => x.id === v)) rosterSort = v; } catch(e) {}
+function renderSortBtn(){
+  const i = SORTS.findIndex(x => x.id === rosterSort), cur = SORTS[i], nx = SORTS[(i + 1) % SORTS.length];
+  const b = $("#sortBtn"); if (!b) return;
+  b.innerHTML = `<svg viewBox="0 0 24 24" aria-hidden="true">${cur.icon}</svg><span class="sl">${esc(cur.label)}</span>`;
+  b.setAttribute("aria-label", `Roster order: ${cur.label}. Switch to ${nx.label}`); b.title = `${cur.label} (click for ${nx.label.toLowerCase()})`;
+}
+function cycleSort(){
+  const i = SORTS.findIndex(x => x.id === rosterSort); rosterSort = SORTS[(i + 1) % SORTS.length].id;
+  try { localStorage.setItem("dlhf.sort", rosterSort); } catch(e) {}
+  SFX.play("filter",{gain:.3, jitter:0}); renderRoster(true);
+}
+function renderRoster(anim){
   const types = ["All", ...["Brawler","Assassin","Marksman","Mystic","Unclassed"].filter(t => HEROES.some(h => (h.type || "Unclassed") === t))];
   $("#filters").innerHTML = types.map(t=>`<button type="button" class="tape" aria-pressed="${t===rosterFilter}" data-f="${t}">${t!=="All"?`<i style="--emb:url('img/k/emb_${t.toLowerCase()}.webp')"></i>`:""}${t}</button>`).join("");
-  $("#rosterGrid").innerHTML = HEROES.map(h=>{
-    const t = h.type || "Unclassed", hide = rosterFilter!=="All" && t!==rosterFilter;
-    return tcard(h, {tag:"button", lazy:true, attrs:`type="button" data-hero="${h.id}" aria-label="${esc(h.name)}, ${esc(t)}" ${hide?"hidden":""}`});
-  }).join("");
+  renderSortBtn();
+  const shown = h => rosterFilter === "All" || (h.type || "Unclassed") === rosterFilter;
+  const card = h => { const t = h.type || "Unclassed"; return tcard(h, {tag:"button", lazy:true, attrs:`type="button" data-hero="${h.id}" aria-label="${esc(h.name)}, ${esc(t)}" ${shown(h)?"":"hidden"}`}); };
+  let html;
+  if (rosterSort === "release"){
+    const placed = new Set();
+    html = RELEASES.map(r => {
+      const hs = r.heroes.map(x => BY[Array.isArray(x) ? x[0] : x]).filter(Boolean);
+      if (!r.heroes.some(Array.isArray)) hs.sort((a,b) => a.name.localeCompare(b.name));
+      hs.forEach(h => placed.add(h.id));
+      const vis = hs.filter(shown).length;
+      return `<div class="rgroup" ${vis ? "" : "hidden"}><h3>${esc(r.name)}</h3><span class="label">${esc(r.kind)} \u00B7 ${fmtDate(r.date)}</span><span class="rn">${plural(vis, "hero")}</span></div>` + hs.map(card).join("");
+    }).join("");
+    // a hero added to the game but not yet to RELEASES still shows up
+    const rest = HEROES.filter(h => !placed.has(h.id));
+    if (rest.length) html += `<div class="rgroup"><h3>Recently added</h3></div>` + rest.map(card).join("");
+  } else html = HEROES.map(card).join("");
+  const g = $("#rosterGrid"); g.innerHTML = html;
+  g.classList.toggle("by-release", rosterSort === "release");
+  if (anim && !RM) g.animate([{opacity:0, transform:"translateY(8px)"},{opacity:1, transform:"none"}], {duration:260, easing:"cubic-bezier(.2,.8,.2,1)"});
 }
 
 // ================= quiz =================
@@ -3084,6 +3149,7 @@ document.addEventListener("click", e => {
   if (t.id === "veilBtn"){ const sl = $("#leanSlab"), v = !sl.classList.contains("veiled"); setVeil(v); SFX.play("filter",{gain:.55, jitter:0}); return; }
   if (t.dataset.xg){ const grp = t.closest(".xgroup"), open = !grp.classList.contains("open"); grp.classList.toggle("open", open); t.setAttribute("aria-expanded", open); openGroups[gameTab + ":" + t.dataset.xg] = open; SFX.play(open ? "open" : "close",{gain:.35}); return; }
   if (t.dataset.g){ gameTab = t.dataset.g; SFX.play("filter",{gain:.3, jitter:0}); renderCross(); return; }
+  if (t.id === "sortBtn" || t.closest && t.closest("#sortBtn")){ return cycleSort(); }
   if (t.dataset.f){ rosterFilter = t.dataset.f; SFX.play("filter",{gain:.3, jitter:0}); renderRoster(); return; }
   if (t.id === "codeToggle"){ const f = $("#codeForm"), open = !f.classList.contains("open"); f.classList.toggle("open", open); f.inert = !open; if (!open) $("#codeErr").hidden = true; t.setAttribute("aria-expanded", open); SFX.play(open ? "open" : "close",{gain:.4}); if (open) $("#codeIn").focus(); return; }
   if (t.id === "shareBtn") return openShare();
